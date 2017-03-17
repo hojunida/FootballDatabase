@@ -1,13 +1,15 @@
 CREATE TABLE uva (
-    `` VARCHAR(2) CHARACTER SET utf8,
-    `Naji_Abdullaha` VARCHAR(22) CHARACTER SET utf8,
-    `DE` VARCHAR(2) CHARACTER SET utf8,
-    `Column_6_5` VARCHAR(4) CHARACTER SET utf8,
-    `Column_235` INT,
-    `FR` VARCHAR(2) CHARACTER SET utf8,
-    `Jacksonville` VARCHAR(21) CHARACTER SET utf8,
-    `FL` VARCHAR(2) CHARACTER SET utf8
+    `No` VARCHAR(2) CHARACTER SET utf8,
+    `Name` VARCHAR(22) CHARACTER SET utf8,
+    `Pos` VARCHAR(2) CHARACTER SET utf8,
+    `Ht` VARCHAR(4) CHARACTER SET utf8,
+    `Wt` INT,
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(21) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+	PRIMARY KEY (No, Name)
 );
+INSERT INTO uva VALUES ('--','Naji Abdullaha','DE','6-5',235,'FR','Jacksonville','FL');
 INSERT INTO uva VALUES ('--','Sonny Abramsona','QB','6-2',210,'FR','Chester','NJ');
 INSERT INTO uva VALUES ('--','Christian Baumgardnera','DE','6-6',235,'FR','Longport','NJ');
 INSERT INTO uva VALUES ('--','Ethan Blundina','WR','6-3',190,'FR','Charlottesville','VA');
@@ -37,6 +39,7 @@ INSERT INTO uva VALUES ('2','Albert Reida','RB','5-9',215,'SR','Washington','DC'
 INSERT INTO uva VALUES ('3','Quin Blandinga','S','6-2',215,'JR','Virginia Beach','VA');
 INSERT INTO uva VALUES ('4','Taquan Mizzella','RB','5-10',195,'SR','Virginia Beach','VA');
 INSERT INTO uva VALUES ('5','Tim Harrisa','CB','6-2',205,'SR','Richmond','VA');
+INSERT INTO uva VALUES ('5','Jamil Kamaraa','WR','6-2',205,'SO','Virginia Beach','VA');
 INSERT INTO uva VALUES ('6','Kurt Benkerta','QB','6-4',230,'JR','Cape Coral','FL');
 INSERT INTO uva VALUES ('7','Doni Dowlinga','WR','6-1',215,'JR','Richmond','VA');
 INSERT INTO uva VALUES ('8','Keeon Johnsona','WR','6-3',215,'SR','Kannapolis','NC');
@@ -48,7 +51,6 @@ INSERT INTO uva VALUES ('14','Myles Robinsona','CB','5-11',195,'SO','Olney','MD'
 INSERT INTO uva VALUES ('15','Matt Johnsa','QB','6-5',215,'SR','Chalfont','PA');
 INSERT INTO uva VALUES ('16','Connor Brewera','QB','6-2',195,'SR','Scottsdale','AZ');
 INSERT INTO uva VALUES ('17','Malcolm Cooka','LB','6-1',220,'JR','Richmond','VA');
-INSERT INTO uva VALUES ('17','Jamil Kamaraa','WR','6-2',205,'SO','Virginia Beach','VA');
 INSERT INTO uva VALUES ('18','Ben Hogga','WR','6-0',170,'SO','Lynchburg','VA');
 INSERT INTO uva VALUES ('19','Andre Levronea','WR','6-3',225,'JR','Laurel','MD');
 INSERT INTO uva VALUES ('20','Steven Wrighta','DE','6-4',255,'FR','Waycross','GA');
