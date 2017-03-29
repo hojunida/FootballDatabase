@@ -1,26 +1,28 @@
-/* CREATE TABLE */CREATE TABLE TE( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 68.0,46,'Evan Buttsa','TE','6-4',245,'SO','Newtown Square','PA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 92.0,83,'Brendan Marshalla','TE','6-5',235,'JR','Gaithersburg','MD');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 96.0,87,'Richard Burneya','TE','6-4',245,'FR','Chesapeake','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 7.0,7,'Bucky Hodgesa','TE','6-7',245,'JR','Virginia Beach','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 16.0,13,'Chris Durkina','TE','6-4',232,'SO','Poland','OH');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 93.0,80,'Casey Harmana','TE','6-4',240,'FR','Swords Creek','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 96.0,82,'Xavier Burkea','TE','6-2',270,'FR','Lawrenceville','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 98.0,85,'Chris Cunninghama','TE','6-2',242,'FR','Jacksonville','FL');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 24.0,17,'Kendall Couamina','TE','6-2',255,'JR','Miami Lakes','FL');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 26.0,19,'Will Johnsona','TE','6-6',265,'SR','Osseo','MN');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 47.0,40,'Zac Foutza','TE','6-4',250,'FR','Roanoke','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 84.0,89,'Canon Smitha','TE','6-4',255,'SR','Hoover','AL');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 90.0,99,'Ralfs Rusinsa','TE','6-5',295,'FR','--','--');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 41.0,45,'Jeff Leea','TE','6-3',240,'FR','North Chesterfield','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 69.0,81,'Demetreus Ferebeea','TE','6-4',235,'JR','Roanoke','VA');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 70.0,82,'Torian Hendersona','TE','6-4',240,'SR','Silver Spring','MD');
-/* INSERT QUERY */INSERT INTO TE(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 77.0,89,'Anthony Williamsa','TE','6-3',210,'FR','Norfolk','VA');
+CREATE TABLE TE (
+    `No` NUMERIC(3, 1),
+    `Name` VARCHAR(18) CHARACTER SET utf8,
+    `Pos` VARCHAR(2) CHARACTER SET utf8,
+    `Ht` NUMERIC(6, 1),
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(18) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO TE VALUES (46.0,'Evan Buttsa','TE',42890.0,245.0,'SO','Newtown Square','PA','UVA');
+INSERT INTO TE VALUES (83.0,'Brendan Marshalla','TE',42891.0,235.0,'JR','Gaithersburg','MD','UVA');
+INSERT INTO TE VALUES (87.0,'Richard Burneya','TE',42890.0,245.0,'FR','Chesapeake','VA','UVA');
+INSERT INTO TE VALUES (7.0,'Bucky Hodgesa','TE',42893.0,245.0,'JR','Virginia Beach','VA','VT');
+INSERT INTO TE VALUES (13.0,'Chris Durkina','TE',42890.0,232.0,'SO','Poland','OH','VT');
+INSERT INTO TE VALUES (80.0,'Casey Harmana','TE',42890.0,240.0,'FR','Swords Creek','VA','VT');
+INSERT INTO TE VALUES (82.0,'Xavier Burkea','TE',42888.0,270.0,'FR','Lawrenceville','VA','VT');
+INSERT INTO TE VALUES (85.0,'Chris Cunninghama','TE',42888.0,242.0,'FR','Jacksonville','FL','VT');
+INSERT INTO TE VALUES (17.0,'Kendall Couamina','TE',42888.0,255.0,'JR','Miami Lakes','FL','Lib');
+INSERT INTO TE VALUES (19.0,'Will Johnsona','TE',42892.0,265.0,'SR','Osseo','MN','Lib');
+INSERT INTO TE VALUES (40.0,'Zac Foutza','TE',42890.0,250.0,'FR','Roanoke','VA','Lib');
+INSERT INTO TE VALUES (89.0,'Canon Smitha','TE',42890.0,255.0,'SR','Hoover','AL','Lib');
+INSERT INTO TE VALUES (99.0,'Ralfs Rusinsa','TE',42891.0,295.0,'FR','--','--','Lib');
+INSERT INTO TE VALUES (45.0,'Jeff Leea','TE',42889.0,240.0,'FR','North Chesterfield','VA','nor');
+INSERT INTO TE VALUES (81.0,'Demetreus Ferebeea','TE',42890.0,235.0,'JR','Roanoke','VA','nor');
+INSERT INTO TE VALUES (82.0,'Torian Hendersona','TE',42890.0,240.0,'SR','Silver Spring','MD','nor');
+INSERT INTO TE VALUES (89.0,'Anthony Williamsa','TE',42889.0,210.0,'FR','Norfolk','VA','nor');

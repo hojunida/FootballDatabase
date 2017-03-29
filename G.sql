@@ -1,13 +1,15 @@
-/* CREATE TABLE */CREATE TABLE G( INT(11),
-No VARCHAR(100),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO G(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 15.0,'--','Patrick Kidda','G','6-4',290,'SO','Woodbridge','VA');
-/* INSERT QUERY */INSERT INTO G(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 79.0,62,'Sean Karla','G','6-6',300,'SR','Manorville','NY');
-/* INSERT QUERY */INSERT INTO G(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 82.0,70,'Steven Mossa','G','6-4',300,'SO','Fredericksburg','VA');
-/* INSERT QUERY */INSERT INTO G(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 83.0,71,'Jack McDonalda','G','6-5',290,'JR','Quincy','MA');
+CREATE TABLE G (
+    `No` VARCHAR(4) CHARACTER SET utf8,
+    `Name` VARCHAR(14) CHARACTER SET utf8,
+    `Pos` VARCHAR(1) CHARACTER SET utf8,
+    `Ht` NUMERIC(6, 1),
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(14) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO G VALUES ('--','Patrick Kidda','G',42890.0,290.0,'SO','Woodbridge','VA','UVA');
+INSERT INTO G VALUES ('62.0','Sean Karla','G',42892.0,300.0,'SR','Manorville','NY','UVA');
+INSERT INTO G VALUES ('70.0','Steven Mossa','G',42890.0,300.0,'SO','Fredericksburg','VA','UVA');
+INSERT INTO G VALUES ('71.0','Jack McDonalda','G',42891.0,290.0,'JR','Quincy','MA','UVA');

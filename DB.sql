@@ -1,33 +1,35 @@
-/* CREATE TABLE */CREATE TABLE DB( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 11.0,'--','Nick Granta','DB','6-3',185,'FR','Spotsylvania','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 57.0,34,'Bryce Halla','DB','6-3',200,'FR','Harrisburg','PA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 59.0,37,'Jordan Macka','DB','6-4',205,'FR','Lithonia','GA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 61.0,39,'Chris Moorea','DB','6-2',200,'FR','Ashburn','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 1.0,2,'Tyree Rodgersa','DB','6-1',180,'FR','Camden','NJ');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 2.0,3,'Greg Stromana','DB','6-1',170,'JR','Bristow','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 25.0,21,'Reggie Floyda','DB','6-0',200,'FR','Manassas','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 29.0,26,'Jovonn Quillena','DB','6-2',195,'FR','Hampton','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 47.0,39,'Tyrone Thorntona','DB','5-10',190,'FR','Boston','MA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 50.0,41,'John Jenningsa','DB','5-11',165,'SO','Clifton','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 0.0,2,'Donte Hayneswortha','DB','5-11',195,'SR','Mechanicsville','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 6.0,8,'Brandon Walkera','DB','6-2',205,'SR','Chester','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 7.0,9,'Harry Freemana','DB','6-1',170,'JR','Norfolk','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 8.0,10,'Sandy Chapmana','DB','5-10',180,'SR','Raleigh','NC');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 15.0,18,'Bobby Pricea','DB','6-3',180,'FR','Virginia Beach','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 23.0,26,'Leroy Parkera','DB','6-1',195,'SR','Miami','FL');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 24.0,27,'Aaron Chandlera','DB','5-9',175,'SO','Norfolk','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 25.0,28,'Edwin Leea','DB','6-1',185,'FR','Brooklyn','NY');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 26.0,29,'J.T. Waheea','DB','5-11',170,'FR','Norfolk','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 32.0,35,'Audrex Harrisa','DB','6-1',190,'JR','Chesapeake','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 33.0,36,'Ebenezer Agyemang-Kusia','DB','5-11',185,'SO','Triangle','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 34.0,37,'Hakiem Swanna','DB','5-11',180,'JR','Portsmouth','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 35.0,38,'Thomas Stingera','DB','6-1',150,'JR','Leesburg','VA');
-/* INSERT QUERY */INSERT INTO DB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 45.0,49,'Malik Dixona','DB','5-8',160,'FR','Newport News','VA');
+CREATE TABLE DB (
+    `No` VARCHAR(4) CHARACTER SET utf8,
+    `Name` VARCHAR(23) CHARACTER SET utf8,
+    `Pos` VARCHAR(2) CHARACTER SET utf8,
+    `Ht` VARCHAR(7) CHARACTER SET utf8,
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(14) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO DB VALUES ('--','Nick Granta','DB','42889.0',185.0,'FR','Spotsylvania','VA','UVA');
+INSERT INTO DB VALUES ('34.0','Bryce Halla','DB','42889.0',200.0,'FR','Harrisburg','PA','UVA');
+INSERT INTO DB VALUES ('37.0','Jordan Macka','DB','42890.0',205.0,'FR','Lithonia','GA','UVA');
+INSERT INTO DB VALUES ('39.0','Chris Moorea','DB','42888.0',200.0,'FR','Ashburn','VA','UVA');
+INSERT INTO DB VALUES ('2.0','Tyree Rodgersa','DB','42887.0',180.0,'FR','Camden','NJ','VT');
+INSERT INTO DB VALUES ('3.0','Greg Stromana','DB','42887.0',170.0,'JR','Bristow','VA','VT');
+INSERT INTO DB VALUES ('21.0','Reggie Floyda','DB','6-0',200.0,'FR','Manassas','VA','VT');
+INSERT INTO DB VALUES ('26.0','Jovonn Quillena','DB','42888.0',195.0,'FR','Hampton','VA','VT');
+INSERT INTO DB VALUES ('39.0','Tyrone Thorntona','DB','42865.0',190.0,'FR','Boston','MA','VT');
+INSERT INTO DB VALUES ('41.0','John Jenningsa','DB','42866.0',165.0,'SO','Clifton','VA','VT');
+INSERT INTO DB VALUES ('2.0','Donte'' Hayneswortha','DB','42866.0',195.0,'SR','Mechanicsville','VA','nor');
+INSERT INTO DB VALUES ('8.0','Brandon Walkera','DB','42888.0',205.0,'SR','Chester','VA','nor');
+INSERT INTO DB VALUES ('9.0','Harry Freemana','DB','42887.0',170.0,'JR','Norfolk','VA','nor');
+INSERT INTO DB VALUES ('10.0','Sandy Chapmana','DB','42865.0',180.0,'SR','Raleigh','NC','nor');
+INSERT INTO DB VALUES ('18.0','Bobby Pricea','DB','42889.0',180.0,'FR','Virginia Beach','VA','nor');
+INSERT INTO DB VALUES ('26.0','Leroy Parkera','DB','42887.0',195.0,'SR','Miami','FL','nor');
+INSERT INTO DB VALUES ('27.0','Aaron Chandlera','DB','42864.0',175.0,'SO','Norfolk','VA','nor');
+INSERT INTO DB VALUES ('28.0','Edwin Leea','DB','42887.0',185.0,'FR','Brooklyn','NY','nor');
+INSERT INTO DB VALUES ('29.0','J.T. Waheea','DB','42866.0',170.0,'FR','Norfolk','VA','nor');
+INSERT INTO DB VALUES ('35.0','Audrex Harrisa','DB','42887.0',190.0,'JR','Chesapeake','VA','nor');
+INSERT INTO DB VALUES ('36.0','Ebenezer Agyemang-Kusia','DB','42866.0',185.0,'SO','Triangle','VA','nor');
+INSERT INTO DB VALUES ('37.0','Hakiem Swanna','DB','42866.0',180.0,'JR','Portsmouth','VA','nor');
+INSERT INTO DB VALUES ('38.0','Thomas Stingera','DB','42887.0',150.0,'JR','Leesburg','VA','nor');
+INSERT INTO DB VALUES ('49.0','Malik Dixona','DB','42863.0',160.0,'FR','Newport News','VA','nor');

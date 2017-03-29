@@ -1,26 +1,28 @@
-/* CREATE TABLE */CREATE TABLE QB( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 1.0,'--','Sonny Abramsona','QB','6-2',210,'FR','Chester','NJ');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 6.0,'--','De Vante Crossa','QB','6-2',200,'FR','Allentown','PA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 31.0,6,'Kurt Benkerta','QB','6-4',230,'JR','Cape Coral','FL');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 39.0,15,'Matt Johnsa','QB','6-5',215,'SR','Chalfont','PA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 40.0,16,'Connor Brewera','QB','6-2',195,'SR','Scottsdale','AZ');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 103.0,99,'Joe Spaziania','QB','6-2',210,'SO','Hingham','MA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 4.0,4,'Jerod Evansa','QB','6-4',235,'JR','Dallas','TX');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 11.0,9,'Brenden Motleya','QB','6-3',225,'SR','Christiansburg','VA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 12.0,11,'Jack Clicka','QB','6-3',216,'FR','Glen Allen','VA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 14.0,12,'Josh Jacksona','QB','6-2',207,'FR','Ann Arbor','MI');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 22.0,18,'Chase Mummaua','QB','6-2',174,'FR','Mechanicsville','VA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 4.0,3,'Stephon Mashaa','QB','6-1',205,'JR','Marietta','GA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 17.0,12,'Stephen Calverta','QB','6-2',180,'FR','Plantation','FL');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 20.0,13,'Rudiger Yearicka','QB','6-3',195,'FR','Matthews','NC');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 23.0,16,'Spencer Jonesa','QB','6-3',185,'FR','Nashville','TN');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 4.0,6,'Tyre Givers-Wilsona','QB','6-3',200,'FR','Chesapeake','VA');
-/* INSERT QUERY */INSERT INTO QB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 5.0,7,'Greg Hankersona','QB','6-1',190,'SR','Lauderdale Lakes','FL');
+CREATE TABLE QB (
+    `No` VARCHAR(4) CHARACTER SET utf8,
+    `Name` VARCHAR(19) CHARACTER SET utf8,
+    `Pos` VARCHAR(2) CHARACTER SET utf8,
+    `Ht` NUMERIC(6, 1),
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(16) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO QB VALUES ('--','Sonny Abramsona','QB',42888.0,210.0,'FR','Chester','NJ','UVA');
+INSERT INTO QB VALUES ('--','De''Vante Crossa','QB',42888.0,200.0,'FR','Allentown','PA','UVA');
+INSERT INTO QB VALUES ('6.0','Kurt Benkerta','QB',42890.0,230.0,'JR','Cape Coral','FL','UVA');
+INSERT INTO QB VALUES ('15.0','Matt Johnsa','QB',42891.0,215.0,'SR','Chalfont','PA','UVA');
+INSERT INTO QB VALUES ('16.0','Connor Brewera','QB',42888.0,195.0,'SR','Scottsdale','AZ','UVA');
+INSERT INTO QB VALUES ('99.0','Joe Spaziania','QB',42888.0,210.0,'SO','Hingham','MA','UVA');
+INSERT INTO QB VALUES ('4.0','Jerod Evansa','QB',42890.0,235.0,'JR','Dallas','TX','VT');
+INSERT INTO QB VALUES ('9.0','Brenden Motleya','QB',42889.0,225.0,'SR','Christiansburg','VA','VT');
+INSERT INTO QB VALUES ('11.0','Jack Clicka','QB',42889.0,216.0,'FR','Glen Allen','VA','VT');
+INSERT INTO QB VALUES ('12.0','Josh Jacksona','QB',42888.0,207.0,'FR','Ann Arbor','MI','VT');
+INSERT INTO QB VALUES ('18.0','Chase Mummaua','QB',42888.0,174.0,'FR','Mechanicsville','VA','VT');
+INSERT INTO QB VALUES ('3.0','Stephon Mashaa','QB',42887.0,205.0,'JR','Marietta','GA','Lib');
+INSERT INTO QB VALUES ('12.0','Stephen Calverta','QB',42888.0,180.0,'FR','Plantation','FL','Lib');
+INSERT INTO QB VALUES ('13.0','Rudiger Yearicka','QB',42889.0,195.0,'FR','Matthews','NC','Lib');
+INSERT INTO QB VALUES ('16.0','Spencer Jonesa','QB',42889.0,185.0,'FR','Nashville','TN','Lib');
+INSERT INTO QB VALUES ('6.0','Tyre Givers-Wilsona','QB',42889.0,200.0,'FR','Chesapeake','VA','nor');
+INSERT INTO QB VALUES ('7.0','Greg Hankersona','QB',42887.0,190.0,'SR','Lauderdale Lakes','FL','nor');

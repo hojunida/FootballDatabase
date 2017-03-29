@@ -1,29 +1,31 @@
-/* CREATE TABLE */CREATE TABLE S( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 10.0,'--','CJ Eppsa','S','5-11',195,'FR','Chesapeake','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 18.0,'--','Brenton Nelsona','S','5-11',170,'FR','Miami','FL');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 27.0,3,'Quin Blandinga','S','6-2',215,'JR','Virginia Beach','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 45.0,21,'Juan Thornhilla','S','6-1',190,'SO','Altavista','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 48.0,25,'Chris Sharpa','S','6-2',195,'FR','Princeton','NJ');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 51.0,28,'Wilfred Waheea','S','5-10',200,'SR','Norfolk','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 60.0,38,'Kelvin Raineya','S','6-1',205,'SR','Houston','TX');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 6.0,6,'Mook Reynoldsa','S','6-1',184,'SO','Greensboro','NC');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 20.0,17,'Jahque Alleynea','S','6-1',175,'SO','Virginia Beach','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 23.0,19,'Chuck Clarka','S','6-1',202,'SR','Suffolk','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 24.0,20,'Deon Newsomea','S','5-11',187,'JR','Hampton','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 27.0,23,'Der Woun Greenea','S','5-11',194,'SR','Portsmouth','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 3.0,3,'Rion Davisa','S','6-0',190,'FR','Hopkins','SC');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 8.0,7,'Ceneca Espinoza Jr.a','S','6-1',200,'FR','Arlington','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 18.0,12,'Brandon Tillmona','S','6-1',210,'FR','Lexington','SC');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 27.0,20,'Solomon McGintya','S','6-2',220,'JR','Navasota','TX');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 36.0,28,'Corbin Jacksona','S','6-0',200,'SO','Charlotte','NC');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 39.0,31,'Elijah Bentona','S','6-1',190,'FR','Forest','VA');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 45.0,38,'Alpha Jalloha','S','6-1',200,'SR','New Carrollton','MD');
-/* INSERT QUERY */INSERT INTO S(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 49.0,43,'Benjamin Alexandera','S','6-2',175,'FR','Spring Mills','PA');
+CREATE TABLE S (
+    `No` VARCHAR(4) CHARACTER SET utf8,
+    `Name` VARCHAR(20) CHARACTER SET utf8,
+    `Pos` VARCHAR(1) CHARACTER SET utf8,
+    `Ht` VARCHAR(7) CHARACTER SET utf8,
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(14) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO S VALUES ('--','CJ Eppsa','S','42866.0',195.0,'FR','Chesapeake','VA','UVA');
+INSERT INTO S VALUES ('--','Brenton Nelsona','S','42866.0',170.0,'FR','Miami','FL','UVA');
+INSERT INTO S VALUES ('3.0','Quin Blandinga','S','42888.0',215.0,'JR','Virginia Beach','VA','UVA');
+INSERT INTO S VALUES ('21.0','Juan Thornhilla','S','42887.0',190.0,'SO','Altavista','VA','UVA');
+INSERT INTO S VALUES ('25.0','Chris Sharpa','S','42888.0',195.0,'FR','Princeton','NJ','UVA');
+INSERT INTO S VALUES ('28.0','Wilfred Waheea','S','42865.0',200.0,'SR','Norfolk','VA','UVA');
+INSERT INTO S VALUES ('38.0','Kelvin Raineya','S','42887.0',205.0,'SR','Houston','TX','UVA');
+INSERT INTO S VALUES ('6.0','Mook Reynoldsa','S','42887.0',184.0,'SO','Greensboro','NC','VT');
+INSERT INTO S VALUES ('17.0','Jahque Alleynea','S','42887.0',175.0,'SO','Virginia Beach','VA','VT');
+INSERT INTO S VALUES ('19.0','Chuck Clarka','S','42887.0',202.0,'SR','Suffolk','VA','VT');
+INSERT INTO S VALUES ('20.0','Deon Newsomea','S','42866.0',187.0,'JR','Hampton','VA','VT');
+INSERT INTO S VALUES ('23.0','Der''Woun Greenea','S','42866.0',194.0,'SR','Portsmouth','VA','VT');
+INSERT INTO S VALUES ('3.0','Rion Davisa','S','6-0',190.0,'FR','Hopkins','SC','Lib');
+INSERT INTO S VALUES ('7.0','Ceneca Espinoza Jr.a','S','42887.0',200.0,'FR','Arlington','VA','Lib');
+INSERT INTO S VALUES ('12.0','Brandon Tillmona','S','42887.0',210.0,'FR','Lexington','SC','Lib');
+INSERT INTO S VALUES ('20.0','Solomon McGintya','S','42888.0',220.0,'JR','Navasota','TX','Lib');
+INSERT INTO S VALUES ('28.0','Corbin Jacksona','S','6-0',200.0,'SO','Charlotte','NC','Lib');
+INSERT INTO S VALUES ('31.0','Elijah Bentona','S','42887.0',190.0,'FR','Forest','VA','Lib');
+INSERT INTO S VALUES ('38.0','Alpha Jalloha','S','42887.0',200.0,'SR','New Carrollton','MD','Lib');
+INSERT INTO S VALUES ('43.0','Benjamin Alexandera','S','42888.0',175.0,'FR','Spring Mills','PA','Lib');

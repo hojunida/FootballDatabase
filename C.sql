@@ -1,11 +1,13 @@
-/* CREATE TABLE */CREATE TABLE C( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO C(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 70.0,50,'Jackson Matteoa','C','6-5',290,'SR','Ashburn','VA');
-/* INSERT QUERY */INSERT INTO C(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 88.0,78,'R.J. Proctora','C','6-5',305,'FR','Bealeton','VA');
+CREATE TABLE C (
+    `No` NUMERIC(3, 1),
+    `Name` VARCHAR(15) CHARACTER SET utf8,
+    `Pos` VARCHAR(1) CHARACTER SET utf8,
+    `Ht` NUMERIC(6, 1),
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(8) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO C VALUES (50.0,'Jackson Matteoa','C',42891.0,290.0,'SR','Ashburn','VA','UVA');
+INSERT INTO C VALUES (78.0,'R.J. Proctora','C',42891.0,305.0,'FR','Bealeton','VA','UVA');

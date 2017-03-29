@@ -1,25 +1,25 @@
-,No,Name,Pos,Ht,Wt,Class,Hometown,State
-4.0,--,Christian Brooksa,DL,6-5,240,FR,Centreville,VA
-7.0,--,Osiris Crutchfielda,DL,6-3,245,FR,Crozet,VA
-21.0,--,Alec Shiffletta,DL,6-2,220,JR,Afton,VA
-65.0,52,Clay Deana,DL,6-2,255,FR,Purcellville,VA
-69.0,55,Jarrod Hewitta,DL,6-1,290,FR,Venice,FL
-116.0,99,Vinny Mihotaa,DL,6-5,270,SO,Fredericksburg,VA
-51.0,47,Ben Thomasa,DL,6-2,245,JR,Greenwood,SC
-71.0,75,Gregg Storeya,DL,6-5,345,SO,Cary,NC
-85.0,90,Will Browna,DL,6-2,300,SO,Texarkana,TX
-10.0,12,Terrell Reida,DL,6-2,245,SR,Washington,DC
-14.0,17,Rodney Smitha,DL,6-3,235,SR,Pembroke Pines,FL
-21.0,24,Jay Andersona,DL,6-1,215,SR,Richmond,VA
-38.0,41,Hadji Gaylorda,DL,6-3,265,SO,Norfolk,VA
-46.0,50,Jonathan Okafora,DL,6-2,220,JR,Woodbridge,VA
-62.0,70,Deshaywn Middletona,DL,6-2,305,SO,Winston-salem,NC
-67.0,79,Josh Culbersona,DL,6-5,285,FR,Chesapeake,VA
-78.0,90,Walter Brantleya,DL,6-2,345,SO,Hampton,VA
-81.0,93,Ray Prosisea,DL,6-1,265,SR,Petersburg,VA
-82.0,94,Josh Bryanta,DL,6-5,265,FR,Ellicott City,MD
-83.0,95,Chris Leea,DL,6-3,280,JR,Woodbridge,VA
-84.0,96,Ian Williamsa,DL,6-2,265,FR,Richmond,VA
-85.0,97,Trey Millsa,DL,6-2,290,SR,Chesapeake,VA
-86.0,98,Cornelius Tylera,DL,6-3,295,SO,Richmond,VA
-87.0,99,Kevin Williamsa,DL,6-4,310,SR,Bradenton,FL
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
+--,Christian Brooksa,DL,42891.0,240.0,FR,Centreville,VA,UVA
+--,Osiris Crutchfielda,DL,42889.0,245.0,FR,Crozet,VA,UVA
+--,Alec Shiffletta,DL,42888.0,220.0,JR,Afton,VA,UVA
+52.0,Clay Deana,DL,42888.0,255.0,FR,Purcellville,VA,VT
+55.0,Jarrod Hewitta,DL,42887.0,290.0,FR,Venice,FL,VT
+99.0,Vinny Mihotaa,DL,42891.0,270.0,SO,Fredericksburg,VA,VT
+47.0,Ben Thomasa,DL,42888.0,245.0,JR,Greenwood,SC,Lib
+75.0,Gregg Storeya,DL,42891.0,345.0,SO,Cary,NC,Lib
+90.0,Will Browna,DL,42888.0,300.0,SO,Texarkana,TX,Lib
+12.0,Terrell Reida,DL,42888.0,245.0,SR,Washington,DC,nor
+17.0,Rodney Smitha,DL,42889.0,235.0,SR,Pembroke Pines,FL,nor
+24.0,Jay Andersona,DL,42887.0,215.0,SR,Richmond,VA,nor
+41.0,Hadji Gaylorda,DL,42889.0,265.0,SO,Norfolk,VA,nor
+50.0,Jonathan Okafora,DL,42888.0,220.0,JR,Woodbridge,VA,nor
+70.0,Deshaywn Middletona,DL,42888.0,305.0,SO,Winston-salem,NC,nor
+79.0,Josh Culbersona,DL,42891.0,285.0,FR,Chesapeake,VA,nor
+90.0,Walter Brantleya,DL,42888.0,345.0,SO,Hampton,VA,nor
+93.0,Ray Prosisea,DL,42887.0,265.0,SR,Petersburg,VA,nor
+94.0,Josh Bryanta,DL,42891.0,265.0,FR,Ellicott City,MD,nor
+95.0,Chris Leea,DL,42889.0,280.0,JR,Woodbridge,VA,nor
+96.0,Ian Williamsa,DL,42888.0,265.0,FR,Richmond,VA,nor
+97.0,Trey Millsa,DL,42888.0,290.0,SR,Chesapeake,VA,nor
+98.0,Cornelius Tylera,DL,42889.0,295.0,SO,Richmond,VA,nor
+99.0,Kevin Williamsa,DL,42890.0,310.0,SR,Bradenton,FL,nor

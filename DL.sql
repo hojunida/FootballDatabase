@@ -1,33 +1,35 @@
-/* CREATE TABLE */CREATE TABLE DL( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 4.0,'--','Christian Brooksa','DL','6-5',240,'FR','Centreville','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 7.0,'--','Osiris Crutchfielda','DL','6-3',245,'FR','Crozet','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 21.0,'--','Alec Shiffletta','DL','6-2',220,'JR','Afton','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 65.0,52,'Clay Deana','DL','6-2',255,'FR','Purcellville','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 69.0,55,'Jarrod Hewitta','DL','6-1',290,'FR','Venice','FL');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 116.0,99,'Vinny Mihotaa','DL','6-5',270,'SO','Fredericksburg','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 51.0,47,'Ben Thomasa','DL','6-2',245,'JR','Greenwood','SC');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 71.0,75,'Gregg Storeya','DL','6-5',345,'SO','Cary','NC');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 85.0,90,'Will Browna','DL','6-2',300,'SO','Texarkana','TX');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 10.0,12,'Terrell Reida','DL','6-2',245,'SR','Washington','DC');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 14.0,17,'Rodney Smitha','DL','6-3',235,'SR','Pembroke Pines','FL');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 21.0,24,'Jay Andersona','DL','6-1',215,'SR','Richmond','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 38.0,41,'Hadji Gaylorda','DL','6-3',265,'SO','Norfolk','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 46.0,50,'Jonathan Okafora','DL','6-2',220,'JR','Woodbridge','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 62.0,70,'Deshaywn Middletona','DL','6-2',305,'SO','Winston-salem','NC');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 67.0,79,'Josh Culbersona','DL','6-5',285,'FR','Chesapeake','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 78.0,90,'Walter Brantleya','DL','6-2',345,'SO','Hampton','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 81.0,93,'Ray Prosisea','DL','6-1',265,'SR','Petersburg','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 82.0,94,'Josh Bryanta','DL','6-5',265,'FR','Ellicott City','MD');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 83.0,95,'Chris Leea','DL','6-3',280,'JR','Woodbridge','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 84.0,96,'Ian Williamsa','DL','6-2',265,'FR','Richmond','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 85.0,97,'Trey Millsa','DL','6-2',290,'SR','Chesapeake','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 86.0,98,'Cornelius Tylera','DL','6-3',295,'SO','Richmond','VA');
-/* INSERT QUERY */INSERT INTO DL(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 87.0,99,'Kevin Williamsa','DL','6-4',310,'SR','Bradenton','FL');
+CREATE TABLE DL (
+    `No` VARCHAR(4) CHARACTER SET utf8,
+    `Name` VARCHAR(19) CHARACTER SET utf8,
+    `Pos` VARCHAR(2) CHARACTER SET utf8,
+    `Ht` NUMERIC(6, 1),
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(14) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO DL VALUES ('--','Christian Brooksa','DL',42891.0,240.0,'FR','Centreville','VA','UVA');
+INSERT INTO DL VALUES ('--','Osiris Crutchfielda','DL',42889.0,245.0,'FR','Crozet','VA','UVA');
+INSERT INTO DL VALUES ('--','Alec Shiffletta','DL',42888.0,220.0,'JR','Afton','VA','UVA');
+INSERT INTO DL VALUES ('52.0','Clay Deana','DL',42888.0,255.0,'FR','Purcellville','VA','VT');
+INSERT INTO DL VALUES ('55.0','Jarrod Hewitta','DL',42887.0,290.0,'FR','Venice','FL','VT');
+INSERT INTO DL VALUES ('99.0','Vinny Mihotaa','DL',42891.0,270.0,'SO','Fredericksburg','VA','VT');
+INSERT INTO DL VALUES ('47.0','Ben Thomasa','DL',42888.0,245.0,'JR','Greenwood','SC','Lib');
+INSERT INTO DL VALUES ('75.0','Gregg Storeya','DL',42891.0,345.0,'SO','Cary','NC','Lib');
+INSERT INTO DL VALUES ('90.0','Will Browna','DL',42888.0,300.0,'SO','Texarkana','TX','Lib');
+INSERT INTO DL VALUES ('12.0','Terrell Reida','DL',42888.0,245.0,'SR','Washington','DC','nor');
+INSERT INTO DL VALUES ('17.0','Rodney Smitha','DL',42889.0,235.0,'SR','Pembroke Pines','FL','nor');
+INSERT INTO DL VALUES ('24.0','Jay Andersona','DL',42887.0,215.0,'SR','Richmond','VA','nor');
+INSERT INTO DL VALUES ('41.0','Hadji Gaylorda','DL',42889.0,265.0,'SO','Norfolk','VA','nor');
+INSERT INTO DL VALUES ('50.0','Jonathan Okafora','DL',42888.0,220.0,'JR','Woodbridge','VA','nor');
+INSERT INTO DL VALUES ('70.0','Deshaywn Middletona','DL',42888.0,305.0,'SO','Winston-salem','NC','nor');
+INSERT INTO DL VALUES ('79.0','Josh Culbersona','DL',42891.0,285.0,'FR','Chesapeake','VA','nor');
+INSERT INTO DL VALUES ('90.0','Walter Brantleya','DL',42888.0,345.0,'SO','Hampton','VA','nor');
+INSERT INTO DL VALUES ('93.0','Ray Prosisea','DL',42887.0,265.0,'SR','Petersburg','VA','nor');
+INSERT INTO DL VALUES ('94.0','Josh Bryanta','DL',42891.0,265.0,'FR','Ellicott City','MD','nor');
+INSERT INTO DL VALUES ('95.0','Chris Leea','DL',42889.0,280.0,'JR','Woodbridge','VA','nor');
+INSERT INTO DL VALUES ('96.0','Ian Williamsa','DL',42888.0,265.0,'FR','Richmond','VA','nor');
+INSERT INTO DL VALUES ('97.0','Trey Millsa','DL',42888.0,290.0,'SR','Chesapeake','VA','nor');
+INSERT INTO DL VALUES ('98.0','Cornelius Tylera','DL',42889.0,295.0,'SO','Richmond','VA','nor');
+INSERT INTO DL VALUES ('99.0','Kevin Williamsa','DL',42890.0,310.0,'SR','Bradenton','FL','nor');

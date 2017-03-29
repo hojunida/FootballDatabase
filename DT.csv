@@ -1,13 +1,13 @@
-,No,Name,Pos,Ht,Wt,Class,Hometown,State
-25.0,1,Donte Wilkinsa,DT,6-1,300,SR,Woodbridge,VA
-75.0,56,Andre Miles-Redmonda,DT,6-4,275,SR,Richmond,VA
-76.0,57,James Trucillaa,DT,6-1,270,FR,Erie,PA
-9.0,8,Nigel Williamsa,DT,6-4,295,SR,Richmond,VA
-74.0,60,Woody Barona,DT,6-1,275,SR,Nashville,TN
-106.0,90,Dalton Roea,DT,6-1,235,JR,Williamsburg,VA
-107.0,91,Steve Sobczaka,DT,6-1,300,SO,Milford,VA
-114.0,97,Tim Settlea,DT,6-3,344,FR,Manassas,VA
-115.0,98,Ricky Walkera,DT,6-2,288,SO,Hampton,VA
-0.0,1,DeCarlo Hamiltona,DT,6-3,335,FR,Plantation,FL
-72.0,76,JaRon Greenea,DT,6-2,310,SR,Beaumont,TX
-89.0,97,Aaron Wallera,DT,6-3,365,SR,Long Beach,CA
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
+1.0,Donte Wilkinsa,DT,42887.0,300.0,SR,Woodbridge,VA,UVA
+56.0,Andre Miles-Redmonda,DT,42890.0,275.0,SR,Richmond,VA,UVA
+57.0,James Trucillaa,DT,42887.0,270.0,FR,Erie,PA,UVA
+8.0,Nigel Williamsa,DT,42890.0,295.0,SR,Richmond,VA,VT
+60.0,Woody Barona,DT,42887.0,275.0,SR,Nashville,TN,VT
+90.0,Dalton Roea,DT,42887.0,235.0,JR,Williamsburg,VA,VT
+91.0,Steve Sobczaka,DT,42887.0,300.0,SO,Milford,VA,VT
+97.0,Tim Settlea,DT,42889.0,344.0,FR,Manassas,VA,VT
+98.0,Ricky Walkera,DT,42888.0,288.0,SO,Hampton,VA,VT
+1.0,DeCarlo Hamiltona,DT,42889.0,335.0,FR,Plantation,FL,Lib
+76.0,JaRon Greenea,DT,42888.0,310.0,SR,Beaumont,TX,Lib
+97.0,Aaron Wallera,DT,42889.0,365.0,SR,Long Beach,CA,Lib

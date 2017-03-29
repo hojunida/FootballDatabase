@@ -1,33 +1,35 @@
-/* CREATE TABLE */CREATE TABLE CB( INT(11),
-No DECIMAL(10,2),
-Name VARCHAR(100),
-Pos VARCHAR(100),
-Ht VARCHAR(100),
-Wt DECIMAL(10,2),
-Class VARCHAR(100),
-Hometown VARCHAR(100),
-State VARCHAR(100));
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 8.0,'--','Chuck Davisa','CB','5-10',170,'FR','Fairfax','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 16.0,'--','Darious Latimorea','CB','6-0',170,'SO','Lawrenceville','GA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 29.0,5,'Tim Harrisa','CB','6-2',205,'SR','Richmond','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 38.0,14,'Myles Robinsona','CB','5-11',195,'SO','Olney','MD');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 54.0,31,'Kareem Gibsona','CB','5-11',170,'FR','Johnstown','PA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 55.0,32,'Kirk Garnera','CB','5-11',180,'JR','Baltimore','MD');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 10.0,9,'Khalil Ladlera','CB','5-11',178,'FR','Stone Mountain','GA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 31.0,27,'Shawn Paynea','CB','6-3',185,'SO','Chesterfield','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 33.0,28,'Curtis Williamsa','CB','5-9',176,'JR','Amelia','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 34.0,29,'DuWayne Johnsona','CB','6-2',180,'FR','Washington','DC');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 37.0,31,'Brandon Facysona','CB','6-2',191,'JR','Newnan','GA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 41.0,35,'Erikk Banksa','CB','5-10',173,'JR','Coeburn','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 43.0,36,'Adonis Alexandera','CB','6-3',197,'SO','Charlotte','NC');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 52.0,42,'Elisha Boyda','CB','6-0',175,'SO','Newport News','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 2.0,2,'Jeremy Petersa','CB','5-10',190,'SO','Green Cove Springs','FL');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 7.0,6,'Tyrin Hollowaya','CB','6-0',195,'JR','Humble','TX');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 10.0,8,'Jimmy Faulksa','CB','6-1',175,'FR','--','--');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 21.0,14,'Cam Jacksona','CB','6-1',205,'SO','Houston','TX');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 22.0,15,'T.J. Tillerya','CB','5-10',195,'SO','Charlottesville','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 29.0,21,'Wesley Scotta','CB','5-10',175,'SR','Lorton','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 32.0,24,'Malik Matthewsa','CB','5-11',185,'FR','Jacksonville','FL');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 35.0,27,'Cameron Jonesa','CB','5-11',195,'SO','New Orleans','LA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 40.0,32,'Jermaine Copelanda','CB','5-9',190,'FR','Farmville','VA');
-/* INSERT QUERY */INSERT INTO CB(,No,Name,Pos,Ht,Wt,Class,Hometown,State) VALUES( 46.0,39,'Chris Turnera','CB','6-3',175,'SO','Columbia','SC');
+CREATE TABLE CB (
+    `No` VARCHAR(4) CHARACTER SET utf8,
+    `Name` VARCHAR(18) CHARACTER SET utf8,
+    `Pos` VARCHAR(2) CHARACTER SET utf8,
+    `Ht` VARCHAR(7) CHARACTER SET utf8,
+    `Wt` NUMERIC(4, 1),
+    `Class` VARCHAR(2) CHARACTER SET utf8,
+    `Hometown` VARCHAR(18) CHARACTER SET utf8,
+    `State` VARCHAR(2) CHARACTER SET utf8,
+    `Team` VARCHAR(3) CHARACTER SET utf8
+);
+INSERT INTO CB VALUES ('--','Chuck Davisa','CB','42865.0',170.0,'FR','Fairfax','VA','UVA');
+INSERT INTO CB VALUES ('--','Darious Latimorea','CB','6-0',170.0,'SO','Lawrenceville','GA','UVA');
+INSERT INTO CB VALUES ('5.0','Tim Harrisa','CB','42888.0',205.0,'SR','Richmond','VA','UVA');
+INSERT INTO CB VALUES ('14.0','Myles Robinsona','CB','42866.0',195.0,'SO','Olney','MD','UVA');
+INSERT INTO CB VALUES ('31.0','Kareem Gibsona','CB','42866.0',170.0,'FR','Johnstown','PA','UVA');
+INSERT INTO CB VALUES ('32.0','Kirk Garnera','CB','42866.0',180.0,'JR','Baltimore','MD','UVA');
+INSERT INTO CB VALUES ('9.0','Khalil Ladlera','CB','42866.0',178.0,'FR','Stone Mountain','GA','VT');
+INSERT INTO CB VALUES ('27.0','Shawn Paynea','CB','42889.0',185.0,'SO','Chesterfield','VA','VT');
+INSERT INTO CB VALUES ('28.0','Curtis Williamsa','CB','42864.0',176.0,'JR','Amelia','VA','VT');
+INSERT INTO CB VALUES ('29.0','DuWayne Johnsona','CB','42888.0',180.0,'FR','Washington','DC','VT');
+INSERT INTO CB VALUES ('31.0','Brandon Facysona','CB','42888.0',191.0,'JR','Newnan','GA','VT');
+INSERT INTO CB VALUES ('35.0','Erikk Banksa','CB','42865.0',173.0,'JR','Coeburn','VA','VT');
+INSERT INTO CB VALUES ('36.0','Adonis Alexandera','CB','42889.0',197.0,'SO','Charlotte','NC','VT');
+INSERT INTO CB VALUES ('42.0','Elisha Boyda','CB','6-0',175.0,'SO','Newport News','VA','VT');
+INSERT INTO CB VALUES ('2.0','Jeremy Petersa','CB','42865.0',190.0,'SO','Green Cove Springs','FL','Lib');
+INSERT INTO CB VALUES ('6.0','Tyrin Hollowaya','CB','6-0',195.0,'JR','Humble','TX','Lib');
+INSERT INTO CB VALUES ('8.0','Jimmy Faulksa','CB','42887.0',175.0,'FR','--','--','Lib');
+INSERT INTO CB VALUES ('14.0','Cam Jacksona','CB','42887.0',205.0,'SO','Houston','TX','Lib');
+INSERT INTO CB VALUES ('15.0','T.J. Tillerya','CB','42865.0',195.0,'SO','Charlottesville','VA','Lib');
+INSERT INTO CB VALUES ('21.0','Wesley Scotta','CB','42865.0',175.0,'SR','Lorton','VA','Lib');
+INSERT INTO CB VALUES ('24.0','Malik Matthewsa','CB','42866.0',185.0,'FR','Jacksonville','FL','Lib');
+INSERT INTO CB VALUES ('27.0','Cameron Jonesa','CB','42866.0',195.0,'SO','New Orleans','LA','Lib');
+INSERT INTO CB VALUES ('32.0','Jermaine Copelanda','CB','42864.0',190.0,'FR','Farmville','VA','Lib');
+INSERT INTO CB VALUES ('39.0','Chris Turnera','CB','42889.0',175.0,'SO','Columbia','SC','Lib');
