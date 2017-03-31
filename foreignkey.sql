@@ -207,7 +207,6 @@ ALTER TABLE WR
    ADD FOREIGN KEY (State) REFERENCES Players (State);
    ADD FOREIGN KEY (Team) REFERENCES Players (Team);
 
-
 ALTER TABLE uva
 	ADD CONSTRAINT CK_minPlayer
 	CHECK (COUNT(Name) >= 11)

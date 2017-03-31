@@ -1,401 +1,401 @@
-锘縉o,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Naji Abdullaha,DE,6-5,235,FR,Jacksonville,FL,UVA
---,Sonny Abramsona,QB,6-2,210,FR,Chester,NJ,UVA
---,Christian Baumgardnera,DE,6-6,235,FR,Longport,NJ,UVA
---,Ethan Blundina,WR,6-3,190,FR,Charlottesville,VA,UVA
---,Christian Brooksa,DL,6-5,240,FR,Centreville,VA,UVA
---,Dre Bryanta,LB,6-3,220,FR,Charlottesville,VA,UVA
---,De'Vante Crossa,QB,6-2,200,FR,Allentown,PA,UVA
---,Osiris Crutchfielda,DL,6-3,245,FR,Crozet,VA,UVA
---,Chuck Davisa,CB,5-10,170,FR,Fairfax,VA,UVA
---,Dillon Davisa,LB,6-2,210,FR,Bellaire,TX,UVA
---,CJ Eppsa,S,5-11,195,FR,Chesapeake,VA,UVA
---,Nick Granta,DB,6-3,185,FR,Spotsylvania,VA,UVA
---,Nash Griffina,PK,6-4,215,FR,Indianapolis,IN,UVA
---,Michael Guercia,LB,6-2,220,SO,Franklin Lakes,NJ,UVA
---,Trenton Jenkinsa,OT,6-6,280,FR,Charlottesville,VA,UVA
---,Patrick Kidda,G,6-4,290,SO,Woodbridge,VA,UVA
---,Darious Latimorea,CB,6-0,170,SO,Lawrenceville,GA,UVA
---,Dylan Lea,WR,5-7,165,SO,Ashburn,VA,UVA
---,Brenton Nelsona,S,5-11,170,FR,Miami,FL,UVA
---,Dillon Reinkensmeyera,OL,6-6,275,FR,Highlands Ranch,CO,UVA
---,Dominic Shepparda,LB,6-2,220,FR,Miami,FL,UVA
---,Alec Shiffletta,DL,6-2,220,JR,Afton,VA,UVA
---,Tyler Shirleya,LS,6-3,220,JR,Midlothian,VA,UVA
---,Ben Trenta,OT,6-7,290,FR,Forest,VA,UVA
---,Rambert Tyreea,WR,6-0,175,SO,Newport News,VA,UVA
-1,Donte Wilkinsa,DT,6-1,300,SR,Woodbridge,VA,UVA
-2,Albert Reida,RB,5-9,215,SR,Washington,DC,UVA
-3,Quin Blandinga,S,6-2,215,JR,Virginia Beach,VA,UVA
-4,Taquan Mizzella,RB,5-10,195,SR,Virginia Beach,VA,UVA
-5,Tim Harrisa,CB,6-2,205,SR,Richmond,VA,UVA
-5,Jamil Kamaraa,WR,6-2,205,SO,Virginia Beach,VA,UVA
-6,Kurt Benkerta,QB,6-4,230,JR,Cape Coral,FL,UVA
-7,Doni Dowlinga,WR,6-1,215,JR,Richmond,VA,UVA
-8,Keeon Johnsona,WR,6-3,215,SR,Kannapolis,NC,UVA
-9,Andrew Browna,DE,6-4,290,JR,Chesapeake,VA,UVA
-10,Jordan Ellisa,RB,5-11,220,SO,Suwanee,GA,UVA
-11,David Eldridgea,WR,6-1,180,SO,Bealeton,VA,UVA
-13,Chris Peacea,LB,6-1,230,SO,Newport News,VA,UVA
-14,Myles Robinsona,CB,5-11,195,SO,Olney,MD,UVA
-15,Matt Johnsa,QB,6-5,215,SR,Chalfont,PA,UVA
-16,Connor Brewera,QB,6-2,195,SR,Scottsdale,AZ,UVA
-17,Malcolm Cooka,LB,6-1,220,JR,Richmond,VA,UVA
-18,Ben Hogga,WR,6-0,170,SO,Lynchburg,VA,UVA
-19,Andre Levronea,WR,6-3,225,JR,Laurel,MD,UVA
-20,Steven Wrighta,DE,6-4,255,FR,Waycross,GA,UVA
-21,Juan Thornhilla,S,6-1,190,SO,Altavista,VA,UVA
-22,Daniel Hamma,RB,5-10,200,JR,Wytheville,VA,UVA
-23,Warren Crafta,WR,6-2,195,FR,Roanoke,VA,UVA
-25,Chris Sharpa,S,6-2,195,FR,Princeton,NJ,UVA
-26,Anthony Callowaya,WR,5-8,160,JR,Lynchburg,VA,UVA
-27,Cory Jonesa,LB,6-5,220,SO,Washington,DC,UVA
-28,Wilfred Waheea,S,5-10,200,SR,Norfolk,VA,UVA
-29,Eric Gallona,LB,6-2,220,SO,Lakeland,FL,UVA
-30,Nicholas Contea,P,6-3,225,SR,Roanoke,VA,UVA
-31,Kareem Gibsona,CB,5-11,170,FR,Johnstown,PA,UVA
-32,Kirk Garnera,CB,5-11,180,JR,Baltimore,MD,UVA
-33,Olamide Zaccheausa,WR,5-8,190,SO,Philadelphia,PA,UVA
-34,Bryce Halla,DB,6-3,200,FR,Harrisburg,PA,UVA
-36,Gladimir Paula,LB,6-2,215,FR,Philadelphia,PA,UVA
-37,Jordan Macka,DB,6-4,205,FR,Lithonia,GA,UVA
-38,Kelvin Raineya,S,6-1,205,SR,Houston,TX,UVA
-39,Chris Moorea,DB,6-2,200,FR,Ashburn,VA,UVA
-40,C.J. Stalkera,LB,6-2,225,SO,West Chester,OH,UVA
-41,Connor Wingo-Reevesa,FB,6-3,225,SR,Midlothian,VA,UVA
-42,Jahvoni Simmonsa,LB,6-1,225,FR,Virginia Beach,VA,UVA
-43,Sean Fitzgeralda,LB,5-11,225,FR,Falls Church,VA,UVA
-44,Tanner Cowleya,WR,6-4,220,FR,Manasquan,NJ,UVA
-45,Reed Kellama,LB,6-1,225,FR,Richmond,VA,UVA
-46,Evan Buttsa,TE,6-4,245,SO,Newtown Square,PA,UVA
-47,Lester Colemana,P,6-5,225,SO,Martinsville,VA,UVA
-50,Jackson Matteoa,C,6-5,290,SR,Ashburn,VA,UVA
-51,Zach Bradshawa,LB,6-3,230,SR,Damascus,MD,UVA
-52,Robert Snydera,LB,6-4,220,FR,Lawrenceville,GA,UVA
-53,Micah Kisera,LB,6-2,240,JR,Baltimore,MD,UVA
-54,Matt Terrella,LB,6-4,225,FR,Lynchburg,VA,UVA
-56,Andre Miles-Redmonda,DT,6-4,275,SR,Richmond,VA,UVA
-57,James Trucillaa,DT,6-1,270,FR,Erie,PA,UVA
-58,Eli Hanbacka,DE,6-4,270,FR,Ashland,VA,UVA
-59,Mark Halla,DE,6-2,260,SR,Virginia Beach,VA,UVA
-62,Sean Karla,G,6-6,300,SR,Manorville,NY,UVA
-65,Ben Knutsona,OL,6-9,310,FR,Granger,IN,UVA
-67,Jack Englisha,OT,6-5,290,JR,Richmond,VA,UVA
-70,Steven Mossa,G,6-4,300,SO,Fredericksburg,VA,UVA
-71,Jack McDonalda,G,6-5,290,JR,Quincy,MA,UVA
-72,Eric Smitha,OT,6-5,300,SR,Decatur,GA,UVA
-74,Ryan Bischoffa,OT,6-6,290,FR,Plymouth,PA,UVA
-76,Michael Mooneya,OT,6-6,295,SR,Malvern,PA,UVA
-77,Jake Fielera,OT,6-5,300,SO,Parkersburg,WV,UVA
-78,R.J. Proctora,C,6-5,305,FR,Bealeton,VA,UVA
-80,Hasise Duboisa,WR,6-3,210,FR,Irvington,NJ,UVA
-81,Joe Reeda,WR,6-3,210,FR,Charlotte Court House,VA,UVA
-82,Braedon Uriea,WR,5-10,175,SO,Purcellville,VA,UVA
-83,Brendan Marshalla,TE,6-5,235,JR,Gaithersburg,MD,UVA
-84,Alex Furbanka,PK,6-0,220,SO,Fairfax,VA,UVA
-85,Cole Blackmana,WR,6-1,195,FR,Glen Allen,VA,UVA
-86,Ross Gardnera,WR,6-3,210,SO,Mechanicsville,VA,UVA
-87,Richard Burneya,TE,6-4,245,FR,Chesapeake,VA,UVA
-88,Ryan Santoroa,WR,6-2,215,SR,Oak Hill,VA,UVA
-89,Sam Haywarda,PK,6-0,165,JR,Dallas,TX,UVA
-90,Jack Powersa,DE,6-5,280,JR,Santa Cruz,CA,UVA
-91,Dylan Simsa,PK,6-0,190,SR,Lynchburg,VA,UVA
-95,Juwan Moyea,LB,6-3,255,FR,Lilburn,GA,UVA
-98,Landan Worda,LB,6-5,245,FR,Vienna,VA,UVA
-99,Joe Spaziania,QB,6-2,210,SO,Hingham,MA,UVA
-1,Isaiah Forda,WR,6-2,190,JR,Jacksonville,FL,VT
-2,Tyree Rodgersa,DB,6-1,180,FR,Camden,NJ,VT
-3,Greg Stromana,DB,6-1,170,JR,Bristow,VA,VT
-4,Ken Ekanema,DE,6-3,253,SR,Centreville,VA,VT
-4,Jerod Evansa,QB,6-4,235,JR,Dallas,TX,VT
-5,Cam Phillipsa,WR,6-1,198,JR,Laurel,MD,VT
-6,Mook Reynoldsa,S,6-1,184,SO,Greensboro,NC,VT
-7,Bucky Hodgesa,TE,6-7,245,JR,Virginia Beach,VA,VT
-8,Phil Pattersona,WR,6-2,185,FR,Virginia Beach,VA,VT
-8,Nigel Williamsa,DT,6-4,295,SR,Richmond,VA,VT
-9,Khalil Ladlera,CB,5-11,178,FR,Stone Mountain,GA,VT
-9,Brenden Motleya,QB,6-3,225,SR,Christiansburg,VA,VT
-11,Jack Clicka,QB,6-3,216,FR,Glen Allen,VA,VT
-11,Houshun Gainesa,DE,6-4,231,FR,Rocky Mount,NC,VT
-12,Josh Jacksona,QB,6-2,207,FR,Ann Arbor,MI,VT
-12,Henri Murphya,WR,5-11,185,JR,White Hall,AR,VT
-13,Chris Durkina,TE,6-4,232,SO,Poland,OH,VT
-14,Tavante Becketta,LB,6-0,215,FR,Chesapeake,VA,VT
-15,Jaylen Bradshawa,WR,6-1,198,SO,Chesapeake,VA,VT
-16,Coleman Foxa,RB,5-11,192,FR,Salem,VA,VT
-17,Jahque Alleynea,S,6-1,175,SO,Virginia Beach,VA,VT
-18,Raymon Minora,LB,6-2,231,SO,Ashland,VA,VT
-18,Chase Mummaua,QB,6-2,174,FR,Mechanicsville,VA,VT
-19,Chuck Clarka,S,6-1,202,SR,Suffolk,VA,VT
-20,Deon Newsomea,S,5-11,187,JR,Hampton,VA,VT
-21,Reggie Floyda,DB,6-0,200,FR,Manassas,VA,VT
-22,Terrell Edmundsa,LB,6-1,201,SO,Danville,VA,VT
-23,Der'Woun Greenea,S,5-11,194,SR,Portsmouth,VA,VT
-24,Anthony Shegoga,LB,6-3,212,JR,Stafford,VA,VT
-26,Jovonn Quillena,DB,6-2,195,FR,Hampton,VA,VT
-27,Dominic Bensona,WR,6-1,176,FR,Woodbridge,VA,VT
-27,Shawn Paynea,CB,6-3,185,SO,Chesterfield,VA,VT
-28,Shai McKenziea,RB,5-11,215,SO,Washington,PA,VT
-28,Curtis Williamsa,CB,5-9,176,JR,Amelia,VA,VT
-29,DuWayne Johnsona,CB,6-2,180,FR,Washington,DC,VT
-30,Eron Cartera,LB,6-2,230,FR,Palatka,FL,VT
-30,Jordan Jeffersona,WR,5-10,168,FR,Goochland,VA,VT
-31,Brandon Facysona,CB,6-2,191,JR,Newnan,GA,VT
-32,Steven Peoplesa,FB,5-9,218,SO,Galax,VA,VT
-33,Deshawn McCleasea,RB,5-9,177,FR,Chesapeake,VA,VT
-34,Travon McMilliana,RB,6-0,200,SO,Woodbridge,VA,VT
-35,Erikk Banksa,CB,5-10,173,JR,Coeburn,VA,VT
-35,Michael Santamariaa,PK,5-8,168,SO,Athens,GA,VT
-36,Adonis Alexandera,CB,6-3,197,SO,Charlotte,NC,VT
-36,Alden Carpentera,LB,6-1,192,JR,Leesburg,VA,VT
-37,Johnathan Galantea,LB,5-9,210,SR,Blacksburg,VA,VT
-39,Sean Daniela,WR,5-10,175,FR,Chesapeake,VA,VT
-39,Tyrone Thorntona,DB,5-10,190,FR,Boston,MA,VT
-40,Emmanuel Belmara,LB,6-2,230,FR,Suwanee,GA,VT
-41,Kevin Henrya,WR,6-0,170,FR,Greensboro,NC,VT
-41,John Jenningsa,DB,5-11,165,SO,Clifton,VA,VT
-41,Trey Skeensa,FB,6-0,215,FR,Wytheville,VA,VT
-42,Elisha Boyda,CB,6-0,175,SO,Newport News,VA,VT
-42,Marshawn Williamsa,RB,5-11,239,SO,Hampton,VA,VT
-43,Seth Dooleya,DE,6-6,239,JR,Salem,VA,VT
-44,Tre Hubbarda,LB,6-0,230,FR,Virginia Beach,VA,VT
-45,Sam Rogersa,FB,5-10,227,SR,Mechanicsville,VA,VT
-46,Joey Slyea,PK,6-1,207,JR,Stafford,VA,VT
-47,Darius Fullwooda,DE,6-4,262,FR,College Park,MD,VT
-48,Daniel Griffitha,LB,6-1,225,FR,Suffolk,VA,VT
-48,D.J. Reida,RB,6-1,240,SO,Chester,VA,VT
-49,Tremaine Edmundsa,LB,6-5,236,SO,Danville,VA,VT
-50,Patrick Kearnsa,OL,6-5,280,FR,Adairsville,GA,VT
-51,Hundley McCurrya,LS,5-11,190,FR,Summerville,SC,VT
-52,Austin Cannona,OL,6-3,315,FR,Mechanicsville,VA,VT
-52,Clay Deana,DL,6-2,255,FR,Purcellville,VA,VT
-53,Wayne Muttera,P,5-9,160,SR,Grundy,VA,VT
-53,Trent Younga,LB,5-10,212,SO,Richmond,VA,VT
-54,Andrew Motuapuakaa,LB,6-0,235,JR,Virginia Beach,VA,VT
-55,Jarrod Hewitta,DL,6-1,290,FR,Venice,FL,VT
-56,Sean Huelskampa,LB,6-1,207,JR,Centreville,VA,VT
-56,T.J. Jacksona,OL,6-3,330,FR,Cumberland,VA,VT
-57,Wyatt Tellera,OL,6-5,304,JR,Bealeton,VA,VT
-58,Zack Tresera,LB,6-4,221,FR,Blacksburg,VA,VT
-60,Woody Barona,DT,6-1,275,SR,Nashville,TN,VT
-61,Kyle Chunga,OL,6-4,290,JR,Ponte Vedra Beach,FL,VT
-61,Joe Koshutaa,LB,6-2,240,FR,Vienna,VA,VT
-62,D'Andre Plantina,OL,6-5,290,FR,Norcross,GA,VT
-63,Daniel Baileya,OL,6-4,296,FR,Abingdon,VA,VT
-64,Eric Galloa,OL,6-2,297,JR,Richboro,PA,VT
-65,Matt Christa,OL,6-4,274,FR,Sterling,VA,VT
-66,Billy Mitchella,OL,6-3,284,SO,Westwood,NJ,VT
-67,Parker Osterloha,OL,6-8,336,JR,Williamsburg,VA,VT
-68,Connor Kisha,OL,6-2,280,FR,Oceanside,CA,VT
-69,Yosuah Nijmana,OL,6-8,298,SO,Maplewood,NJ,VT
-70,Kevin Kisha,OL,6-2,280,FR,Oceanside,CA,VT
-71,Jonathan McLaughlina,OL,6-5,300,SR,Mauldin,SC,VT
-72,Augie Contea,OL,6-6,303,SR,Richmond,VA,VT
-74,Braxton Pfaffa,OL,6-5,295,SO,Lynchburg,VA,VT
-75,Zachariah Hoyta,OL,6-5,286,FR,Salem,VA,VT
-76,Jarrett Hopplea,OL,6-6,280,FR,Suffolk,VA,VT
-77,Demetri Moorea,OL,6-5,305,JR,Fairborn,OH,VT
-79,Tyrell Smitha,OL,6-3,292,FR,North Brunswick,NJ,VT
-80,Casey Harmana,TE,6-4,240,FR,Swords Creek,VA,VT
-80,Colt Pettita,OL,6-4,298,SO,Deshler,OH,VT
-81,Samuel Denmarka,WR,6-0,182,FR,Hanahan,SC,VT
-82,Xavier Burkea,TE,6-2,270,FR,Lawrenceville,VA,VT
-83,Eric Kumaha,WR,6-2,203,FR,Woodbridge,VA,VT
-85,Chris Cunninghama,TE,6-2,242,FR,Jacksonville,FL,VT
-86,C.J. Carrolla,WR,5-7,165,SO,Olney,MD,VT
-87,Bodhie Longa,WR,6-3,200,FR,Richmond,VA,VT
-87,Colton Taylora,LS,6-1,212,JR,Salem,VA,VT
-88,Divine Deabloa,WR,6-3,210,FR,Winston-salem,NC,VT
-89,Wright Bynuma,LS,6-4,230,FR,Columbia,SC,VT
-89,Devin Wilsona,WR,6-4,190,JR,Mckees Rocks,PA,VT
-90,Mitchell Ludwiga,P,5-11,200,JR,Abingdon,VA,VT
-90,Dalton Roea,DT,6-1,235,JR,Williamsburg,VA,VT
-91,Steve Sobczaka,DT,6-1,300,SO,Milford,VA,VT
-92,Matt Reinharta,LB,6-2,225,FR,Shoemakersville,PA,VT
-92,Robert Warfela,PK,5-10,164,SR,--,--,VT
-93,Brian Johnsona,P,6-1,161,FR,Washington,DC,VT
-94,Trevon Hilla,DE,6-5,234,FR,Virginia Beach,VA,VT
-95,Chaska Moona,LS,6-0,249,FR,Wake Forest,NC,VT
-96,Jimmie Taylora,DE,6-3,225,FR,Jacksonville,NC,VT
-97,Tim Settlea,DT,6-3,344,FR,Manassas,VA,VT
-98,Ricky Walkera,DT,6-2,288,SO,Hampton,VA,VT
-99,Vinny Mihotaa,DL,6-5,270,SO,Fredericksburg,VA,VT
-1,DeCarlo Hamiltona,DT,6-3,335,FR,Plantation,FL,Lib
-1,Zac Parkera,WR,5-9,185,SR,Reston,VA,Lib
-2,Jeremy Petersa,CB,5-10,190,SO,Green Cove Springs,FL,Lib
-3,Rion Davisa,S,6-0,190,FR,Hopkins,SC,Lib
-3,Stephon Mashaa,QB,6-1,205,JR,Marietta,GA,Lib
-4,Jaylyn McKinneya,LB,6-0,225,FR,Lake Wales,FL,Lib
-5,Lucas Ironsa,LB,6-0,215,SO,Fort Lauderdale,FL,Lib
-6,Tyrin Hollowaya,CB,6-0,195,JR,Humble,TX,Lib
-7,Ceneca Espinoza Jr.a,S,6-1,200,FR,Arlington,VA,Lib
-7,Damian Kinga,WR,5-11,175,SO,--,--,Lib
-8,Jimmy Faulksa,CB,6-1,175,FR,--,--,Lib
-8,Dante Shellsa,WR,6-1,180,SR,Camden,DE,Lib
-9,Nick Newmana,LB,6-4,215,SR,Gainesville,VA,Lib
-10,Alex Proberta,PK,5-9,170,FR,Andover,MN,Lib
-11,Antonio Gandy-Goldena,WR,6-4,200,FR,Dallas,GA,Lib
-11,Cole Gibsona,PK,6-1,235,FR,Chesapeake,VA,Lib
-11,Lionell McConnella,WR,5-10,180,FR,Allen,TX,Lib
-12,Stephen Calverta,QB,6-2,180,FR,Plantation,FL,Lib
-12,Brandon Tillmona,S,6-1,210,FR,Lexington,SC,Lib
-13,Korell Evansa,LB,6-1,215,FR,Hallandale,FL,Lib
-13,Rudiger Yearicka,QB,6-3,195,FR,Matthews,NC,Lib
-14,Cam Jacksona,CB,6-1,205,SO,Houston,TX,Lib
-15,T.J. Tillerya,CB,5-10,195,SO,Charlottesville,VA,Lib
-16,Spencer Jonesa,QB,6-3,185,FR,Nashville,TN,Lib
-17,Kendall Couamina,TE,6-2,255,JR,Miami Lakes,FL,Lib
-18,Josh Newmana,WR,5-10,190,FR,Gainesville,VA,Lib
-19,Will Johnsona,TE,6-6,265,SR,Osseo,MN,Lib
-20,Solomon McGintya,S,6-2,220,JR,Navasota,TX,Lib
-21,Mitchell Lewisa,RB,6-0,220,FR,Auburn,AL,Lib
-21,Wesley Scotta,CB,5-10,175,SR,Lorton,VA,Lib
-22,Todd Macona,RB,5-10,210,JR,--,--,Lib
-23,Frankie Hicksona,RB,5-8,200,FR,Lynchburg,VA,Lib
-24,Malik Matthewsa,CB,5-11,185,FR,Jacksonville,FL,Lib
-25,Aaron Glovera,LB,5-11,210,FR,Norfolk,VA,Lib
-26,Joseph Dixona,RB,5-9,190,SO,--,--,Lib
-27,Cameron Jonesa,CB,5-11,195,SO,New Orleans,LA,Lib
-28,Corbin Jacksona,S,6-0,200,SO,Charlotte,NC,Lib
-29,David Jeremaiha,WR,0-0,0,FR,--,--,Lib
-30,Dexter Robbinsa,LB,5-11,225,SR,Sevierville,TN,Lib
-31,Elijah Bentona,S,6-1,190,FR,Forest,VA,Lib
-32,Jermaine Copelanda,CB,5-9,190,FR,Farmville,VA,Lib
-33,Didier Monciona,RB,5-8,205,JR,MANSFIELD,CT,Lib
-34,Carrington Mosleya,RB,5-11,235,JR,Brookneal,VA,Lib
-35,Trey Turnera,P,5-11,210,JR,Rome,GA,Lib
-36,Thomas Kennedya,FB,5-11,240,JR,Roanoke,VA,Lib
-38,Alpha Jalloha,S,6-1,200,SR,New Carrollton,MD,Lib
-39,Chris Turnera,CB,6-3,175,SO,Columbia,SC,Lib
-40,Zac Foutza,TE,6-4,250,FR,Roanoke,VA,Lib
-42,Erwin Dessourcesa,DE,6-1,235,SR,Randolph,MA,Lib
-43,Benjamin Alexandera,S,6-2,175,FR,Spring Mills,PA,Lib
-44,Dia'Vante Browna,DE,6-2,245,JR,Greensboro,NC,Lib
-47,Ben Thomasa,DL,6-2,245,JR,Greenwood,SC,Lib
-48,David Kinga,LB,6-1,230,SO,Stuarts Draft,VA,Lib
-49,Jason Pittsa,LB,6-0,200,JR,Detroit,MI,Lib
-51,Trystin Knowlanda,OL,6-6,275,FR,Manchester,CT,Lib
-52,Michael Andersona,DE,6-3,220,FR,Fort Lauderdale,FL,Lib
-53,Joshua Carlina,OL,6-3,245,FR,Forest,VA,Lib
-54,Juwan Wellsa,DE,6-2,255,SO,Dublin,GA,Lib
-55,Tolen Averya,DE,6-4,270,SO,Galveston,TX,Lib
-56,Dontae Duffa,OL,6-1,310,FR,Mesquite,TX,Lib
-57,Hunter Winsteada,LS,6-0,240,JR,Raleigh,NC,Lib
-59,Damian Boundsa,OL,6-2,260,FR,Ellenwood,GA,Lib
-63,Aidan Burroughsa,OL,6-3,275,FR,Norfolk,NE,Lib
-65,Thomas Sargeanta,OL,6-3,270,FR,Mechanicsville,VA,Lib
-66,Ethan Crawforda,OL,6-3,295,FR,Augusta,GA,Lib
-67,Michael Hendermana,OL,6-3,300,JR,Atlanta,GA,Lib
-68,Tanner Hartmana,OL,6-4,280,JR,Christiansburg,VA,Lib
-69,Devin Crispa,OL,6-1,295,SR,Oklahoma City,OK,Lib
-70,Lucas Holdera,OL,6-4,295,JR,Hillsville,VA,Lib
-73,Sam Isaacsona,OL,6-6,305,FR,Lynchburg,VA,Lib
-74,Julio Lozanoa,OL,6-4,270,SO,Bellaire,TX,Lib
-75,Gregg Storeya,DL,6-5,345,SO,Cary,NC,Lib
-76,JaRon Greenea,DT,6-2,310,SR,Beaumont,TX,Lib
-77,James Passmorea,OL,6-6,295,SO,Dallas,NC,Lib
-77,Daniel Zapataa,OL,6-2,255,FR,Guttenberg,NJ,Lib
-78,Ernst Andersena,OL,6-7,300,FR,--,--,Lib
-79,Aharown Campbella,OL,6-5,355,SR,Teaneck,NJ,Lib
-80,Joshua Cruza,WR,6-1,185,FR,Charlotte,NC,Lib
-81,Marquis Fitzgeralda,WR,6-1,190,JR,Farmville,VA,Lib
-82,B.J. Farrowa,WR,6-2,190,SO,Lynchburg,VA,Lib
-83,Josh Tullya,WR,5-10,175,FR,Vancouver,WA,Lib
-85,Kyle Carringtona,WR,6-1,190,FR,Toms River,NJ,Lib
-87,Cephas Reddicka,WR,5-8,175,SO,Woodbridge,VA,Lib
-88,Isaac Browna,WR,6-3,190,JR,Overton,NE,Lib
-89,Canon Smitha,TE,6-4,255,SR,Hoover,AL,Lib
-90,Will Browna,DL,6-2,300,SO,Texarkana,TX,Lib
-91,Javon Fraziera,DE,6-2,245,FR,Stafford,VA,Lib
-94,John Roughtona,DE,6-3,225,JR,--,--,Lib
-95,Devin Fishera,DE,6-1,235,FR,Radford,VA,Lib
-97,Aaron Wallera,DT,6-3,365,SR,Long Beach,CA,Lib
-99,Ralfs Rusinsa,TE,6-5,295,FR,--,--,Lib
-2,Donte' Hayneswortha,DB,5-11,195,SR,Mechanicsville,VA,nor
-3,Gerard Johnsona,RB,5-9,205,SR,Richmond,VA,nor
-4,James Churcha,WR,6-1,200,SR,Virginia Beach,VA,nor
-5,Marcus Taylora,WR,5-8,160,SO,Highland Springs,VA,nor
-6,Tyre Givers-Wilsona,QB,6-3,200,FR,Chesapeake,VA,nor
-7,Greg Hankersona,QB,6-1,190,SR,Lauderdale Lakes,FL,nor
-8,Brandon Walkera,DB,6-2,205,SR,Chester,VA,nor
-9,Harry Freemana,DB,6-1,170,JR,Norfolk,VA,nor
-10,Sandy Chapmana,DB,5-10,180,SR,Raleigh,NC,nor
-11,Anthony Smitha,LB,6-1,230,JR,Norfolk,VA,nor
-12,Terrell Reida,DL,6-2,245,SR,Washington,DC,nor
-13,Cameron Maroufa,PK,5-9,160,SR,Woodbridge,VA,nor
-15,Joel Caleba,WR,6-2,210,SR,Richmond,VA,nor
-16,Kinan Humphreya,WR,5-9,180,FR,Mcdonough,GA,nor
-17,Rodney Smitha,DL,6-3,235,SR,Pembroke Pines,FL,nor
-18,Bobby Pricea,DB,6-3,180,FR,Virginia Beach,VA,nor
-19,Johnathan Spencera,WR,5-11,180,FR,Apex,NC,nor
-20,Malik Buttsa,RB,5-9,180,FR,Virginia Beach,VA,nor
-21,George Waheea,WR,6-1,180,FR,Norfolk,VA,nor
-22,Quintreil Chunga,RB,6-1,220,SO,Midlothian,VA,nor
-23,Shakeem Copelanda,RB,5-9,205,JR,Woodbridge,VA,nor
-24,Jay Andersona,DL,6-1,215,SR,Richmond,VA,nor
-25,D.J. Cooka,WR,6-1,195,FR,Richmond,VA,nor
-26,Leroy Parkera,DB,6-1,195,SR,Miami,FL,nor
-27,Aaron Chandlera,DB,5-9,175,SO,Norfolk,VA,nor
-28,Edwin Leea,DB,6-1,185,FR,Brooklyn,NY,nor
-29,J.T. Waheea,DB,5-11,170,FR,Norfolk,VA,nor
-30,Aaron Savagea,RB,5-9,210,SO,Baltimore,MD,nor
-31,Kyle Archiea,LB,6-1,220,JR,Virginia Beach,VA,nor
-32,Larry Bishopa,RB,5-11,230,JR,Roanoke,VA,nor
-33,Joseph Atkinsa,RB,5-10,195,FR,Virginia Beach,VA,nor
-34,Dimitri McKaya,FB,5-11,235,SO,Chesapeake,VA,nor
-35,Audrex Harrisa,DB,6-1,190,JR,Chesapeake,VA,nor
-36,Ebenezer Agyemang-Kusia,DB,5-11,185,SO,Triangle,VA,nor
-37,Hakiem Swanna,DB,5-11,180,JR,Portsmouth,VA,nor
-38,Thomas Stingera,DB,6-1,150,JR,Leesburg,VA,nor
-39,Bo Lomaxa,PK,5-11,220,SO,Hampton,VA,nor
-40,Nigel Chavisa,LB,6-2,220,FR,Richmond,VA,nor
-41,Hadji Gaylorda,DL,6-3,265,SO,Norfolk,VA,nor
-43,Roy Adamsa,RB,5-9,195,SO,Richmond,VA,nor
-44,Conley Smitha,FB,5-11,250,SR,Chesapeake,VA,nor
-45,Jeff Leea,TE,6-3,240,FR,North Chesterfield,VA,nor
-46,Raynard Revelsa,LB,6-1,235,SR,Richmond,VA,nor
-47,Damiyan Caldwella,LB,6-1,195,JR,Norfolk,VA,nor
-48,Tim Flooda,RB,5-9,215,JR,Newport News,VA,nor
-49,Malik Dixona,DB,5-8,160,FR,Newport News,VA,nor
-50,Jonathan Okafora,DL,6-2,220,JR,Woodbridge,VA,nor
-51,Kyron Spellera,LB,6-1,235,FR,Virginia Beach,VA,nor
-52,Louis Humphreya,OL,6-1,290,SR,Chester,VA,nor
-54,T.C. Livingstona,LB,6-3,200,JR,Suffolk,VA,nor
-55,Antwan Whitea,LB,6-1,200,JR,Chesapeake,VA,nor
-56,Cephas Hardena,LB,6-1,215,FR,Goochland,VA,nor
-57,Lamonte Clarka,OL,6-3,310,SR,Washington,DC,nor
-58,Daniel Oladimejia,OL,6-2,295,SR,Upper Marlboro,MD,nor
-59,Jordan Crocketta,OL,6-5,325,FR,Max Meadows,VA,nor
-60,Wes Jonesa,OL,6-1,270,SO,Wilmington,DE,nor
-61,Anthonee Moorea,OL,6-2,270,FR,Buckingham,VA,nor
-62,Dominic Jordana,OL,6-2,280,FR,Chesapeake,VA,nor
-63,Jermaine Sumnera,OL,6-4,270,FR,Virginia Beach,VA,nor
-65,Craig Rodwella,OL,6-4,270,FR,Richmond,VA,nor
-66,Taro Lipscomba,OL,6-3,290,FR,Washington,DC,nor
-69,Jake Mazgajewskia,OL,6-6,290,JR,Hampton,VA,nor
-70,Deshaywn Middletona,DL,6-2,305,SO,Winston-salem,NC,nor
-71,Jake O'Sullivana,OL,6-4,290,FR,Chesapeake,VA,nor
-75,Kevin Statona,OL,6-6,320,FR,Chesapeake,VA,nor
-76,Mike Carneya,OL,6-5,340,FR,Norfolk,VA,nor
-77,Kenneth Kirbya,OL,6-5,275,FR,Newport News,VA,nor
-79,Josh Culbersona,DL,6-5,285,FR,Chesapeake,VA,nor
-80,Antonio Perrymana,WR,6-2,180,JR,Jacksonville,FL,nor
-81,Demetreus Ferebeea,TE,6-4,235,JR,Roanoke,VA,nor
-82,Torian Hendersona,TE,6-4,240,SR,Silver Spring,MD,nor
-83,Justin Smitha,WR,6-2,165,FR,Richmond,VA,nor
-84,Chuma Awannaa,WR,6-3,205,FR,Chesapeake,VA,nor
-85,Floyd Jonesa,WR,5-9,170,SO,Hampton,VA,nor
-86,TreVaughn Sneeda,WR,5-10,185,FR,Portsmouth,VA,nor
-87,Michael Curtisa,WR,6-1,165,SO,Newport News,VA,nor
-88,Marcque Ellingtona,WR,6-5,190,FR,Neptune,NJ,nor
-89,Anthony Williamsa,TE,6-3,210,FR,Norfolk,VA,nor
-90,Walter Brantleya,DL,6-2,345,SO,Hampton,VA,nor
-91,James Byersa,LB,6-3,200,SO,Petersburg,VA,nor
-92,James Chapmana,LB,6-1,225,FR,Portsmouth,VA,nor
-93,Ray Prosisea,DL,6-1,265,SR,Petersburg,VA,nor
-94,Josh Bryanta,DL,6-5,265,FR,Ellicott City,MD,nor
-95,Chris Leea,DL,6-3,280,JR,Woodbridge,VA,nor
-96,Ian Williamsa,DL,6-2,265,FR,Richmond,VA,nor
-97,Trey Millsa,DL,6-2,290,SR,Chesapeake,VA,nor
-98,Cornelius Tylera,DL,6-3,295,SO,Richmond,VA,nor
-99,Kevin Williamsa,DL,6-4,310,SR,Bradenton,FL,nor
+No	Name	Pos	Ht	Wt	Class	Hometown	State	Team	UID
+--	Naji Abdullaha	DE	06岿 05老	235	FR	Jacksonville	FL	UVA	1001
+--	Sonny Abramsona	QB	06岿 02老	210	FR	Chester	NJ	UVA	1002
+--	Christian Baumgardnera	DE	06岿 06老	235	FR	Longport	NJ	UVA	1003
+--	Ethan Blundina	WR	06岿 03老	190	FR	Charlottesville	VA	UVA	1004
+--	Christian Brooksa	DL	06岿 05老	240	FR	Centreville	VA	UVA	1005
+--	Dre Bryanta	LB	06岿 03老	220	FR	Charlottesville	VA	UVA	1006
+--	De'Vante Crossa	QB	06岿 02老	200	FR	Allentown	PA	UVA	1007
+--	Osiris Crutchfielda	DL	06岿 03老	245	FR	Crozet	VA	UVA	1008
+--	Chuck Davisa	CB	05岿 10老	170	FR	Fairfax	VA	UVA	1009
+--	Dillon Davisa	LB	06岿 02老	210	FR	Bellaire	TX	UVA	1010
+--	CJ Eppsa	S	05岿 11老	195	FR	Chesapeake	VA	UVA	1011
+--	Nick Granta	DB	06岿 03老	185	FR	Spotsylvania	VA	UVA	1012
+--	Nash Griffina	PK	06岿 04老	215	FR	Indianapolis	IN	UVA	1013
+--	Michael Guercia	LB	06岿 02老	220	SO	Franklin Lakes	NJ	UVA	1014
+--	Trenton Jenkinsa	OT	06岿 06老	280	FR	Charlottesville	VA	UVA	1015
+--	Patrick Kidda	G	06岿 04老	290	SO	Woodbridge	VA	UVA	1016
+--	Darious Latimorea	CB	6-0	170	SO	Lawrenceville	GA	UVA	1017
+--	Dylan Lea	WR	05岿 07老	165	SO	Ashburn	VA	UVA	1018
+--	Brenton Nelsona	S	05岿 11老	170	FR	Miami	FL	UVA	1019
+--	Dillon Reinkensmeyera	OL	06岿 06老	275	FR	Highlands Ranch	CO	UVA	1020
+--	Dominic Shepparda	LB	06岿 02老	220	FR	Miami	FL	UVA	1021
+--	Alec Shiffletta	DL	06岿 02老	220	JR	Afton	VA	UVA	1022
+--	Tyler Shirleya	LS	06岿 03老	220	JR	Midlothian	VA	UVA	1023
+--	Ben Trenta	OT	06岿 07老	290	FR	Forest	VA	UVA	1024
+--	Rambert Tyreea	WR	6-0	175	SO	Newport News	VA	UVA	1025
+1	Donte Wilkinsa	DT	06岿 01老	300	SR	Woodbridge	VA	UVA	1026
+2	Albert Reida	RB	05岿 09老	215	SR	Washington	DC	UVA	1027
+3	Quin Blandinga	S	06岿 02老	215	JR	Virginia Beach	VA	UVA	1028
+4	Taquan Mizzella	RB	05岿 10老	195	SR	Virginia Beach	VA	UVA	1029
+5	Tim Harrisa	CB	06岿 02老	205	SR	Richmond	VA	UVA	1030
+5	Jamil Kamaraa	WR	06岿 02老	205	SO	Virginia Beach	VA	UVA	1031
+6	Kurt Benkerta	QB	06岿 04老	230	JR	Cape Coral	FL	UVA	1032
+7	Doni Dowlinga	WR	06岿 01老	215	JR	Richmond	VA	UVA	1033
+8	Keeon Johnsona	WR	06岿 03老	215	SR	Kannapolis	NC	UVA	1034
+9	Andrew Browna	DE	06岿 04老	290	JR	Chesapeake	VA	UVA	1035
+10	Jordan Ellisa	RB	05岿 11老	220	SO	Suwanee	GA	UVA	1036
+11	David Eldridgea	WR	06岿 01老	180	SO	Bealeton	VA	UVA	1037
+13	Chris Peacea	LB	06岿 01老	230	SO	Newport News	VA	UVA	1038
+14	Myles Robinsona	CB	05岿 11老	195	SO	Olney	MD	UVA	1039
+15	Matt Johnsa	QB	06岿 05老	215	SR	Chalfont	PA	UVA	1040
+16	Connor Brewera	QB	06岿 02老	195	SR	Scottsdale	AZ	UVA	1041
+17	Malcolm Cooka	LB	06岿 01老	220	JR	Richmond	VA	UVA	1042
+18	Ben Hogga	WR	6-0	170	SO	Lynchburg	VA	UVA	1043
+19	Andre Levronea	WR	06岿 03老	225	JR	Laurel	MD	UVA	1044
+20	Steven Wrighta	DE	06岿 04老	255	FR	Waycross	GA	UVA	1045
+21	Juan Thornhilla	S	06岿 01老	190	SO	Altavista	VA	UVA	1046
+22	Daniel Hamma	RB	05岿 10老	200	JR	Wytheville	VA	UVA	1047
+23	Warren Crafta	WR	06岿 02老	195	FR	Roanoke	VA	UVA	1048
+25	Chris Sharpa	S	06岿 02老	195	FR	Princeton	NJ	UVA	1049
+26	Anthony Callowaya	WR	05岿 08老	160	JR	Lynchburg	VA	UVA	1050
+27	Cory Jonesa	LB	06岿 05老	220	SO	Washington	DC	UVA	1051
+28	Wilfred Waheea	S	05岿 10老	200	SR	Norfolk	VA	UVA	1052
+29	Eric Gallona	LB	06岿 02老	220	SO	Lakeland	FL	UVA	1053
+30	Nicholas Contea	P	06岿 03老	225	SR	Roanoke	VA	UVA	1054
+31	Kareem Gibsona	CB	05岿 11老	170	FR	Johnstown	PA	UVA	1055
+32	Kirk Garnera	CB	05岿 11老	180	JR	Baltimore	MD	UVA	1056
+33	Olamide Zaccheausa	WR	05岿 08老	190	SO	Philadelphia	PA	UVA	1057
+34	Bryce Halla	DB	06岿 03老	200	FR	Harrisburg	PA	UVA	1058
+36	Gladimir Paula	LB	06岿 02老	215	FR	Philadelphia	PA	UVA	1059
+37	Jordan Macka	DB	06岿 04老	205	FR	Lithonia	GA	UVA	1060
+38	Kelvin Raineya	S	06岿 01老	205	SR	Houston	TX	UVA	1061
+39	Chris Moorea	DB	06岿 02老	200	FR	Ashburn	VA	UVA	1062
+40	C.J. Stalkera	LB	06岿 02老	225	SO	West Chester	OH	UVA	1063
+41	Connor Wingo-Reevesa	FB	06岿 03老	225	SR	Midlothian	VA	UVA	1064
+42	Jahvoni Simmonsa	LB	06岿 01老	225	FR	Virginia Beach	VA	UVA	1065
+43	Sean Fitzgeralda	LB	05岿 11老	225	FR	Falls Church	VA	UVA	1066
+44	Tanner Cowleya	WR	06岿 04老	220	FR	Manasquan	NJ	UVA	1067
+45	Reed Kellama	LB	06岿 01老	225	FR	Richmond	VA	UVA	1068
+46	Evan Buttsa	TE	06岿 04老	245	SO	Newtown Square	PA	UVA	1069
+47	Lester Colemana	P	06岿 05老	225	SO	Martinsville	VA	UVA	1070
+50	Jackson Matteoa	C	06岿 05老	290	SR	Ashburn	VA	UVA	1071
+51	Zach Bradshawa	LB	06岿 03老	230	SR	Damascus	MD	UVA	1072
+52	Robert Snydera	LB	06岿 04老	220	FR	Lawrenceville	GA	UVA	1073
+53	Micah Kisera	LB	06岿 02老	240	JR	Baltimore	MD	UVA	1074
+54	Matt Terrella	LB	06岿 04老	225	FR	Lynchburg	VA	UVA	1075
+56	Andre Miles-Redmonda	DT	06岿 04老	275	SR	Richmond	VA	UVA	1076
+57	James Trucillaa	DT	06岿 01老	270	FR	Erie	PA	UVA	1077
+58	Eli Hanbacka	DE	06岿 04老	270	FR	Ashland	VA	UVA	1078
+59	Mark Halla	DE	06岿 02老	260	SR	Virginia Beach	VA	UVA	1079
+62	Sean Karla	G	06岿 06老	300	SR	Manorville	NY	UVA	1080
+65	Ben Knutsona	OL	06岿 09老	310	FR	Granger	IN	UVA	1081
+67	Jack Englisha	OT	06岿 05老	290	JR	Richmond	VA	UVA	1082
+70	Steven Mossa	G	06岿 04老	300	SO	Fredericksburg	VA	UVA	1083
+71	Jack McDonalda	G	06岿 05老	290	JR	Quincy	MA	UVA	1084
+72	Eric Smitha	OT	06岿 05老	300	SR	Decatur	GA	UVA	1085
+74	Ryan Bischoffa	OT	06岿 06老	290	FR	Plymouth	PA	UVA	1086
+76	Michael Mooneya	OT	06岿 06老	295	SR	Malvern	PA	UVA	1087
+77	Jake Fielera	OT	06岿 05老	300	SO	Parkersburg	WV	UVA	1088
+78	R.J. Proctora	C	06岿 05老	305	FR	Bealeton	VA	UVA	1089
+80	Hasise Duboisa	WR	06岿 03老	210	FR	Irvington	NJ	UVA	1090
+81	Joe Reeda	WR	06岿 03老	210	FR	Charlotte Court House	VA	UVA	1091
+82	Braedon Uriea	WR	05岿 10老	175	SO	Purcellville	VA	UVA	1092
+83	Brendan Marshalla	TE	06岿 05老	235	JR	Gaithersburg	MD	UVA	1093
+84	Alex Furbanka	PK	6-0	220	SO	Fairfax	VA	UVA	1094
+85	Cole Blackmana	WR	06岿 01老	195	FR	Glen Allen	VA	UVA	1095
+86	Ross Gardnera	WR	06岿 03老	210	SO	Mechanicsville	VA	UVA	1096
+87	Richard Burneya	TE	06岿 04老	245	FR	Chesapeake	VA	UVA	1097
+88	Ryan Santoroa	WR	06岿 02老	215	SR	Oak Hill	VA	UVA	1098
+89	Sam Haywarda	PK	6-0	165	JR	Dallas	TX	UVA	1099
+90	Jack Powersa	DE	06岿 05老	280	JR	Santa Cruz	CA	UVA	1100
+91	Dylan Simsa	PK	6-0	190	SR	Lynchburg	VA	UVA	1101
+95	Juwan Moyea	LB	06岿 03老	255	FR	Lilburn	GA	UVA	1102
+98	Landan Worda	LB	06岿 05老	245	FR	Vienna	VA	UVA	1103
+99	Joe Spaziania	QB	06岿 02老	210	SO	Hingham	MA	UVA	1104
+1	Isaiah Forda	WR	06岿 02老	190	JR	Jacksonville	FL	VT	2001
+2	Tyree Rodgersa	DB	06岿 01老	180	FR	Camden	NJ	VT	2002
+3	Greg Stromana	DB	06岿 01老	170	JR	Bristow	VA	VT	2003
+4	Ken Ekanema	DE	06岿 03老	253	SR	Centreville	VA	VT	2004
+4	Jerod Evansa	QB	06岿 04老	235	JR	Dallas	TX	VT	2005
+5	Cam Phillipsa	WR	06岿 01老	198	JR	Laurel	MD	VT	2006
+6	Mook Reynoldsa	S	06岿 01老	184	SO	Greensboro	NC	VT	2007
+7	Bucky Hodgesa	TE	06岿 07老	245	JR	Virginia Beach	VA	VT	2008
+8	Phil Pattersona	WR	06岿 02老	185	FR	Virginia Beach	VA	VT	2009
+8	Nigel Williamsa	DT	06岿 04老	295	SR	Richmond	VA	VT	2010
+9	Khalil Ladlera	CB	05岿 11老	178	FR	Stone Mountain	GA	VT	2011
+9	Brenden Motleya	QB	06岿 03老	225	SR	Christiansburg	VA	VT	2012
+11	Jack Clicka	QB	06岿 03老	216	FR	Glen Allen	VA	VT	2013
+11	Houshun Gainesa	DE	06岿 04老	231	FR	Rocky Mount	NC	VT	2014
+12	Josh Jacksona	QB	06岿 02老	207	FR	Ann Arbor	MI	VT	2015
+12	Henri Murphya	WR	05岿 11老	185	JR	White Hall	AR	VT	2016
+13	Chris Durkina	TE	06岿 04老	232	SO	Poland	OH	VT	2017
+14	Tavante Becketta	LB	6-0	215	FR	Chesapeake	VA	VT	2018
+15	Jaylen Bradshawa	WR	06岿 01老	198	SO	Chesapeake	VA	VT	2019
+16	Coleman Foxa	RB	05岿 11老	192	FR	Salem	VA	VT	2020
+17	Jahque Alleynea	S	06岿 01老	175	SO	Virginia Beach	VA	VT	2021
+18	Raymon Minora	LB	06岿 02老	231	SO	Ashland	VA	VT	2022
+18	Chase Mummaua	QB	06岿 02老	174	FR	Mechanicsville	VA	VT	2023
+19	Chuck Clarka	S	06岿 01老	202	SR	Suffolk	VA	VT	2024
+20	Deon Newsomea	S	05岿 11老	187	JR	Hampton	VA	VT	2025
+21	Reggie Floyda	DB	6-0	200	FR	Manassas	VA	VT	2026
+22	Terrell Edmundsa	LB	06岿 01老	201	SO	Danville	VA	VT	2027
+23	Der'Woun Greenea	S	05岿 11老	194	SR	Portsmouth	VA	VT	2028
+24	Anthony Shegoga	LB	06岿 03老	212	JR	Stafford	VA	VT	2029
+26	Jovonn Quillena	DB	06岿 02老	195	FR	Hampton	VA	VT	2030
+27	Dominic Bensona	WR	06岿 01老	176	FR	Woodbridge	VA	VT	2031
+27	Shawn Paynea	CB	06岿 03老	185	SO	Chesterfield	VA	VT	2032
+28	Shai McKenziea	RB	05岿 11老	215	SO	Washington	PA	VT	2033
+28	Curtis Williamsa	CB	05岿 09老	176	JR	Amelia	VA	VT	2034
+29	DuWayne Johnsona	CB	06岿 02老	180	FR	Washington	DC	VT	2035
+30	Eron Cartera	LB	06岿 02老	230	FR	Palatka	FL	VT	2036
+30	Jordan Jeffersona	WR	05岿 10老	168	FR	Goochland	VA	VT	2037
+31	Brandon Facysona	CB	06岿 02老	191	JR	Newnan	GA	VT	2038
+32	Steven Peoplesa	FB	05岿 09老	218	SO	Galax	VA	VT	2039
+33	Deshawn McCleasea	RB	05岿 09老	177	FR	Chesapeake	VA	VT	2040
+34	Travon McMilliana	RB	6-0	200	SO	Woodbridge	VA	VT	2041
+35	Erikk Banksa	CB	05岿 10老	173	JR	Coeburn	VA	VT	2042
+35	Michael Santamariaa	PK	05岿 08老	168	SO	Athens	GA	VT	2043
+36	Adonis Alexandera	CB	06岿 03老	197	SO	Charlotte	NC	VT	2044
+36	Alden Carpentera	LB	06岿 01老	192	JR	Leesburg	VA	VT	2045
+37	Johnathan Galantea	LB	05岿 09老	210	SR	Blacksburg	VA	VT	2046
+39	Sean Daniela	WR	05岿 10老	175	FR	Chesapeake	VA	VT	2047
+39	Tyrone Thorntona	DB	05岿 10老	190	FR	Boston	MA	VT	2048
+40	Emmanuel Belmara	LB	06岿 02老	230	FR	Suwanee	GA	VT	2049
+41	Kevin Henrya	WR	6-0	170	FR	Greensboro	NC	VT	2050
+41	John Jenningsa	DB	05岿 11老	165	SO	Clifton	VA	VT	2051
+41	Trey Skeensa	FB	6-0	215	FR	Wytheville	VA	VT	2052
+42	Elisha Boyda	CB	6-0	175	SO	Newport News	VA	VT	2053
+42	Marshawn Williamsa	RB	05岿 11老	239	SO	Hampton	VA	VT	2054
+43	Seth Dooleya	DE	06岿 06老	239	JR	Salem	VA	VT	2055
+44	Tre Hubbarda	LB	6-0	230	FR	Virginia Beach	VA	VT	2056
+45	Sam Rogersa	FB	05岿 10老	227	SR	Mechanicsville	VA	VT	2057
+46	Joey Slyea	PK	06岿 01老	207	JR	Stafford	VA	VT	2058
+47	Darius Fullwooda	DE	06岿 04老	262	FR	College Park	MD	VT	2059
+48	Daniel Griffitha	LB	06岿 01老	225	FR	Suffolk	VA	VT	2060
+48	D.J. Reida	RB	06岿 01老	240	SO	Chester	VA	VT	2061
+49	Tremaine Edmundsa	LB	06岿 05老	236	SO	Danville	VA	VT	2062
+50	Patrick Kearnsa	OL	06岿 05老	280	FR	Adairsville	GA	VT	2063
+51	Hundley McCurrya	LS	05岿 11老	190	FR	Summerville	SC	VT	2064
+52	Austin Cannona	OL	06岿 03老	315	FR	Mechanicsville	VA	VT	2065
+52	Clay Deana	DL	06岿 02老	255	FR	Purcellville	VA	VT	2066
+53	Wayne Muttera	P	05岿 09老	160	SR	Grundy	VA	VT	2067
+53	Trent Younga	LB	05岿 10老	212	SO	Richmond	VA	VT	2068
+54	Andrew Motuapuakaa	LB	6-0	235	JR	Virginia Beach	VA	VT	2069
+55	Jarrod Hewitta	DL	06岿 01老	290	FR	Venice	FL	VT	2070
+56	Sean Huelskampa	LB	06岿 01老	207	JR	Centreville	VA	VT	2071
+56	T.J. Jacksona	OL	06岿 03老	330	FR	Cumberland	VA	VT	2072
+57	Wyatt Tellera	OL	06岿 05老	304	JR	Bealeton	VA	VT	2073
+58	Zack Tresera	LB	06岿 04老	221	FR	Blacksburg	VA	VT	2074
+60	Woody Barona	DT	06岿 01老	275	SR	Nashville	TN	VT	2075
+61	Kyle Chunga	OL	06岿 04老	290	JR	Ponte Vedra Beach	FL	VT	2076
+61	Joe Koshutaa	LB	06岿 02老	240	FR	Vienna	VA	VT	2077
+62	D'Andre Plantina	OL	06岿 05老	290	FR	Norcross	GA	VT	2078
+63	Daniel Baileya	OL	06岿 04老	296	FR	Abingdon	VA	VT	2079
+64	Eric Galloa	OL	06岿 02老	297	JR	Richboro	PA	VT	2080
+65	Matt Christa	OL	06岿 04老	274	FR	Sterling	VA	VT	2081
+66	Billy Mitchella	OL	06岿 03老	284	SO	Westwood	NJ	VT	2082
+67	Parker Osterloha	OL	06岿 08老	336	JR	Williamsburg	VA	VT	2083
+68	Connor Kisha	OL	06岿 02老	280	FR	Oceanside	CA	VT	2084
+69	Yosuah Nijmana	OL	06岿 08老	298	SO	Maplewood	NJ	VT	2085
+70	Kevin Kisha	OL	06岿 02老	280	FR	Oceanside	CA	VT	2086
+71	Jonathan McLaughlina	OL	06岿 05老	300	SR	Mauldin	SC	VT	2087
+72	Augie Contea	OL	06岿 06老	303	SR	Richmond	VA	VT	2088
+74	Braxton Pfaffa	OL	06岿 05老	295	SO	Lynchburg	VA	VT	2089
+75	Zachariah Hoyta	OL	06岿 05老	286	FR	Salem	VA	VT	2090
+76	Jarrett Hopplea	OL	06岿 06老	280	FR	Suffolk	VA	VT	2091
+77	Demetri Moorea	OL	06岿 05老	305	JR	Fairborn	OH	VT	2092
+79	Tyrell Smitha	OL	06岿 03老	292	FR	North Brunswick	NJ	VT	2093
+80	Casey Harmana	TE	06岿 04老	240	FR	Swords Creek	VA	VT	2094
+80	Colt Pettita	OL	06岿 04老	298	SO	Deshler	OH	VT	2095
+81	Samuel Denmarka	WR	6-0	182	FR	Hanahan	SC	VT	2096
+82	Xavier Burkea	TE	06岿 02老	270	FR	Lawrenceville	VA	VT	2097
+83	Eric Kumaha	WR	06岿 02老	203	FR	Woodbridge	VA	VT	2098
+85	Chris Cunninghama	TE	06岿 02老	242	FR	Jacksonville	FL	VT	2099
+86	C.J. Carrolla	WR	05岿 07老	165	SO	Olney	MD	VT	2100
+87	Bodhie Longa	WR	06岿 03老	200	FR	Richmond	VA	VT	2101
+87	Colton Taylora	LS	06岿 01老	212	JR	Salem	VA	VT	2102
+88	Divine Deabloa	WR	06岿 03老	210	FR	Winston-salem	NC	VT	2103
+89	Wright Bynuma	LS	06岿 04老	230	FR	Columbia	SC	VT	2104
+89	Devin Wilsona	WR	06岿 04老	190	JR	Mckees Rocks	PA	VT	2105
+90	Mitchell Ludwiga	P	05岿 11老	200	JR	Abingdon	VA	VT	2106
+90	Dalton Roea	DT	06岿 01老	235	JR	Williamsburg	VA	VT	2107
+91	Steve Sobczaka	DT	06岿 01老	300	SO	Milford	VA	VT	2108
+92	Matt Reinharta	LB	06岿 02老	225	FR	Shoemakersville	PA	VT	2109
+92	Robert Warfela	PK	05岿 10老	164	SR	--	--	VT	2110
+93	Brian Johnsona	P	06岿 01老	161	FR	Washington	DC	VT	2111
+94	Trevon Hilla	DE	06岿 05老	234	FR	Virginia Beach	VA	VT	2112
+95	Chaska Moona	LS	6-0	249	FR	Wake Forest	NC	VT	2113
+96	Jimmie Taylora	DE	06岿 03老	225	FR	Jacksonville	NC	VT	2114
+97	Tim Settlea	DT	06岿 03老	344	FR	Manassas	VA	VT	2115
+98	Ricky Walkera	DT	06岿 02老	288	SO	Hampton	VA	VT	2116
+99	Vinny Mihotaa	DL	06岿 05老	270	SO	Fredericksburg	VA	VT	2117
+1	DeCarlo Hamiltona	DT	06岿 03老	335	FR	Plantation	FL	Lib	3001
+1	Zac Parkera	WR	05岿 09老	185	SR	Reston	VA	Lib	3002
+2	Jeremy Petersa	CB	05岿 10老	190	SO	Green Cove Springs	FL	Lib	3003
+3	Rion Davisa	S	6-0	190	FR	Hopkins	SC	Lib	3004
+3	Stephon Mashaa	QB	06岿 01老	205	JR	Marietta	GA	Lib	3005
+4	Jaylyn McKinneya	LB	6-0	225	FR	Lake Wales	FL	Lib	3006
+5	Lucas Ironsa	LB	6-0	215	SO	Fort Lauderdale	FL	Lib	3007
+6	Tyrin Hollowaya	CB	6-0	195	JR	Humble	TX	Lib	3008
+7	Ceneca Espinoza Jr.a	S	06岿 01老	200	FR	Arlington	VA	Lib	3009
+7	Damian Kinga	WR	05岿 11老	175	SO	--	--	Lib	3010
+8	Jimmy Faulksa	CB	06岿 01老	175	FR	--	--	Lib	3011
+8	Dante Shellsa	WR	06岿 01老	180	SR	Camden	DE	Lib	3012
+9	Nick Newmana	LB	06岿 04老	215	SR	Gainesville	VA	Lib	3013
+10	Alex Proberta	PK	05岿 09老	170	FR	Andover	MN	Lib	3014
+11	Antonio Gandy-Goldena	WR	06岿 04老	200	FR	Dallas	GA	Lib	3015
+11	Cole Gibsona	PK	06岿 01老	235	FR	Chesapeake	VA	Lib	3016
+11	Lionell McConnella	WR	05岿 10老	180	FR	Allen	TX	Lib	3017
+12	Stephen Calverta	QB	06岿 02老	180	FR	Plantation	FL	Lib	3018
+12	Brandon Tillmona	S	06岿 01老	210	FR	Lexington	SC	Lib	3019
+13	Korell Evansa	LB	06岿 01老	215	FR	Hallandale	FL	Lib	3020
+13	Rudiger Yearicka	QB	06岿 03老	195	FR	Matthews	NC	Lib	3021
+14	Cam Jacksona	CB	06岿 01老	205	SO	Houston	TX	Lib	3022
+15	T.J. Tillerya	CB	05岿 10老	195	SO	Charlottesville	VA	Lib	3023
+16	Spencer Jonesa	QB	06岿 03老	185	FR	Nashville	TN	Lib	3024
+17	Kendall Couamina	TE	06岿 02老	255	JR	Miami Lakes	FL	Lib	3025
+18	Josh Newmana	WR	05岿 10老	190	FR	Gainesville	VA	Lib	3026
+19	Will Johnsona	TE	06岿 06老	265	SR	Osseo	MN	Lib	3027
+20	Solomon McGintya	S	06岿 02老	220	JR	Navasota	TX	Lib	3028
+21	Mitchell Lewisa	RB	6-0	220	FR	Auburn	AL	Lib	3029
+21	Wesley Scotta	CB	05岿 10老	175	SR	Lorton	VA	Lib	3030
+22	Todd Macona	RB	05岿 10老	210	JR	--	--	Lib	3031
+23	Frankie Hicksona	RB	05岿 08老	200	FR	Lynchburg	VA	Lib	3032
+24	Malik Matthewsa	CB	05岿 11老	185	FR	Jacksonville	FL	Lib	3033
+25	Aaron Glovera	LB	05岿 11老	210	FR	Norfolk	VA	Lib	3034
+26	Joseph Dixona	RB	05岿 09老	190	SO	--	--	Lib	3035
+27	Cameron Jonesa	CB	05岿 11老	195	SO	New Orleans	LA	Lib	3036
+28	Corbin Jacksona	S	6-0	200	SO	Charlotte	NC	Lib	3037
+29	David Jeremaiha	WR	0-0	0	FR	--	--	Lib	3038
+30	Dexter Robbinsa	LB	05岿 11老	225	SR	Sevierville	TN	Lib	3039
+31	Elijah Bentona	S	06岿 01老	190	FR	Forest	VA	Lib	3040
+32	Jermaine Copelanda	CB	05岿 09老	190	FR	Farmville	VA	Lib	3041
+33	Didier Monciona	RB	05岿 08老	205	JR	MANSFIELD	CT	Lib	3042
+34	Carrington Mosleya	RB	05岿 11老	235	JR	Brookneal	VA	Lib	3043
+35	Trey Turnera	P	05岿 11老	210	JR	Rome	GA	Lib	3044
+36	Thomas Kennedya	FB	05岿 11老	240	JR	Roanoke	VA	Lib	3045
+38	Alpha Jalloha	S	06岿 01老	200	SR	New Carrollton	MD	Lib	3046
+39	Chris Turnera	CB	06岿 03老	175	SO	Columbia	SC	Lib	3047
+40	Zac Foutza	TE	06岿 04老	250	FR	Roanoke	VA	Lib	3048
+42	Erwin Dessourcesa	DE	06岿 01老	235	SR	Randolph	MA	Lib	3049
+43	Benjamin Alexandera	S	06岿 02老	175	FR	Spring Mills	PA	Lib	3050
+44	Dia'Vante Browna	DE	06岿 02老	245	JR	Greensboro	NC	Lib	3051
+47	Ben Thomasa	DL	06岿 02老	245	JR	Greenwood	SC	Lib	3052
+48	David Kinga	LB	06岿 01老	230	SO	Stuarts Draft	VA	Lib	3053
+49	Jason Pittsa	LB	6-0	200	JR	Detroit	MI	Lib	3054
+51	Trystin Knowlanda	OL	06岿 06老	275	FR	Manchester	CT	Lib	3055
+52	Michael Andersona	DE	06岿 03老	220	FR	Fort Lauderdale	FL	Lib	3056
+53	Joshua Carlina	OL	06岿 03老	245	FR	Forest	VA	Lib	3057
+54	Juwan Wellsa	DE	06岿 02老	255	SO	Dublin	GA	Lib	3058
+55	Tolen Averya	DE	06岿 04老	270	SO	Galveston	TX	Lib	3059
+56	Dontae Duffa	OL	06岿 01老	310	FR	Mesquite	TX	Lib	3060
+57	Hunter Winsteada	LS	6-0	240	JR	Raleigh	NC	Lib	3061
+59	Damian Boundsa	OL	06岿 02老	260	FR	Ellenwood	GA	Lib	3062
+63	Aidan Burroughsa	OL	06岿 03老	275	FR	Norfolk	NE	Lib	3063
+65	Thomas Sargeanta	OL	06岿 03老	270	FR	Mechanicsville	VA	Lib	3064
+66	Ethan Crawforda	OL	06岿 03老	295	FR	Augusta	GA	Lib	3065
+67	Michael Hendermana	OL	06岿 03老	300	JR	Atlanta	GA	Lib	3066
+68	Tanner Hartmana	OL	06岿 04老	280	JR	Christiansburg	VA	Lib	3067
+69	Devin Crispa	OL	06岿 01老	295	SR	Oklahoma City	OK	Lib	3068
+70	Lucas Holdera	OL	06岿 04老	295	JR	Hillsville	VA	Lib	3069
+73	Sam Isaacsona	OL	06岿 06老	305	FR	Lynchburg	VA	Lib	3070
+74	Julio Lozanoa	OL	06岿 04老	270	SO	Bellaire	TX	Lib	3071
+75	Gregg Storeya	DL	06岿 05老	345	SO	Cary	NC	Lib	3072
+76	JaRon Greenea	DT	06岿 02老	310	SR	Beaumont	TX	Lib	3073
+77	James Passmorea	OL	06岿 06老	295	SO	Dallas	NC	Lib	3074
+77	Daniel Zapataa	OL	06岿 02老	255	FR	Guttenberg	NJ	Lib	3075
+78	Ernst Andersena	OL	06岿 07老	300	FR	--	--	Lib	3076
+79	Aharown Campbella	OL	06岿 05老	355	SR	Teaneck	NJ	Lib	3077
+80	Joshua Cruza	WR	06岿 01老	185	FR	Charlotte	NC	Lib	3078
+81	Marquis Fitzgeralda	WR	06岿 01老	190	JR	Farmville	VA	Lib	3079
+82	B.J. Farrowa	WR	06岿 02老	190	SO	Lynchburg	VA	Lib	3080
+83	Josh Tullya	WR	05岿 10老	175	FR	Vancouver	WA	Lib	3081
+85	Kyle Carringtona	WR	06岿 01老	190	FR	Toms River	NJ	Lib	3082
+87	Cephas Reddicka	WR	05岿 08老	175	SO	Woodbridge	VA	Lib	3083
+88	Isaac Browna	WR	06岿 03老	190	JR	Overton	NE	Lib	3084
+89	Canon Smitha	TE	06岿 04老	255	SR	Hoover	AL	Lib	3085
+90	Will Browna	DL	06岿 02老	300	SO	Texarkana	TX	Lib	3086
+91	Javon Fraziera	DE	06岿 02老	245	FR	Stafford	VA	Lib	3087
+94	John Roughtona	DE	06岿 03老	225	JR	--	--	Lib	3088
+95	Devin Fishera	DE	06岿 01老	235	FR	Radford	VA	Lib	3089
+97	Aaron Wallera	DT	06岿 03老	365	SR	Long Beach	CA	Lib	3090
+99	Ralfs Rusinsa	TE	06岿 05老	295	FR	--	--	Lib	3091
+2	Donte' Hayneswortha	DB	05岿 11老	195	SR	Mechanicsville	VA	nor	4001
+3	Gerard Johnsona	RB	05岿 09老	205	SR	Richmond	VA	nor	4002
+4	James Churcha	WR	06岿 01老	200	SR	Virginia Beach	VA	nor	4003
+5	Marcus Taylora	WR	05岿 08老	160	SO	Highland Springs	VA	nor	4004
+6	Tyre Givers-Wilsona	QB	06岿 03老	200	FR	Chesapeake	VA	nor	4005
+7	Greg Hankersona	QB	06岿 01老	190	SR	Lauderdale Lakes	FL	nor	4006
+8	Brandon Walkera	DB	06岿 02老	205	SR	Chester	VA	nor	4007
+9	Harry Freemana	DB	06岿 01老	170	JR	Norfolk	VA	nor	4008
+10	Sandy Chapmana	DB	05岿 10老	180	SR	Raleigh	NC	nor	4009
+11	Anthony Smitha	LB	06岿 01老	230	JR	Norfolk	VA	nor	4010
+12	Terrell Reida	DL	06岿 02老	245	SR	Washington	DC	nor	4011
+13	Cameron Maroufa	PK	05岿 09老	160	SR	Woodbridge	VA	nor	4012
+15	Joel Caleba	WR	06岿 02老	210	SR	Richmond	VA	nor	4013
+16	Kinan Humphreya	WR	05岿 09老	180	FR	Mcdonough	GA	nor	4014
+17	Rodney Smitha	DL	06岿 03老	235	SR	Pembroke Pines	FL	nor	4015
+18	Bobby Pricea	DB	06岿 03老	180	FR	Virginia Beach	VA	nor	4016
+19	Johnathan Spencera	WR	05岿 11老	180	FR	Apex	NC	nor	4017
+20	Malik Buttsa	RB	05岿 09老	180	FR	Virginia Beach	VA	nor	4018
+21	George Waheea	WR	06岿 01老	180	FR	Norfolk	VA	nor	4019
+22	Quintreil Chunga	RB	06岿 01老	220	SO	Midlothian	VA	nor	4020
+23	Shakeem Copelanda	RB	05岿 09老	205	JR	Woodbridge	VA	nor	4021
+24	Jay Andersona	DL	06岿 01老	215	SR	Richmond	VA	nor	4022
+25	D.J. Cooka	WR	06岿 01老	195	FR	Richmond	VA	nor	4023
+26	Leroy Parkera	DB	06岿 01老	195	SR	Miami	FL	nor	4024
+27	Aaron Chandlera	DB	05岿 09老	175	SO	Norfolk	VA	nor	4025
+28	Edwin Leea	DB	06岿 01老	185	FR	Brooklyn	NY	nor	4026
+29	J.T. Waheea	DB	05岿 11老	170	FR	Norfolk	VA	nor	4027
+30	Aaron Savagea	RB	05岿 09老	210	SO	Baltimore	MD	nor	4028
+31	Kyle Archiea	LB	06岿 01老	220	JR	Virginia Beach	VA	nor	4029
+32	Larry Bishopa	RB	05岿 11老	230	JR	Roanoke	VA	nor	4030
+33	Joseph Atkinsa	RB	05岿 10老	195	FR	Virginia Beach	VA	nor	4031
+34	Dimitri McKaya	FB	05岿 11老	235	SO	Chesapeake	VA	nor	4032
+35	Audrex Harrisa	DB	06岿 01老	190	JR	Chesapeake	VA	nor	4033
+36	Ebenezer Agyemang-Kusia	DB	05岿 11老	185	SO	Triangle	VA	nor	4034
+37	Hakiem Swanna	DB	05岿 11老	180	JR	Portsmouth	VA	nor	4035
+38	Thomas Stingera	DB	06岿 01老	150	JR	Leesburg	VA	nor	4036
+39	Bo Lomaxa	PK	05岿 11老	220	SO	Hampton	VA	nor	4037
+40	Nigel Chavisa	LB	06岿 02老	220	FR	Richmond	VA	nor	4038
+41	Hadji Gaylorda	DL	06岿 03老	265	SO	Norfolk	VA	nor	4039
+43	Roy Adamsa	RB	05岿 09老	195	SO	Richmond	VA	nor	4040
+44	Conley Smitha	FB	05岿 11老	250	SR	Chesapeake	VA	nor	4041
+45	Jeff Leea	TE	06岿 03老	240	FR	North Chesterfield	VA	nor	4042
+46	Raynard Revelsa	LB	06岿 01老	235	SR	Richmond	VA	nor	4043
+47	Damiyan Caldwella	LB	06岿 01老	195	JR	Norfolk	VA	nor	4044
+48	Tim Flooda	RB	05岿 09老	215	JR	Newport News	VA	nor	4045
+49	Malik Dixona	DB	05岿 08老	160	FR	Newport News	VA	nor	4046
+50	Jonathan Okafora	DL	06岿 02老	220	JR	Woodbridge	VA	nor	4047
+51	Kyron Spellera	LB	06岿 01老	235	FR	Virginia Beach	VA	nor	4048
+52	Louis Humphreya	OL	06岿 01老	290	SR	Chester	VA	nor	4049
+54	T.C. Livingstona	LB	06岿 03老	200	JR	Suffolk	VA	nor	4050
+55	Antwan Whitea	LB	06岿 01老	200	JR	Chesapeake	VA	nor	4051
+56	Cephas Hardena	LB	06岿 01老	215	FR	Goochland	VA	nor	4052
+57	Lamonte Clarka	OL	06岿 03老	310	SR	Washington	DC	nor	4053
+58	Daniel Oladimejia	OL	06岿 02老	295	SR	Upper Marlboro	MD	nor	4054
+59	Jordan Crocketta	OL	06岿 05老	325	FR	Max Meadows	VA	nor	4055
+60	Wes Jonesa	OL	06岿 01老	270	SO	Wilmington	DE	nor	4056
+61	Anthonee Moorea	OL	06岿 02老	270	FR	Buckingham	VA	nor	4057
+62	Dominic Jordana	OL	06岿 02老	280	FR	Chesapeake	VA	nor	4058
+63	Jermaine Sumnera	OL	06岿 04老	270	FR	Virginia Beach	VA	nor	4059
+65	Craig Rodwella	OL	06岿 04老	270	FR	Richmond	VA	nor	4060
+66	Taro Lipscomba	OL	06岿 03老	290	FR	Washington	DC	nor	4061
+69	Jake Mazgajewskia	OL	06岿 06老	290	JR	Hampton	VA	nor	4062
+70	Deshaywn Middletona	DL	06岿 02老	305	SO	Winston-salem	NC	nor	4063
+71	Jake O'Sullivana	OL	06岿 04老	290	FR	Chesapeake	VA	nor	4064
+75	Kevin Statona	OL	06岿 06老	320	FR	Chesapeake	VA	nor	4065
+76	Mike Carneya	OL	06岿 05老	340	FR	Norfolk	VA	nor	4066
+77	Kenneth Kirbya	OL	06岿 05老	275	FR	Newport News	VA	nor	4067
+79	Josh Culbersona	DL	06岿 05老	285	FR	Chesapeake	VA	nor	4068
+80	Antonio Perrymana	WR	06岿 02老	180	JR	Jacksonville	FL	nor	4069
+81	Demetreus Ferebeea	TE	06岿 04老	235	JR	Roanoke	VA	nor	4070
+82	Torian Hendersona	TE	06岿 04老	240	SR	Silver Spring	MD	nor	4071
+83	Justin Smitha	WR	06岿 02老	165	FR	Richmond	VA	nor	4072
+84	Chuma Awannaa	WR	06岿 03老	205	FR	Chesapeake	VA	nor	4073
+85	Floyd Jonesa	WR	05岿 09老	170	SO	Hampton	VA	nor	4074
+86	TreVaughn Sneeda	WR	05岿 10老	185	FR	Portsmouth	VA	nor	4075
+87	Michael Curtisa	WR	06岿 01老	165	SO	Newport News	VA	nor	4076
+88	Marcque Ellingtona	WR	06岿 05老	190	FR	Neptune	NJ	nor	4077
+89	Anthony Williamsa	TE	06岿 03老	210	FR	Norfolk	VA	nor	4078
+90	Walter Brantleya	DL	06岿 02老	345	SO	Hampton	VA	nor	4079
+91	James Byersa	LB	06岿 03老	200	SO	Petersburg	VA	nor	4080
+92	James Chapmana	LB	06岿 01老	225	FR	Portsmouth	VA	nor	4081
+93	Ray Prosisea	DL	06岿 01老	265	SR	Petersburg	VA	nor	4082
+94	Josh Bryanta	DL	06岿 05老	265	FR	Ellicott City	MD	nor	4083
+95	Chris Leea	DL	06岿 03老	280	JR	Woodbridge	VA	nor	4084
+96	Ian Williamsa	DL	06岿 02老	265	FR	Richmond	VA	nor	4085
+97	Trey Millsa	DL	06岿 02老	290	SR	Chesapeake	VA	nor	4086
+98	Cornelius Tylera	DL	06岿 03老	295	SO	Richmond	VA	nor	4087
+99	Kevin Williamsa	DL	06岿 04老	310	SR	Bradenton	FL	nor	4088
