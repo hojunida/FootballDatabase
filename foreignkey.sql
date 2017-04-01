@@ -1,3 +1,12 @@
+
+    CONSTRAINT FK_Player_LIB FOREIGN KEY (Team, UID) REFERENCES Players(Team, UID),
+
+
+
+
+
+
+/*
 ALTER TABLE C
    ADD FOREIGN KEY (No) REFERENCES Players (No);
    ADD FOREIGN KEY (Name) REFERENCES Players (Name);
@@ -223,3 +232,4 @@ ALTER TABLE nor
 	ADD CONSTRAINT CK_minPlayer
 	CHECK (COUNT(Name) >= 11)
 
+*/

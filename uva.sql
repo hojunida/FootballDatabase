@@ -10,7 +10,6 @@ CREATE TABLE uva (
     `Team` VARCHAR(3) CHARACTER SET utf8,
     `UID` VARCHAR(5),
 	PRIMARY KEY (Team, UID),
-	CONSTRAINT FK_Player_UVA FOREIGN KEY (Team, UID) REFERENCES Players(Team, UID),
 	CONSTRAINT CHK_Wahoowa CHECK (Team = 'UVA')
 );
 INSERT INTO uva VALUES ('--','Naji Abdullaha','DE','6-5',235,'FR','Jacksonville','FL','UVA',1001);
