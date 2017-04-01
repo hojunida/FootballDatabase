@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script> 
+	<script src="js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+ 	<title>AJAX Examples</title>
+	<script>
+	$(document).ready(function() {
+		$( "#nameinput" ).change(function() {
+		
+			$.ajax({
+				url: 'searchPlayer.php', 
+				data: {searchPlayer: $( "#nameinput" ).val()},
+				success: function(data){
+					$('#nameresult').html(data);	
+				
+				}
+			});
+		});
+		
+	});
+	</script>
+</head>
+<body>
+	<h3>Search in Players Table</h3>	
+           
+	<input class="xlarge" id="nameinput" type="search" size="30" placeholder="Player's Name Contains"/>
+
+	<div id="nameresult">Search Result</div>
+
+
+</body>
+</html>
