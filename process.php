@@ -1,28 +1,41 @@
+
+
 <?php
-//Get values passed from form in login.php
-$username = $_POST['user'];
-$password = $_POST['pass'];
 
-//SQL INJECTION FUCK THem
-$username = stripcslashes($username);
-$password = stripcslashes($password);
-$username = mysql_real_escape_string($username);
-$username = mysql_real_escape_string($password);
+$host="stardock.cs.virginia.edu"; // Host name 
+$username="cs4750s17yk7da"; // Mysql username 
+$password="spring2017"; // Mysql password 
+$db_name="cs4750s17yk7da"; // Database name 
+$tbl_name="users"; // Table name 
 
-//connect to the server 여기 수정해주면될거같다능?!!!?!?
-mysql_connect("localhost", "root", "");
-mysql_select_db("login");
+// Connect to server and select databse.
+mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+mysql_select_db("$db_name")or die("cannot select DB");
 
-//Query
-$result = mysql_query("select" * from users where username = '$username' and password = '$password')
+// username and password sent from form 
+$myusername=$_POST['user']; 
+$mypassword=$_POST['pass']; 
 
-$row = mysql_fetch_array($result);
+// To protect MySQL injection (more detail about MySQL injection)
+$myusername = stripslashes($myusername);
+$mypassword = stripslashes($mypassword);
+$myusername = mysql_real_escape_string($myusername);
+$mypassword = mysql_real_escape_string($mypassword);
+$sql="SELECT * FROM $tbl_name WHERE username='$myusername' and password='$mypassword'";
+$result=mysql_query($sql);
 
-if($row['username'] == $username) && $row['password'] == $password)
-{
-  echo "Logged In My Servant" .$row['username'];
-  else {
-    echo "You Are Not my SERVANT";
-  }
+// Mysql_num_row is counting table row
+$count=mysql_num_rows($result);
+
+// If result matched $myusername and $mypassword, table row must be 1 row
+if($count==1){
+	// Register $myusername, $mypassword and redirect to file "login_success.php"
+	//session_register("myusername");
+	//session_register("mypassword"); 
+	//header("login_success.php");
+	echo "Success";
+}
+else {
+echo "Wrong Username or Password";
 }
 ?>

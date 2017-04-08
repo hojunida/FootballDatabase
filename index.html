@@ -20,8 +20,54 @@
 			});
 		});
 		
+		$( "#myList" ).change(function() {
+			var inputVal = $(this).val();
+			$.ajax({
+				type: "POST",
+				url: 'searchSchool.php', 
+				data: {searchSchool: inputVal},
+				success: function(data){
+					$('#schoolResult').html(data);	
+					//$('#schoolResult').html(inputVal);
+				}
+			});
+		});
+		
 	});
+	
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	/*document.getElementById("myList").onchange = function() {
+		alert(this.value);
+		$.ajax({
+			url: 'searchSchool.php', 
+			data: {searchSchool: this.value,
+			success: function(data){
+				$('#schoolResult').html(data);	
+			}
+		});
+		};
+	}*/
+	
+	// Close the dropdown menu if the user clicks outside of it
+	window.onclick = function(event) {
+		if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+				var openDropdown = dropdowns[i];
+				if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				}
+		}
+		}
+	}
 	</script>
+	<link rel='stylesheet' href='style.css'>
 </head>
 <body>
 	<h3>Search in Players Table</h3>	
@@ -29,7 +75,35 @@
 	<input class="xlarge" id="nameinput" type="search" size="30" placeholder="Player's Name Contains"/>
 
 	<div id="nameresult">Search Result</div>
-
+	
+	<form>
+	<select id="myList">
+		<option value="uva">UVA</option>
+		<option value="vt">Virginia Tech</option>
+		<option value="nor">Norfolk</option>
+		<option value="lib">Liberty</option>
+		<option value="odu">Old Dominion</option>
+		<option value="hamp">Hampton</option>
+	</select>
+	</form>
+	
+	<div id ="schoolResult">School Result</div>
+	
+	<div id="frm">
+		<form action="process.php" method="POST">
+			<p>
+				<label>Username:</label>
+				<input type="text" id="user" name="user" />
+			</p>	
+			<p>
+				<label>Password:</label>
+				<input type="password" id="pass" name="pass" />
+			</p>
+			<p>
+				<input type="Submit" id="button" value="Login" />
+			</p>
+		</form>
+	</div>
 
 </body>
 </html>
