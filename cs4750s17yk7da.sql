@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- 생성 시간: 17-03-31 16:27
--- 서버 버전: 5.5.54-0ubuntu0.14.04.1
--- PHP 버전: 5.5.9-1ubuntu4.21
+-- Generation Time: Apr 07, 2017 at 10:38 PM
+-- Server version: 5.5.54-0ubuntu0.14.04.1
+-- PHP Version: 5.5.9-1ubuntu4.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- 데이터베이스: `cs4750s17yk7da`
+-- Database: `cs4750s17yk7da`
 --
 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `C`
+-- Table structure for table `C`
 --
 
 CREATE TABLE IF NOT EXISTS `C` (
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `C` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `C`
+-- Dumping data for table `C`
 --
 
 INSERT INTO `C` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -49,7 +49,7 @@ INSERT INTO `C` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `CB`
+-- Table structure for table `CB`
 --
 
 CREATE TABLE IF NOT EXISTS `CB` (
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `CB` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `CB`
+-- Dumping data for table `CB`
 --
 
 INSERT INTO `CB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -97,7 +97,7 @@ INSERT INTO `CB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `DB`
+-- Table structure for table `DB`
 --
 
 CREATE TABLE IF NOT EXISTS `DB` (
@@ -113,7 +113,7 @@ CREATE TABLE IF NOT EXISTS `DB` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `DB`
+-- Dumping data for table `DB`
 --
 
 INSERT INTO `DB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -145,7 +145,7 @@ INSERT INTO `DB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `DE`
+-- Table structure for table `DE`
 --
 
 CREATE TABLE IF NOT EXISTS `DE` (
@@ -161,7 +161,7 @@ CREATE TABLE IF NOT EXISTS `DE` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `DE`
+-- Dumping data for table `DE`
 --
 
 INSERT INTO `DE` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -190,7 +190,7 @@ INSERT INTO `DE` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `DL`
+-- Table structure for table `DL`
 --
 
 CREATE TABLE IF NOT EXISTS `DL` (
@@ -206,7 +206,7 @@ CREATE TABLE IF NOT EXISTS `DL` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `DL`
+-- Dumping data for table `DL`
 --
 
 INSERT INTO `DL` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -238,7 +238,7 @@ INSERT INTO `DL` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `DT`
+-- Table structure for table `DT`
 --
 
 CREATE TABLE IF NOT EXISTS `DT` (
@@ -254,7 +254,7 @@ CREATE TABLE IF NOT EXISTS `DT` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `DT`
+-- Dumping data for table `DT`
 --
 
 INSERT INTO `DT` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -274,7 +274,7 @@ INSERT INTO `DT` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `FB`
+-- Table structure for table `FB`
 --
 
 CREATE TABLE IF NOT EXISTS `FB` (
@@ -290,7 +290,7 @@ CREATE TABLE IF NOT EXISTS `FB` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `FB`
+-- Dumping data for table `FB`
 --
 
 INSERT INTO `FB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -305,7 +305,7 @@ INSERT INTO `FB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `G`
+-- Table structure for table `G`
 --
 
 CREATE TABLE IF NOT EXISTS `G` (
@@ -321,7 +321,7 @@ CREATE TABLE IF NOT EXISTS `G` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `G`
+-- Dumping data for table `G`
 --
 
 INSERT INTO `G` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -333,7 +333,136 @@ INSERT INTO `G` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `LB`
+-- Table structure for table `hamp`
+--
+
+CREATE TABLE IF NOT EXISTS `hamp` (
+  `No` int(11) DEFAULT NULL,
+  `Name` varchar(23) CHARACTER SET utf8 DEFAULT NULL,
+  `Pos` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Ht` varchar(4) CHARACTER SET utf8 DEFAULT NULL,
+  `Wt` int(11) DEFAULT NULL,
+  `Class` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Hometown` varchar(19) CHARACTER SET utf8 DEFAULT NULL,
+  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Team` varchar(4) CHARACTER SET utf8 DEFAULT NULL,
+  `UID` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `hamp`
+--
+
+INSERT INTO `hamp` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
+(1, 'Brendan Colea', 'DB', '6-2', 223, 'JR', 'Hampton', 'VA', 'HAMP', 5001),
+(1, 'Rayshad Riddicka', 'WR', '5-8', 188, 'SR', 'Portsmouth', 'VA', 'HAMP', 5002),
+(2, 'Shakim Alonzoa', 'WR', '6-4', 217, 'SR', 'Pittsburgh', 'PA', 'HAMP', 5003),
+(3, 'Rashawn Proctora', 'WR', '5-11', 201, 'SR', 'Hampton', 'VA', 'HAMP', 5004),
+(4, 'Devin Vandykea', 'LB', '6-1', 227, 'SR', 'Lorton', 'VA', 'HAMP', 5005),
+(5, 'Twarn Mixsona', 'WR', '5-9', 167, 'SR', 'Charlotte', 'NC', 'HAMP', 5006),
+(6, 'Aulden Knighta', 'WR', '5-8', 155, 'FR', 'Akron', 'OH', 'HAMP', 5007),
+(7, 'Joseph Turnera', 'DB', '6-0', 175, 'SR', 'Sacramento', 'CA', 'HAMP', 5008),
+(8, 'Brandon Coxa', 'QB', '6-2', 200, 'SR', 'Pasadena', 'CA', 'HAMP', 5009),
+(9, 'Oral Varccianna', 'DB', '5-11', 214, 'SO', 'Lithonia', 'GA', 'HAMP', 5010),
+(10, 'Chase Powella', 'WR', '5-7', 172, 'JR', 'Upper Marlboro', 'MD', 'HAMP', 5011),
+(11, 'Robert Scotta', 'DB', '6-1', 208, 'FR', 'Richmond', 'VA', 'HAMP', 5012),
+(12, 'Jaylian Williamsona', 'QB', '5-9', 180, 'SR', 'Chesapeake', 'VA', 'HAMP', 5013),
+(13, 'Justin Williamsa', 'DB', '6-0', 186, 'JR', '--', '--', 'HAMP', 5014),
+(14, 'Brendan Greenea', 'QB', '6-1', 196, 'FR', 'Columbia', 'SC', 'HAMP', 5015),
+(15, 'Keon Marsha', 'QB', '6-2', 192, 'JR', 'Springfield Gardens', 'NY', 'HAMP', 5016),
+(16, 'Ronald Bella', 'WR', '5-6', 162, 'FR', 'Fort Washington', 'MD', 'HAMP', 5017),
+(17, 'Leon Shortera', 'WR', '6-2', 179, 'SR', 'Fort Pierce', 'FL', 'HAMP', 5018),
+(18, 'Wesley Wolfolka', 'WR', '6-2', 207, 'FR', 'Upper Marlboro', 'MD', 'HAMP', 5019),
+(19, 'Tyheem Freemana', 'DB', '5-10', 203, 'FR', 'Lithonia', 'GA', 'HAMP', 5020),
+(20, 'Myles Morrisa', 'DB', '5-9', 168, 'SR', 'Greensboro', 'NC', 'HAMP', 5021),
+(21, 'Eric Cartera', 'RB', '5-9', 210, 'SO', 'Fayetteville', 'NC', 'HAMP', 5022),
+(22, 'Yahkee Johnsona', 'RB', '5-7', 160, 'JR', 'Richmond', 'VA', 'HAMP', 5023),
+(23, 'Kevin Boatenga', 'DB', '5-10', 173, 'SR', 'Orange', 'NJ', 'HAMP', 5024),
+(24, 'Dwayne Garretta', 'RB', '6-1', 208, 'SR', 'Phoenix', 'AZ', 'HAMP', 5025),
+(25, 'Steven Smitha', 'LB', '6-1', 228, 'JR', 'Virginia Beach', 'VA', 'HAMP', 5026),
+(26, 'Raheim Huskeya', 'LB', '6-2', 211, 'JR', 'Gaffney', 'SC', 'HAMP', 5027),
+(27, 'Terry Chisleya', 'DB', '5-9', 171, 'FR', 'Hampton', 'VA', 'HAMP', 5028),
+(28, 'Bruce Perrya', 'DB', '5-9', 171, 'FR', 'Fort Washington', 'MD', 'HAMP', 5029),
+(29, 'Donald Smitha', 'DB', '6-1', 190, 'FR', 'Danville', 'VA', 'HAMP', 5030),
+(30, 'Aaron Edwardsa', 'DB', '5-10', 192, 'FR', 'Hampton', 'VA', 'HAMP', 5031),
+(31, 'Elijah Nelsona', 'DB', '6-1', 201, 'FR', 'Hampton', 'VA', 'HAMP', 5032),
+(32, 'LaTarus Damerona', 'RB', '5-9', 252, 'FR', 'Lincolnton', 'NC', 'HAMP', 5033),
+(33, 'Dereon Carra', 'DB', '6-1', 187, 'SO', 'Washington', 'DC', 'HAMP', 5034),
+(34, 'Chaka Diarrassoubaa', 'DB', '5-11', 202, 'JR', 'Atlanta', 'GA', 'HAMP', 5035),
+(35, 'Devin Thurmonda', 'DE', '6-3', 222, 'FR', 'Ellenwood', 'GA', 'HAMP', 5036),
+(36, 'JaMari Corda', 'LB', '5-10', 197, 'SR', 'Tampa', 'FL', 'HAMP', 5037),
+(37, 'Kurtis Colemana', 'S', '5-11', 198, 'SR', 'Columbia', 'MD', 'HAMP', 5038),
+(38, 'Damon Woodcocka', 'LB', '6-2', 248, 'FR', 'Norcross', 'GA', 'HAMP', 5039),
+(39, 'Quinton Leea', 'RB', '5-8', 225, 'FR', 'Hampton', 'VA', 'HAMP', 5040),
+(41, 'Christian Faber-Kinneya', 'PK', '6-1', 206, 'SR', 'Williamsburg', 'VA', 'HAMP', 5041),
+(42, 'Treshawn Councila', 'LB', '6-1', 234, 'SR', 'Durham', 'NC', 'HAMP', 5042),
+(43, 'Devan Johnsona', 'LB', '6-1', 203, 'SO', 'Duluth', 'GA', 'HAMP', 5043),
+(45, 'Anthony Prevosta', 'PK', '5-5', 151, 'SR', 'Chesterfield', 'VA', 'HAMP', 5044),
+(46, 'Justin Wrighta', 'QB', '6-11', 172, 'FR', 'Hampton', 'VA', 'HAMP', 5045),
+(47, 'Sirvantis Dennisa', 'DB', '6-1', 186, 'FR', 'Clay', 'NY', 'HAMP', 5046),
+(48, 'Tyler Fraziera', 'DB', '6-2', 203, 'FR', 'Columbia', 'SC', 'HAMP', 5047),
+(49, 'Khaleel Artisa', 'RB', '5-10', 195, 'SR', 'Macungie', 'PA', 'HAMP', 5048),
+(50, 'Shemar DeGannesa', 'LB', '6-1', 216, 'FR', 'Simpsonville', 'SC', 'HAMP', 5049),
+(51, 'Bryson Stukesa', 'QB', '6-1', 220, 'FR', 'Virginia Beach', 'VA', 'HAMP', 5050),
+(52, 'DaQuavius Reida', 'LB', '6-2', 208, 'SR', 'Charlotte', 'NC', 'HAMP', 5051),
+(53, 'Owen Obasuyia', 'DL', '6-4', 308, 'JR', 'Virginia Beach', 'VA', 'HAMP', 5052),
+(54, 'Jordan Edwardsa', 'LB', '6-1', 233, 'FR', 'Forestville', 'MD', 'HAMP', 5053),
+(55, 'Gibril Gheea', 'OL', '6-1', 307, 'FR', 'Lawrenceville', 'GA', 'HAMP', 5054),
+(56, 'Michael Younga', 'OL', '6-0', 266, 'SR', 'Atlanta', 'GA', 'HAMP', 5055),
+(57, 'Jayson Davidsona', 'LB', '6-1', 226, 'SO', 'Newport News', 'VA', 'HAMP', 5056),
+(58, 'Joseph Stevensona', 'DB', '6-2', 200, 'FR', 'Fayetteville', 'NC', 'HAMP', 5057),
+(59, 'Blake Portera', 'OL', '6-1', 319, 'SR', 'Charlotte', 'NC', 'HAMP', 5058),
+(60, 'Bailey Herringa', 'OL', '6-1', 298, 'FR', 'Merritt Island', 'FL', 'HAMP', 5059),
+(61, 'David Smitha', 'OL', '5-10', 277, 'FR', 'Washington', 'DC', 'HAMP', 5060),
+(62, 'Kareem Williamsa', 'RB', '5-8', 210, 'FR', 'Hampton', 'VA', 'HAMP', 5061),
+(63, 'Zyon Sebreea', 'LB', '6-0', 236, 'FR', 'Saginaw', 'MI', 'HAMP', 5062),
+(64, 'Adam Browna', 'PK', '5-9', 192, 'SR', 'Cincinnati', 'OH', 'HAMP', 5063),
+(65, 'Korey Ricksa', 'OL', '5-9', 336, 'FR', 'Newport News', 'VA', 'HAMP', 5064),
+(66, 'Albert Carlislea', 'OL', '6-1', 282, 'FR', 'Opelika', 'AL', 'HAMP', 5065),
+(67, 'Spencer Wieganda', 'LS', '5-8', 184, 'JR', 'Aiken', 'SC', 'HAMP', 5066),
+(68, 'Ryan Goulda', 'OL', '6-2', 329, 'JR', 'Clemmons', 'NC', 'HAMP', 5067),
+(69, 'Thomas Houstona', 'LB', '6-2', 210, 'JR', 'Roswell', 'GA', 'HAMP', 5068),
+(70, 'Myles Ferrella', 'OL', '6-1', 341, 'FR', 'Atlanta', 'GA', 'HAMP', 5069),
+(71, 'Malik Mackeya', 'OL', '6-7', 344, 'SO', 'Atlanta', 'GA', 'HAMP', 5070),
+(72, 'Matthew Ahearna', 'OL', '6-4', 344, 'FR', 'Jacksonville', 'FL', 'HAMP', 5071),
+(73, 'Johnny Cruza', 'OL', '6-3', 287, 'SR', 'Yorktown', 'VA', 'HAMP', 5072),
+(75, 'Alex Hayesa', 'OL', '6-2', 279, 'JR', 'Ellenwood', 'GA', 'HAMP', 5073),
+(76, 'Donovan Johnsona', 'OL', '6-2', 318, 'SR', 'Clinton', 'MD', 'HAMP', 5074),
+(77, 'Keldrick Wilsona', 'OL', '6-4', 281, 'FR', 'Mount Ulla', 'NC', 'HAMP', 5075),
+(78, 'Devin Wiltza', 'OL', '6-7', 336, 'SR', 'New Orleans', 'LA', 'HAMP', 5076),
+(80, 'Noah Boonea', 'WR', '6-3', 189, 'FR', 'Virginia Beach', 'VA', 'HAMP', 5077),
+(82, 'Drakar Harvella', 'WR', '5-10', 205, 'SR', 'Dinwiddie', 'VA', 'HAMP', 5078),
+(83, 'Darius Hodgesa', 'WR', '5-8', 183, 'FR', 'Bronx', 'NY', 'HAMP', 5079),
+(84, 'Tai Jamesa', 'DB', '5-7', 172, 'FR', 'Rochester', 'NY', 'HAMP', 5080),
+(85, 'Marvin Fanfana', 'TE', '6-0', 249, 'SR', 'Brooklyn', 'NY', 'HAMP', 5081),
+(86, 'Jack Willenbrocka', 'TE', '6-1', 231, 'SR', 'West Chester', 'PA', 'HAMP', 5082),
+(87, 'Kentrell Richarda', 'TE', '6-2', 242, 'JR', 'Cleveland', 'OH', 'HAMP', 5083),
+(88, 'Tylon Pattersona', 'WR', '6-4', 221, 'FR', 'Covington', 'GA', 'HAMP', 5084),
+(90, 'Derrick Morelanda', 'DL', '6-2', 316, 'FR', 'Mount Ulla', 'NC', 'HAMP', 5085),
+(92, 'Tyler Holmesa', 'DL', '6-2', 297, 'JR', 'Garland', 'TX', 'HAMP', 5086),
+(93, 'Omar Smitha', 'DL', '6-3', 225, 'FR', 'Wendell', 'NC', 'HAMP', 5087),
+(94, 'Davonte'' Spruilla', 'DE', '6-3', 222, 'SO', 'Plymouth', 'NC', 'HAMP', 5088),
+(95, 'Isaiah Timmonsa', 'DE', '6-1', 245, 'FR', 'Richmond', 'VA', 'HAMP', 5089),
+(96, 'Will Foxxa', 'OL', '6-2', 302, 'SR', 'Greensboro', 'NC', 'HAMP', 5090),
+(97, 'Desmond Sturdivanta', 'DL', '6-1', 286, 'SO', 'Greensboro', 'NC', 'HAMP', 5091),
+(98, 'Darius Commissionga', 'DL', '6-2', 305, 'JR', 'District Heights', 'MD', 'HAMP', 5092),
+(99, 'Keenan Marra', 'DL', '6-1', 282, 'FR', 'Atlanta', 'GA', 'HAMP', 5093);
+
+--
+-- Triggers `hamp`
+--
+DELIMITER $$
+CREATE TRIGGER `player_hamp` AFTER INSERT ON `hamp`
+ FOR EACH ROW BEGIN
+	INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES ( NEW.No, NEW.Name, NEW.Pos, NEW.Ht, NEW.Wt, NEW.Class, NEW.Hometown , NEW.State , NEW.Team, NEW.UID );
+END
+$$
+DELIMITER ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `LB`
 --
 
 CREATE TABLE IF NOT EXISTS `LB` (
@@ -349,7 +478,7 @@ CREATE TABLE IF NOT EXISTS `LB` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `LB`
+-- Dumping data for table `LB`
 --
 
 INSERT INTO `LB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -412,7 +541,7 @@ INSERT INTO `LB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `lib`
+-- Table structure for table `lib`
 --
 
 CREATE TABLE IF NOT EXISTS `lib` (
@@ -423,110 +552,123 @@ CREATE TABLE IF NOT EXISTS `lib` (
   `Wt` int(11) DEFAULT NULL,
   `Class` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
   `Hometown` varchar(18) CHARACTER SET utf8 DEFAULT NULL,
-  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL
+  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Team` varchar(3) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `UID` varchar(5) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `lib`
+-- Dumping data for table `lib`
 --
 
-INSERT INTO `lib` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`) VALUES
-(1, 'DeCarlo Hamiltona', 'DT', '6-3', 335, 'FR', 'Plantation', 'FL'),
-(1, 'Zac Parkera', 'WR', '5-9', 185, 'SR', 'Reston', 'VA'),
-(2, 'Jeremy Petersa', 'CB', '5-10', 190, 'SO', 'Green Cove Springs', 'FL'),
-(3, 'Rion Davisa', 'S', '6-0', 190, 'FR', 'Hopkins', 'SC'),
-(3, 'Stephon Mashaa', 'QB', '6-1', 205, 'JR', 'Marietta', 'GA'),
-(4, 'Jaylyn McKinneya', 'LB', '6-0', 225, 'FR', 'Lake Wales', 'FL'),
-(5, 'Lucas Ironsa', 'LB', '6-0', 215, 'SO', 'Fort Lauderdale', 'FL'),
-(6, 'Tyrin Hollowaya', 'CB', '6-0', 195, 'JR', 'Humble', 'TX'),
-(7, 'Ceneca Espinoza Jr.a', 'S', '6-1', 200, 'FR', 'Arlington', 'VA'),
-(7, 'Damian Kinga', 'WR', '5-11', 175, 'SO', '--', '--'),
-(8, 'Jimmy Faulksa', 'CB', '6-1', 175, 'FR', '--', '--'),
-(8, 'Dante Shellsa', 'WR', '6-1', 180, 'SR', 'Camden', 'DE'),
-(9, 'Nick Newmana', 'LB', '6-4', 215, 'SR', 'Gainesville', 'VA'),
-(10, 'Alex Proberta', 'PK', '5-9', 170, 'FR', 'Andover', 'MN'),
-(11, 'Antonio Gandy-Goldena', 'WR', '6-4', 200, 'FR', 'Dallas', 'GA'),
-(11, 'Cole Gibsona', 'PK', '6-1', 235, 'FR', 'Chesapeake', 'VA'),
-(11, 'Lionell McConnella', 'WR', '5-10', 180, 'FR', 'Allen', 'TX'),
-(12, 'Stephen Calverta', 'QB', '6-2', 180, 'FR', 'Plantation', 'FL'),
-(12, 'Brandon Tillmona', 'S', '6-1', 210, 'FR', 'Lexington', 'SC'),
-(13, 'Korell Evansa', 'LB', '6-1', 215, 'FR', 'Hallandale', 'FL'),
-(13, 'Rudiger Yearicka', 'QB', '6-3', 195, 'FR', 'Matthews', 'NC'),
-(14, 'Cam Jacksona', 'CB', '6-1', 205, 'SO', 'Houston', 'TX'),
-(15, 'T.J. Tillerya', 'CB', '5-10', 195, 'SO', 'Charlottesville', 'VA'),
-(16, 'Spencer Jonesa', 'QB', '6-3', 185, 'FR', 'Nashville', 'TN'),
-(17, 'Kendall Couamina', 'TE', '6-2', 255, 'JR', 'Miami Lakes', 'FL'),
-(18, 'Josh Newmana', 'WR', '5-10', 190, 'FR', 'Gainesville', 'VA'),
-(19, 'Will Johnsona', 'TE', '6-6', 265, 'SR', 'Osseo', 'MN'),
-(20, 'Solomon McGintya', 'S', '6-2', 220, 'JR', 'Navasota', 'TX'),
-(21, 'Mitchell Lewisa', 'RB', '6-0', 220, 'FR', 'Auburn', 'AL'),
-(21, 'Wesley Scotta', 'CB', '5-10', 175, 'SR', 'Lorton', 'VA'),
-(22, 'Todd Macona', 'RB', '5-10', 210, 'JR', '--', '--'),
-(23, 'Frankie Hicksona', 'RB', '5-8', 200, 'FR', 'Lynchburg', 'VA'),
-(24, 'Malik Matthewsa', 'CB', '5-11', 185, 'FR', 'Jacksonville', 'FL'),
-(25, 'Aaron Glovera', 'LB', '5-11', 210, 'FR', 'Norfolk', 'VA'),
-(26, 'Joseph Dixona', 'RB', '5-9', 190, 'SO', '--', '--'),
-(27, 'Cameron Jonesa', 'CB', '5-11', 195, 'SO', 'New Orleans', 'LA'),
-(28, 'Corbin Jacksona', 'S', '6-0', 200, 'SO', 'Charlotte', 'NC'),
-(29, 'David Jeremaiha', 'WR', '0-0', 0, 'FR', '--', '--'),
-(30, 'Dexter Robbinsa', 'LB', '5-11', 225, 'SR', 'Sevierville', 'TN'),
-(31, 'Elijah Bentona', 'S', '6-1', 190, 'FR', 'Forest', 'VA'),
-(32, 'Jermaine Copelanda', 'CB', '5-9', 190, 'FR', 'Farmville', 'VA'),
-(33, 'Didier Monciona', 'RB', '5-8', 205, 'JR', 'MANSFIELD', 'CT'),
-(34, 'Carrington Mosleya', 'RB', '5-11', 235, 'JR', 'Brookneal', 'VA'),
-(35, 'Trey Turnera', 'P', '5-11', 210, 'JR', 'Rome', 'GA'),
-(36, 'Thomas Kennedya', 'FB', '5-11', 240, 'JR', 'Roanoke', 'VA'),
-(38, 'Alpha Jalloha', 'S', '6-1', 200, 'SR', 'New Carrollton', 'MD'),
-(39, 'Chris Turnera', 'CB', '6-3', 175, 'SO', 'Columbia', 'SC'),
-(40, 'Zac Foutza', 'TE', '6-4', 250, 'FR', 'Roanoke', 'VA'),
-(42, 'Erwin Dessourcesa', 'DE', '6-1', 235, 'SR', 'Randolph', 'MA'),
-(43, 'Benjamin Alexandera', 'S', '6-2', 175, 'FR', 'Spring Mills', 'PA'),
-(44, 'Dia''Vante Browna', 'DE', '6-2', 245, 'JR', 'Greensboro', 'NC'),
-(47, 'Ben Thomasa', 'DL', '6-2', 245, 'JR', 'Greenwood', 'SC'),
-(48, 'David Kinga', 'LB', '6-1', 230, 'SO', 'Stuarts Draft', 'VA'),
-(49, 'Jason Pittsa', 'LB', '6-0', 200, 'JR', 'Detroit', 'MI'),
-(51, 'Trystin Knowlanda', 'OL', '6-6', 275, 'FR', 'Manchester', 'CT'),
-(52, 'Michael Andersona', 'DE', '6-3', 220, 'FR', 'Fort Lauderdale', 'FL'),
-(53, 'Joshua Carlina', 'OL', '6-3', 245, 'FR', 'Forest', 'VA'),
-(54, 'Juwan Wellsa', 'DE', '6-2', 255, 'SO', 'Dublin', 'GA'),
-(55, 'Tolen Averya', 'DE', '6-4', 270, 'SO', 'Galveston', 'TX'),
-(56, 'Dontae Duffa', 'OL', '6-1', 310, 'FR', 'Mesquite', 'TX'),
-(57, 'Hunter Winsteada', 'LS', '6-0', 240, 'JR', 'Raleigh', 'NC'),
-(59, 'Damian Boundsa', 'OL', '6-2', 260, 'FR', 'Ellenwood', 'GA'),
-(63, 'Aidan Burroughsa', 'OL', '6-3', 275, 'FR', 'Norfolk', 'NE'),
-(65, 'Thomas Sargeanta', 'OL', '6-3', 270, 'FR', 'Mechanicsville', 'VA'),
-(66, 'Ethan Crawforda', 'OL', '6-3', 295, 'FR', 'Augusta', 'GA'),
-(67, 'Michael Hendermana', 'OL', '6-3', 300, 'JR', 'Atlanta', 'GA'),
-(68, 'Tanner Hartmana', 'OL', '6-4', 280, 'JR', 'Christiansburg', 'VA'),
-(69, 'Devin Crispa', 'OL', '6-1', 295, 'SR', 'Oklahoma City', 'OK'),
-(70, 'Lucas Holdera', 'OL', '6-4', 295, 'JR', 'Hillsville', 'VA'),
-(73, 'Sam Isaacsona', 'OL', '6-6', 305, 'FR', 'Lynchburg', 'VA'),
-(74, 'Julio Lozanoa', 'OL', '6-4', 270, 'SO', 'Bellaire', 'TX'),
-(75, 'Gregg Storeya', 'DL', '6-5', 345, 'SO', 'Cary', 'NC'),
-(76, 'JaRon Greenea', 'DT', '6-2', 310, 'SR', 'Beaumont', 'TX'),
-(77, 'James Passmorea', 'OL', '6-6', 295, 'SO', 'Dallas', 'NC'),
-(77, 'Daniel Zapataa', 'OL', '6-2', 255, 'FR', 'Guttenberg', 'NJ'),
-(78, 'Ernst Andersena', 'OL', '6-7', 300, 'FR', '--', '--'),
-(79, 'Aharown Campbella', 'OL', '6-5', 355, 'SR', 'Teaneck', 'NJ'),
-(80, 'Joshua Cruza', 'WR', '6-1', 185, 'FR', 'Charlotte', 'NC'),
-(81, 'Marquis Fitzgeralda', 'WR', '6-1', 190, 'JR', 'Farmville', 'VA'),
-(82, 'B.J. Farrowa', 'WR', '6-2', 190, 'SO', 'Lynchburg', 'VA'),
-(83, 'Josh Tullya', 'WR', '5-10', 175, 'FR', 'Vancouver', 'WA'),
-(85, 'Kyle Carringtona', 'WR', '6-1', 190, 'FR', 'Toms River', 'NJ'),
-(87, 'Cephas Reddicka', 'WR', '5-8', 175, 'SO', 'Woodbridge', 'VA'),
-(88, 'Isaac Browna', 'WR', '6-3', 190, 'JR', 'Overton', 'NE'),
-(89, 'Canon Smitha', 'TE', '6-4', 255, 'SR', 'Hoover', 'AL'),
-(90, 'Will Browna', 'DL', '6-2', 300, 'SO', 'Texarkana', 'TX'),
-(91, 'Javon Fraziera', 'DE', '6-2', 245, 'FR', 'Stafford', 'VA'),
-(94, 'John Roughtona', 'DE', '6-3', 225, 'JR', '--', '--'),
-(95, 'Devin Fishera', 'DE', '6-1', 235, 'FR', 'Radford', 'VA'),
-(97, 'Aaron Wallera', 'DT', '6-3', 365, 'SR', 'Long Beach', 'CA'),
-(99, 'Ralfs Rusinsa', 'TE', '6-5', 295, 'FR', '--', '--');
+INSERT INTO `lib` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
+(1, 'DeCarlo Hamiltona', 'DT', '6-3', 335, 'FR', 'Plantation', 'FL', 'Lib', '3001'),
+(1, 'Zac Parkera', 'WR', '5-9', 185, 'SR', 'Reston', 'VA', 'Lib', '3002'),
+(2, 'Jeremy Petersa', 'CB', '5-10', 190, 'SO', 'Green Cove Springs', 'FL', 'Lib', '3003'),
+(3, 'Rion Davisa', 'S', '6-0', 190, 'FR', 'Hopkins', 'SC', 'Lib', '3004'),
+(3, 'Stephon Mashaa', 'QB', '6-1', 205, 'JR', 'Marietta', 'GA', 'Lib', '3005'),
+(4, 'Jaylyn McKinneya', 'LB', '6-0', 225, 'FR', 'Lake Wales', 'FL', 'Lib', '3006'),
+(5, 'Lucas Ironsa', 'LB', '6-0', 215, 'SO', 'Fort Lauderdale', 'FL', 'Lib', '3007'),
+(6, 'Tyrin Hollowaya', 'CB', '6-0', 195, 'JR', 'Humble', 'TX', 'Lib', '3008'),
+(7, 'Ceneca Espinoza Jr.a', 'S', '6-1', 200, 'FR', 'Arlington', 'VA', 'Lib', '3009'),
+(7, 'Damian Kinga', 'WR', '5-11', 175, 'SO', '--', '--', 'Lib', '3010'),
+(8, 'Jimmy Faulksa', 'CB', '6-1', 175, 'FR', '--', '--', 'Lib', '3011'),
+(8, 'Dante Shellsa', 'WR', '6-1', 180, 'SR', 'Camden', 'DE', 'Lib', '3012'),
+(9, 'Nick Newmana', 'LB', '6-4', 215, 'SR', 'Gainesville', 'VA', 'Lib', '3013'),
+(10, 'Alex Proberta', 'PK', '5-9', 170, 'FR', 'Andover', 'MN', 'Lib', '3014'),
+(11, 'Antonio Gandy-Goldena', 'WR', '6-4', 200, 'FR', 'Dallas', 'GA', 'Lib', '3015'),
+(11, 'Cole Gibsona', 'PK', '6-1', 235, 'FR', 'Chesapeake', 'VA', 'Lib', '3016'),
+(11, 'Lionell McConnella', 'WR', '5-10', 180, 'FR', 'Allen', 'TX', 'Lib', '3017'),
+(12, 'Stephen Calverta', 'QB', '6-2', 180, 'FR', 'Plantation', 'FL', 'Lib', '3018'),
+(12, 'Brandon Tillmona', 'S', '6-1', 210, 'FR', 'Lexington', 'SC', 'Lib', '3019'),
+(13, 'Korell Evansa', 'LB', '6-1', 215, 'FR', 'Hallandale', 'FL', 'Lib', '3020'),
+(13, 'Rudiger Yearicka', 'QB', '6-3', 195, 'FR', 'Matthews', 'NC', 'Lib', '3021'),
+(14, 'Cam Jacksona', 'CB', '6-1', 205, 'SO', 'Houston', 'TX', 'Lib', '3022'),
+(15, 'T.J. Tillerya', 'CB', '5-10', 195, 'SO', 'Charlottesville', 'VA', 'Lib', '3023'),
+(16, 'Spencer Jonesa', 'QB', '6-3', 185, 'FR', 'Nashville', 'TN', 'Lib', '3024'),
+(17, 'Kendall Couamina', 'TE', '6-2', 255, 'JR', 'Miami Lakes', 'FL', 'Lib', '3025'),
+(18, 'Josh Newmana', 'WR', '5-10', 190, 'FR', 'Gainesville', 'VA', 'Lib', '3026'),
+(19, 'Will Johnsona', 'TE', '6-6', 265, 'SR', 'Osseo', 'MN', 'Lib', '3027'),
+(20, 'Solomon McGintya', 'S', '6-2', 220, 'JR', 'Navasota', 'TX', 'Lib', '3028'),
+(21, 'Mitchell Lewisa', 'RB', '6-0', 220, 'FR', 'Auburn', 'AL', 'Lib', '3029'),
+(21, 'Wesley Scotta', 'CB', '5-10', 175, 'SR', 'Lorton', 'VA', 'Lib', '3030'),
+(22, 'Todd Macona', 'RB', '5-10', 210, 'JR', '--', '--', 'Lib', '3031'),
+(23, 'Frankie Hicksona', 'RB', '5-8', 200, 'FR', 'Lynchburg', 'VA', 'Lib', '3032'),
+(24, 'Malik Matthewsa', 'CB', '5-11', 185, 'FR', 'Jacksonville', 'FL', 'Lib', '3033'),
+(25, 'Aaron Glovera', 'LB', '5-11', 210, 'FR', 'Norfolk', 'VA', 'Lib', '3034'),
+(26, 'Joseph Dixona', 'RB', '5-9', 190, 'SO', '--', '--', 'Lib', '3035'),
+(27, 'Cameron Jonesa', 'CB', '5-11', 195, 'SO', 'New Orleans', 'LA', 'Lib', '3036'),
+(28, 'Corbin Jacksona', 'S', '6-0', 200, 'SO', 'Charlotte', 'NC', 'Lib', '3037'),
+(29, 'David Jeremaiha', 'WR', '0-0', 0, 'FR', '--', '--', 'Lib', '3038'),
+(30, 'Dexter Robbinsa', 'LB', '5-11', 225, 'SR', 'Sevierville', 'TN', 'Lib', '3039'),
+(31, 'Elijah Bentona', 'S', '6-1', 190, 'FR', 'Forest', 'VA', 'Lib', '3040'),
+(32, 'Jermaine Copelanda', 'CB', '5-9', 190, 'FR', 'Farmville', 'VA', 'Lib', '3041'),
+(33, 'Didier Monciona', 'RB', '5-8', 205, 'JR', 'MANSFIELD', 'CT', 'Lib', '3042'),
+(34, 'Carrington Mosleya', 'RB', '5-11', 235, 'JR', 'Brookneal', 'VA', 'Lib', '3043'),
+(35, 'Trey Turnera', 'P', '5-11', 210, 'JR', 'Rome', 'GA', 'Lib', '3044'),
+(36, 'Thomas Kennedya', 'FB', '5-11', 240, 'JR', 'Roanoke', 'VA', 'Lib', '3045'),
+(38, 'Alpha Jalloha', 'S', '6-1', 200, 'SR', 'New Carrollton', 'MD', 'Lib', '3046'),
+(39, 'Chris Turnera', 'CB', '6-3', 175, 'SO', 'Columbia', 'SC', 'Lib', '3047'),
+(40, 'Zac Foutza', 'TE', '6-4', 250, 'FR', 'Roanoke', 'VA', 'Lib', '3048'),
+(42, 'Erwin Dessourcesa', 'DE', '6-1', 235, 'SR', 'Randolph', 'MA', 'Lib', '3049'),
+(43, 'Benjamin Alexandera', 'S', '6-2', 175, 'FR', 'Spring Mills', 'PA', 'Lib', '3050'),
+(44, 'Dia''Vante Browna', 'DE', '6-2', 245, 'JR', 'Greensboro', 'NC', 'Lib', '3051'),
+(47, 'Ben Thomasa', 'DL', '6-2', 245, 'JR', 'Greenwood', 'SC', 'Lib', '3052'),
+(48, 'David Kinga', 'LB', '6-1', 230, 'SO', 'Stuarts Draft', 'VA', 'Lib', '3053'),
+(49, 'Jason Pittsa', 'LB', '6-0', 200, 'JR', 'Detroit', 'MI', 'Lib', '3054'),
+(51, 'Trystin Knowlanda', 'OL', '6-6', 275, 'FR', 'Manchester', 'CT', 'Lib', '3055'),
+(52, 'Michael Andersona', 'DE', '6-3', 220, 'FR', 'Fort Lauderdale', 'FL', 'Lib', '3056'),
+(53, 'Joshua Carlina', 'OL', '6-3', 245, 'FR', 'Forest', 'VA', 'Lib', '3057'),
+(54, 'Juwan Wellsa', 'DE', '6-2', 255, 'SO', 'Dublin', 'GA', 'Lib', '3058'),
+(55, 'Tolen Averya', 'DE', '6-4', 270, 'SO', 'Galveston', 'TX', 'Lib', '3059'),
+(56, 'Dontae Duffa', 'OL', '6-1', 310, 'FR', 'Mesquite', 'TX', 'Lib', '3060'),
+(57, 'Hunter Winsteada', 'LS', '6-0', 240, 'JR', 'Raleigh', 'NC', 'Lib', '3061'),
+(59, 'Damian Boundsa', 'OL', '6-2', 260, 'FR', 'Ellenwood', 'GA', 'Lib', '3062'),
+(63, 'Aidan Burroughsa', 'OL', '6-3', 275, 'FR', 'Norfolk', 'NE', 'Lib', '3063'),
+(65, 'Thomas Sargeanta', 'OL', '6-3', 270, 'FR', 'Mechanicsville', 'VA', 'Lib', '3064'),
+(66, 'Ethan Crawforda', 'OL', '6-3', 295, 'FR', 'Augusta', 'GA', 'Lib', '3065'),
+(67, 'Michael Hendermana', 'OL', '6-3', 300, 'JR', 'Atlanta', 'GA', 'Lib', '3066'),
+(68, 'Tanner Hartmana', 'OL', '6-4', 280, 'JR', 'Christiansburg', 'VA', 'Lib', '3067'),
+(69, 'Devin Crispa', 'OL', '6-1', 295, 'SR', 'Oklahoma City', 'OK', 'Lib', '3068'),
+(70, 'Lucas Holdera', 'OL', '6-4', 295, 'JR', 'Hillsville', 'VA', 'Lib', '3069'),
+(73, 'Sam Isaacsona', 'OL', '6-6', 305, 'FR', 'Lynchburg', 'VA', 'Lib', '3070'),
+(74, 'Julio Lozanoa', 'OL', '6-4', 270, 'SO', 'Bellaire', 'TX', 'Lib', '3071'),
+(75, 'Gregg Storeya', 'DL', '6-5', 345, 'SO', 'Cary', 'NC', 'Lib', '3072'),
+(76, 'JaRon Greenea', 'DT', '6-2', 310, 'SR', 'Beaumont', 'TX', 'Lib', '3073'),
+(77, 'James Passmorea', 'OL', '6-6', 295, 'SO', 'Dallas', 'NC', 'Lib', '3074'),
+(77, 'Daniel Zapataa', 'OL', '6-2', 255, 'FR', 'Guttenberg', 'NJ', 'Lib', '3075'),
+(78, 'Ernst Andersena', 'OL', '6-7', 300, 'FR', '--', '--', 'Lib', '3076'),
+(79, 'Aharown Campbella', 'OL', '6-5', 355, 'SR', 'Teaneck', 'NJ', 'Lib', '3077'),
+(80, 'Joshua Cruza', 'WR', '6-1', 185, 'FR', 'Charlotte', 'NC', 'Lib', '3078'),
+(81, 'Marquis Fitzgeralda', 'WR', '6-1', 190, 'JR', 'Farmville', 'VA', 'Lib', '3079'),
+(82, 'B.J. Farrowa', 'WR', '6-2', 190, 'SO', 'Lynchburg', 'VA', 'Lib', '3080'),
+(83, 'Josh Tullya', 'WR', '5-10', 175, 'FR', 'Vancouver', 'WA', 'Lib', '3081'),
+(85, 'Kyle Carringtona', 'WR', '6-1', 190, 'FR', 'Toms River', 'NJ', 'Lib', '3082'),
+(87, 'Cephas Reddicka', 'WR', '5-8', 175, 'SO', 'Woodbridge', 'VA', 'Lib', '3083'),
+(88, 'Isaac Browna', 'WR', '6-3', 190, 'JR', 'Overton', 'NE', 'Lib', '3084'),
+(89, 'Canon Smitha', 'TE', '6-4', 255, 'SR', 'Hoover', 'AL', 'Lib', '3085'),
+(90, 'Will Browna', 'DL', '6-2', 300, 'SO', 'Texarkana', 'TX', 'Lib', '3086'),
+(91, 'Javon Fraziera', 'DE', '6-2', 245, 'FR', 'Stafford', 'VA', 'Lib', '3087'),
+(94, 'John Roughtona', 'DE', '6-3', 225, 'JR', '--', '--', 'Lib', '3088'),
+(95, 'Devin Fishera', 'DE', '6-1', 235, 'FR', 'Radford', 'VA', 'Lib', '3089'),
+(97, 'Aaron Wallera', 'DT', '6-3', 365, 'SR', 'Long Beach', 'CA', 'Lib', '3090'),
+(99, 'Ralfs Rusinsa', 'TE', '6-5', 295, 'FR', '--', '--', 'Lib', '3091');
+
+--
+-- Triggers `lib`
+--
+DELIMITER $$
+CREATE TRIGGER `player_lib` AFTER INSERT ON `lib`
+ FOR EACH ROW BEGIN
+	INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES ( NEW.No, NEW.Name, NEW.Pos, NEW.Ht, NEW.Wt, NEW.Class, NEW.Hometown , NEW.State , NEW.Team, NEW.UID );
+END
+$$
+DELIMITER ;
 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `LS`
+-- Table structure for table `LS`
 --
 
 CREATE TABLE IF NOT EXISTS `LS` (
@@ -542,7 +684,7 @@ CREATE TABLE IF NOT EXISTS `LS` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `LS`
+-- Dumping data for table `LS`
 --
 
 INSERT INTO `LS` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -556,7 +698,7 @@ INSERT INTO `LS` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `match_2016`
+-- Table structure for table `match_2016`
 --
 
 CREATE TABLE IF NOT EXISTS `match_2016` (
@@ -574,7 +716,7 @@ CREATE TABLE IF NOT EXISTS `match_2016` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `match_2016`
+-- Dumping data for table `match_2016`
 --
 
 INSERT INTO `match_2016` (`Week`, `Date`, `Team_1`, `Team_1_id`, `Team_2`, `Team_2_id`, `Score_1`, `Score_2`, `P_L`, `Ru_L`, `Re_L`) VALUES
@@ -1411,7 +1553,7 @@ INSERT INTO `match_2016` (`Week`, `Date`, `Team_1`, `Team_1_id`, `Team_2`, `Team
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `nor`
+-- Table structure for table `nor`
 --
 
 CREATE TABLE IF NOT EXISTS `nor` (
@@ -1422,107 +1564,274 @@ CREATE TABLE IF NOT EXISTS `nor` (
   `Wt` int(11) DEFAULT NULL,
   `Class` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
   `Hometown` varchar(18) CHARACTER SET utf8 DEFAULT NULL,
-  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL
+  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Team` varchar(3) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `UID` varchar(5) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `nor`
+-- Dumping data for table `nor`
 --
 
-INSERT INTO `nor` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`) VALUES
-(2, 'Donte'' Hayneswortha', 'DB', '5-11', 195, 'SR', 'Mechanicsville', 'VA'),
-(3, 'Gerard Johnsona', 'RB', '5-9', 205, 'SR', 'Richmond', 'VA'),
-(4, 'James Churcha', 'WR', '6-1', 200, 'SR', 'Virginia Beach', 'VA'),
-(5, 'Marcus Taylora', 'WR', '5-8', 160, 'SO', 'Highland Springs', 'VA'),
-(6, 'Tyre Givers-Wilsona', 'QB', '6-3', 200, 'FR', 'Chesapeake', 'VA'),
-(7, 'Greg Hankersona', 'QB', '6-1', 190, 'SR', 'Lauderdale Lakes', 'FL'),
-(8, 'Brandon Walkera', 'DB', '6-2', 205, 'SR', 'Chester', 'VA'),
-(9, 'Harry Freemana', 'DB', '6-1', 170, 'JR', 'Norfolk', 'VA'),
-(10, 'Sandy Chapmana', 'DB', '5-10', 180, 'SR', 'Raleigh', 'NC'),
-(11, 'Anthony Smitha', 'LB', '6-1', 230, 'JR', 'Norfolk', 'VA'),
-(12, 'Terrell Reida', 'DL', '6-2', 245, 'SR', 'Washington', 'DC'),
-(13, 'Cameron Maroufa', 'PK', '5-9', 160, 'SR', 'Woodbridge', 'VA'),
-(15, 'Joel Caleba', 'WR', '6-2', 210, 'SR', 'Richmond', 'VA'),
-(16, 'Kinan Humphreya', 'WR', '5-9', 180, 'FR', 'Mcdonough', 'GA'),
-(17, 'Rodney Smitha', 'DL', '6-3', 235, 'SR', 'Pembroke Pines', 'FL'),
-(18, 'Bobby Pricea', 'DB', '6-3', 180, 'FR', 'Virginia Beach', 'VA'),
-(19, 'Johnathan Spencera', 'WR', '5-11', 180, 'FR', 'Apex', 'NC'),
-(20, 'Malik Buttsa', 'RB', '5-9', 180, 'FR', 'Virginia Beach', 'VA'),
-(21, 'George Waheea', 'WR', '6-1', 180, 'FR', 'Norfolk', 'VA'),
-(22, 'Quintreil Chunga', 'RB', '6-1', 220, 'SO', 'Midlothian', 'VA'),
-(23, 'Shakeem Copelanda', 'RB', '5-9', 205, 'JR', 'Woodbridge', 'VA'),
-(24, 'Jay Andersona', 'DL', '6-1', 215, 'SR', 'Richmond', 'VA'),
-(25, 'D.J. Cooka', 'WR', '6-1', 195, 'FR', 'Richmond', 'VA'),
-(26, 'Leroy Parkera', 'DB', '6-1', 195, 'SR', 'Miami', 'FL'),
-(27, 'Aaron Chandlera', 'DB', '5-9', 175, 'SO', 'Norfolk', 'VA'),
-(28, 'Edwin Leea', 'DB', '6-1', 185, 'FR', 'Brooklyn', 'NY'),
-(29, 'J.T. Waheea', 'DB', '5-11', 170, 'FR', 'Norfolk', 'VA'),
-(30, 'Aaron Savagea', 'RB', '5-9', 210, 'SO', 'Baltimore', 'MD'),
-(31, 'Kyle Archiea', 'LB', '6-1', 220, 'JR', 'Virginia Beach', 'VA'),
-(32, 'Larry Bishopa', 'RB', '5-11', 230, 'JR', 'Roanoke', 'VA'),
-(33, 'Joseph Atkinsa', 'RB', '5-10', 195, 'FR', 'Virginia Beach', 'VA'),
-(34, 'Dimitri McKaya', 'FB', '5-11', 235, 'SO', 'Chesapeake', 'VA'),
-(35, 'Audrex Harrisa', 'DB', '6-1', 190, 'JR', 'Chesapeake', 'VA'),
-(36, 'Ebenezer Agyemang-Kusia', 'DB', '5-11', 185, 'SO', 'Triangle', 'VA'),
-(37, 'Hakiem Swanna', 'DB', '5-11', 180, 'JR', 'Portsmouth', 'VA'),
-(38, 'Thomas Stingera', 'DB', '6-1', 150, 'JR', 'Leesburg', 'VA'),
-(39, 'Bo Lomaxa', 'PK', '5-11', 220, 'SO', 'Hampton', 'VA'),
-(40, 'Nigel Chavisa', 'LB', '6-2', 220, 'FR', 'Richmond', 'VA'),
-(41, 'Hadji Gaylorda', 'DL', '6-3', 265, 'SO', 'Norfolk', 'VA'),
-(43, 'Roy Adamsa', 'RB', '5-9', 195, 'SO', 'Richmond', 'VA'),
-(44, 'Conley Smitha', 'FB', '5-11', 250, 'SR', 'Chesapeake', 'VA'),
-(45, 'Jeff Leea', 'TE', '6-3', 240, 'FR', 'North Chesterfield', 'VA'),
-(46, 'Raynard Revelsa', 'LB', '6-1', 235, 'SR', 'Richmond', 'VA'),
-(47, 'Damiyan Caldwella', 'LB', '6-1', 195, 'JR', 'Norfolk', 'VA'),
-(48, 'Tim Flooda', 'RB', '5-9', 215, 'JR', 'Newport News', 'VA'),
-(49, 'Malik Dixona', 'DB', '5-8', 160, 'FR', 'Newport News', 'VA'),
-(50, 'Jonathan Okafora', 'DL', '6-2', 220, 'JR', 'Woodbridge', 'VA'),
-(51, 'Kyron Spellera', 'LB', '6-1', 235, 'FR', 'Virginia Beach', 'VA'),
-(52, 'Louis Humphreya', 'OL', '6-1', 290, 'SR', 'Chester', 'VA'),
-(54, 'T.C. Livingstona', 'LB', '6-3', 200, 'JR', 'Suffolk', 'VA'),
-(55, 'Antwan Whitea', 'LB', '6-1', 200, 'JR', 'Chesapeake', 'VA'),
-(56, 'Cephas Hardena', 'LB', '6-1', 215, 'FR', 'Goochland', 'VA'),
-(57, 'Lamonte Clarka', 'OL', '6-3', 310, 'SR', 'Washington', 'DC'),
-(58, 'Daniel Oladimejia', 'OL', '6-2', 295, 'SR', 'Upper Marlboro', 'MD'),
-(59, 'Jordan Crocketta', 'OL', '6-5', 325, 'FR', 'Max Meadows', 'VA'),
-(60, 'Wes Jonesa', 'OL', '6-1', 270, 'SO', 'Wilmington', 'DE'),
-(61, 'Anthonee Moorea', 'OL', '6-2', 270, 'FR', 'Buckingham', 'VA'),
-(62, 'Dominic Jordana', 'OL', '6-2', 280, 'FR', 'Chesapeake', 'VA'),
-(63, 'Jermaine Sumnera', 'OL', '6-4', 270, 'FR', 'Virginia Beach', 'VA'),
-(65, 'Craig Rodwella', 'OL', '6-4', 270, 'FR', 'Richmond', 'VA'),
-(66, 'Taro Lipscomba', 'OL', '6-3', 290, 'FR', 'Washington', 'DC'),
-(69, 'Jake Mazgajewskia', 'OL', '6-6', 290, 'JR', 'Hampton', 'VA'),
-(70, 'Deshaywn Middletona', 'DL', '6-2', 305, 'SO', 'Winston-salem', 'NC'),
-(71, 'Jake O''Sullivana', 'OL', '6-4', 290, 'FR', 'Chesapeake', 'VA'),
-(75, 'Kevin Statona', 'OL', '6-6', 320, 'FR', 'Chesapeake', 'VA'),
-(76, 'Mike Carneya', 'OL', '6-5', 340, 'FR', 'Norfolk', 'VA'),
-(77, 'Kenneth Kirbya', 'OL', '6-5', 275, 'FR', 'Newport News', 'VA'),
-(79, 'Josh Culbersona', 'DL', '6-5', 285, 'FR', 'Chesapeake', 'VA'),
-(80, 'Antonio Perrymana', 'WR', '6-2', 180, 'JR', 'Jacksonville', 'FL'),
-(81, 'Demetreus Ferebeea', 'TE', '6-4', 235, 'JR', 'Roanoke', 'VA'),
-(82, 'Torian Hendersona', 'TE', '6-4', 240, 'SR', 'Silver Spring', 'MD'),
-(83, 'Justin Smitha', 'WR', '6-2', 165, 'FR', 'Richmond', 'VA'),
-(84, 'Chuma Awannaa', 'WR', '6-3', 205, 'FR', 'Chesapeake', 'VA'),
-(85, 'Floyd Jonesa', 'WR', '5-9', 170, 'SO', 'Hampton', 'VA'),
-(86, 'TreVaughn Sneeda', 'WR', '5-10', 185, 'FR', 'Portsmouth', 'VA'),
-(87, 'Michael Curtisa', 'WR', '6-1', 165, 'SO', 'Newport News', 'VA'),
-(88, 'Marcque Ellingtona', 'WR', '6-5', 190, 'FR', 'Neptune', 'NJ'),
-(89, 'Anthony Williamsa', 'TE', '6-3', 210, 'FR', 'Norfolk', 'VA'),
-(90, 'Walter Brantleya', 'DL', '6-2', 345, 'SO', 'Hampton', 'VA'),
-(91, 'James Byersa', 'LB', '6-3', 200, 'SO', 'Petersburg', 'VA'),
-(92, 'James Chapmana', 'LB', '6-1', 225, 'FR', 'Portsmouth', 'VA'),
-(93, 'Ray Prosisea', 'DL', '6-1', 265, 'SR', 'Petersburg', 'VA'),
-(94, 'Josh Bryanta', 'DL', '6-5', 265, 'FR', 'Ellicott City', 'MD'),
-(95, 'Chris Leea', 'DL', '6-3', 280, 'JR', 'Woodbridge', 'VA'),
-(96, 'Ian Williamsa', 'DL', '6-2', 265, 'FR', 'Richmond', 'VA'),
-(97, 'Trey Millsa', 'DL', '6-2', 290, 'SR', 'Chesapeake', 'VA'),
-(98, 'Cornelius Tylera', 'DL', '6-3', 295, 'SO', 'Richmond', 'VA'),
-(99, 'Kevin Williamsa', 'DL', '6-4', 310, 'SR', 'Bradenton', 'FL');
+INSERT INTO `nor` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
+(2, 'Donte'' Hayneswortha', 'DB', '5-11', 195, 'SR', 'Mechanicsville', 'VA', 'nor', '4001'),
+(3, 'Gerard Johnsona', 'RB', '5-9', 205, 'SR', 'Richmond', 'VA', 'nor', '4002'),
+(4, 'James Churcha', 'WR', '6-1', 200, 'SR', 'Virginia Beach', 'VA', 'nor', '4003'),
+(5, 'Marcus Taylora', 'WR', '5-8', 160, 'SO', 'Highland Springs', 'VA', 'nor', '4004'),
+(6, 'Tyre Givers-Wilsona', 'QB', '6-3', 200, 'FR', 'Chesapeake', 'VA', 'nor', '4005'),
+(7, 'Greg Hankersona', 'QB', '6-1', 190, 'SR', 'Lauderdale Lakes', 'FL', 'nor', '4006'),
+(8, 'Brandon Walkera', 'DB', '6-2', 205, 'SR', 'Chester', 'VA', 'nor', '4007'),
+(9, 'Harry Freemana', 'DB', '6-1', 170, 'JR', 'Norfolk', 'VA', 'nor', '4008'),
+(10, 'Sandy Chapmana', 'DB', '5-10', 180, 'SR', 'Raleigh', 'NC', 'nor', '4009'),
+(11, 'Anthony Smitha', 'LB', '6-1', 230, 'JR', 'Norfolk', 'VA', 'nor', '4010'),
+(12, 'Terrell Reida', 'DL', '6-2', 245, 'SR', 'Washington', 'DC', 'nor', '4011'),
+(13, 'Cameron Maroufa', 'PK', '5-9', 160, 'SR', 'Woodbridge', 'VA', 'nor', '4012'),
+(15, 'Joel Caleba', 'WR', '6-2', 210, 'SR', 'Richmond', 'VA', 'nor', '4013'),
+(16, 'Kinan Humphreya', 'WR', '5-9', 180, 'FR', 'Mcdonough', 'GA', 'nor', '4014'),
+(17, 'Rodney Smitha', 'DL', '6-3', 235, 'SR', 'Pembroke Pines', 'FL', 'nor', '4015'),
+(18, 'Bobby Pricea', 'DB', '6-3', 180, 'FR', 'Virginia Beach', 'VA', 'nor', '4016'),
+(19, 'Johnathan Spencera', 'WR', '5-11', 180, 'FR', 'Apex', 'NC', 'nor', '4017'),
+(20, 'Malik Buttsa', 'RB', '5-9', 180, 'FR', 'Virginia Beach', 'VA', 'nor', '4018'),
+(21, 'George Waheea', 'WR', '6-1', 180, 'FR', 'Norfolk', 'VA', 'nor', '4019'),
+(22, 'Quintreil Chunga', 'RB', '6-1', 220, 'SO', 'Midlothian', 'VA', 'nor', '4020'),
+(23, 'Shakeem Copelanda', 'RB', '5-9', 205, 'JR', 'Woodbridge', 'VA', 'nor', '4021'),
+(24, 'Jay Andersona', 'DL', '6-1', 215, 'SR', 'Richmond', 'VA', 'nor', '4022'),
+(25, 'D.J. Cooka', 'WR', '6-1', 195, 'FR', 'Richmond', 'VA', 'nor', '4023'),
+(26, 'Leroy Parkera', 'DB', '6-1', 195, 'SR', 'Miami', 'FL', 'nor', '4024'),
+(27, 'Aaron Chandlera', 'DB', '5-9', 175, 'SO', 'Norfolk', 'VA', 'nor', '4025'),
+(28, 'Edwin Leea', 'DB', '6-1', 185, 'FR', 'Brooklyn', 'NY', 'nor', '4026'),
+(29, 'J.T. Waheea', 'DB', '5-11', 170, 'FR', 'Norfolk', 'VA', 'nor', '4027'),
+(30, 'Aaron Savagea', 'RB', '5-9', 210, 'SO', 'Baltimore', 'MD', 'nor', '4028'),
+(31, 'Kyle Archiea', 'LB', '6-1', 220, 'JR', 'Virginia Beach', 'VA', 'nor', '4029'),
+(32, 'Larry Bishopa', 'RB', '5-11', 230, 'JR', 'Roanoke', 'VA', 'nor', '4030'),
+(33, 'Joseph Atkinsa', 'RB', '5-10', 195, 'FR', 'Virginia Beach', 'VA', 'nor', '4031'),
+(34, 'Dimitri McKaya', 'FB', '5-11', 235, 'SO', 'Chesapeake', 'VA', 'nor', '4032'),
+(35, 'Audrex Harrisa', 'DB', '6-1', 190, 'JR', 'Chesapeake', 'VA', 'nor', '4033'),
+(36, 'Ebenezer Agyemang-Kusia', 'DB', '5-11', 185, 'SO', 'Triangle', 'VA', 'nor', '4034'),
+(37, 'Hakiem Swanna', 'DB', '5-11', 180, 'JR', 'Portsmouth', 'VA', 'nor', '4035'),
+(38, 'Thomas Stingera', 'DB', '6-1', 150, 'JR', 'Leesburg', 'VA', 'nor', '4036'),
+(39, 'Bo Lomaxa', 'PK', '5-11', 220, 'SO', 'Hampton', 'VA', 'nor', '4037'),
+(40, 'Nigel Chavisa', 'LB', '6-2', 220, 'FR', 'Richmond', 'VA', 'nor', '4038'),
+(41, 'Hadji Gaylorda', 'DL', '6-3', 265, 'SO', 'Norfolk', 'VA', 'nor', '4039'),
+(43, 'Roy Adamsa', 'RB', '5-9', 195, 'SO', 'Richmond', 'VA', 'nor', '4040'),
+(44, 'Conley Smitha', 'FB', '5-11', 250, 'SR', 'Chesapeake', 'VA', 'nor', '4041'),
+(45, 'Jeff Leea', 'TE', '6-3', 240, 'FR', 'North Chesterfield', 'VA', 'nor', '4042'),
+(46, 'Raynard Revelsa', 'LB', '6-1', 235, 'SR', 'Richmond', 'VA', 'nor', '4043'),
+(47, 'Damiyan Caldwella', 'LB', '6-1', 195, 'JR', 'Norfolk', 'VA', 'nor', '4044'),
+(48, 'Tim Flooda', 'RB', '5-9', 215, 'JR', 'Newport News', 'VA', 'nor', '4045'),
+(49, 'Malik Dixona', 'DB', '5-8', 160, 'FR', 'Newport News', 'VA', 'nor', '4046'),
+(50, 'Jonathan Okafora', 'DL', '6-2', 220, 'JR', 'Woodbridge', 'VA', 'nor', '4047'),
+(51, 'Kyron Spellera', 'LB', '6-1', 235, 'FR', 'Virginia Beach', 'VA', 'nor', '4048'),
+(52, 'Louis Humphreya', 'OL', '6-1', 290, 'SR', 'Chester', 'VA', 'nor', '4049'),
+(54, 'T.C. Livingstona', 'LB', '6-3', 200, 'JR', 'Suffolk', 'VA', 'nor', '4050'),
+(55, 'Antwan Whitea', 'LB', '6-1', 200, 'JR', 'Chesapeake', 'VA', 'nor', '4051'),
+(56, 'Cephas Hardena', 'LB', '6-1', 215, 'FR', 'Goochland', 'VA', 'nor', '4052'),
+(57, 'Lamonte Clarka', 'OL', '6-3', 310, 'SR', 'Washington', 'DC', 'nor', '4053'),
+(58, 'Daniel Oladimejia', 'OL', '6-2', 295, 'SR', 'Upper Marlboro', 'MD', 'nor', '4054'),
+(59, 'Jordan Crocketta', 'OL', '6-5', 325, 'FR', 'Max Meadows', 'VA', 'nor', '4055'),
+(60, 'Wes Jonesa', 'OL', '6-1', 270, 'SO', 'Wilmington', 'DE', 'nor', '4056'),
+(61, 'Anthonee Moorea', 'OL', '6-2', 270, 'FR', 'Buckingham', 'VA', 'nor', '4057'),
+(62, 'Dominic Jordana', 'OL', '6-2', 280, 'FR', 'Chesapeake', 'VA', 'nor', '4058'),
+(63, 'Jermaine Sumnera', 'OL', '6-4', 270, 'FR', 'Virginia Beach', 'VA', 'nor', '4059'),
+(65, 'Craig Rodwella', 'OL', '6-4', 270, 'FR', 'Richmond', 'VA', 'nor', '4060'),
+(66, 'Taro Lipscomba', 'OL', '6-3', 290, 'FR', 'Washington', 'DC', 'nor', '4061'),
+(69, 'Jake Mazgajewskia', 'OL', '6-6', 290, 'JR', 'Hampton', 'VA', 'nor', '4062'),
+(70, 'Deshaywn Middletona', 'DL', '6-2', 305, 'SO', 'Winston-salem', 'NC', 'nor', '4063'),
+(71, 'Jake O''Sullivana', 'OL', '6-4', 290, 'FR', 'Chesapeake', 'VA', 'nor', '4064'),
+(75, 'Kevin Statona', 'OL', '6-6', 320, 'FR', 'Chesapeake', 'VA', 'nor', '4065'),
+(76, 'Mike Carneya', 'OL', '6-5', 340, 'FR', 'Norfolk', 'VA', 'nor', '4066'),
+(77, 'Kenneth Kirbya', 'OL', '6-5', 275, 'FR', 'Newport News', 'VA', 'nor', '4067'),
+(79, 'Josh Culbersona', 'DL', '6-5', 285, 'FR', 'Chesapeake', 'VA', 'nor', '4068'),
+(80, 'Antonio Perrymana', 'WR', '6-2', 180, 'JR', 'Jacksonville', 'FL', 'nor', '4069'),
+(81, 'Demetreus Ferebeea', 'TE', '6-4', 235, 'JR', 'Roanoke', 'VA', 'nor', '4070'),
+(82, 'Torian Hendersona', 'TE', '6-4', 240, 'SR', 'Silver Spring', 'MD', 'nor', '4071'),
+(83, 'Justin Smitha', 'WR', '6-2', 165, 'FR', 'Richmond', 'VA', 'nor', '4072'),
+(84, 'Chuma Awannaa', 'WR', '6-3', 205, 'FR', 'Chesapeake', 'VA', 'nor', '4073'),
+(85, 'Floyd Jonesa', 'WR', '5-9', 170, 'SO', 'Hampton', 'VA', 'nor', '4074'),
+(86, 'TreVaughn Sneeda', 'WR', '5-10', 185, 'FR', 'Portsmouth', 'VA', 'nor', '4075'),
+(87, 'Michael Curtisa', 'WR', '6-1', 165, 'SO', 'Newport News', 'VA', 'nor', '4076'),
+(88, 'Marcque Ellingtona', 'WR', '6-5', 190, 'FR', 'Neptune', 'NJ', 'nor', '4077'),
+(89, 'Anthony Williamsa', 'TE', '6-3', 210, 'FR', 'Norfolk', 'VA', 'nor', '4078'),
+(90, 'Walter Brantleya', 'DL', '6-2', 345, 'SO', 'Hampton', 'VA', 'nor', '4079'),
+(91, 'James Byersa', 'LB', '6-3', 200, 'SO', 'Petersburg', 'VA', 'nor', '4080'),
+(92, 'James Chapmana', 'LB', '6-1', 225, 'FR', 'Portsmouth', 'VA', 'nor', '4081'),
+(93, 'Ray Prosisea', 'DL', '6-1', 265, 'SR', 'Petersburg', 'VA', 'nor', '4082'),
+(94, 'Josh Bryanta', 'DL', '6-5', 265, 'FR', 'Ellicott City', 'MD', 'nor', '4083'),
+(95, 'Chris Leea', 'DL', '6-3', 280, 'JR', 'Woodbridge', 'VA', 'nor', '4084'),
+(96, 'Ian Williamsa', 'DL', '6-2', 265, 'FR', 'Richmond', 'VA', 'nor', '4085'),
+(97, 'Trey Millsa', 'DL', '6-2', 290, 'SR', 'Chesapeake', 'VA', 'nor', '4086'),
+(98, 'Cornelius Tylera', 'DL', '6-3', 295, 'SO', 'Richmond', 'VA', 'nor', '4087'),
+(99, 'Kevin Williamsa', 'DL', '6-4', 310, 'SR', 'Bradenton', 'FL', 'nor', '4088');
+
+--
+-- Triggers `nor`
+--
+DELIMITER $$
+CREATE TRIGGER `player_nor` AFTER INSERT ON `nor`
+ FOR EACH ROW BEGIN
+INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES ( NEW.No, NEW.Name, NEW.Pos, NEW.Ht, NEW.Wt, NEW.Class, NEW.Hometown , NEW.State , NEW.Team, NEW.UID );
+END
+$$
+DELIMITER ;
 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `OL`
+-- Table structure for table `odu`
+--
+
+CREATE TABLE IF NOT EXISTS `odu` (
+  `No` int(11) DEFAULT NULL,
+  `Name` varchar(22) CHARACTER SET utf8 DEFAULT NULL,
+  `Pos` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Ht` varchar(4) CHARACTER SET utf8 DEFAULT NULL,
+  `Wt` int(11) DEFAULT NULL,
+  `Class` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Hometown` varchar(16) CHARACTER SET utf8 DEFAULT NULL,
+  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
+  `Team` varchar(3) CHARACTER SET utf8 DEFAULT NULL,
+  `UID` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `odu`
+--
+
+INSERT INTO `odu` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
+(1, 'Lawrence Holleya', 'CB', '6-2', 206, 'SO', 'Harrisburg', 'PA', 'ODU', 6001),
+(1, 'Melvin Vaughna', 'TE', '6-2', 259, 'JR', 'Chesapeake', 'VA', 'ODU', 6002),
+(2, 'Marques Littlea', 'WR', '5-9', 175, 'JR', 'Williamstown', 'NJ', 'ODU', 6003),
+(3, 'C.J. Bradshawa', 'S', '5-10', 189, 'SR', 'Kinston', 'NC', 'ODU', 6004),
+(3, 'Hasaan Pattersona', 'WR', '6-2', 197, 'FR', 'Atlanta', 'GA', 'ODU', 6005),
+(4, 'Kesean Stronga', 'WR', '5-10', 191, 'SO', 'Temple Hills', 'MD', 'ODU', 6006),
+(5, 'Jamez Brickhousea', 'CB', '5-10', 178, 'FR', 'Virginia Beach', 'VA', 'ODU', 6007),
+(6, 'Zach Pascala', 'WR', '6-2', 214, 'SR', 'Upper Marlboro', 'MD', 'ODU', 6008),
+(7, 'Elijah Bluea', 'CB', '6-0', 186, 'FR', 'Norfolk', 'VA', 'ODU', 6009),
+(7, 'Travis Fulghama', 'WR', '6-3', 214, 'SO', 'Ashburn', 'VA', 'ODU', 6010),
+(8, 'Drayton Arnolda', 'QB', '5-11', 190, 'FR', 'Myrtle Beach', 'SC', 'ODU', 6011),
+(8, 'Akim Bundu-Fitza', 'DB', '6-1', 183, 'FR', 'Springfield', 'VA', 'ODU', 6012),
+(8, 'Noah Ellisona', 'WR', '6-2', 189, 'FR', 'Sicklerville', 'NJ', 'ODU', 6013),
+(9, 'Jelani Cartera', 'DB', '6-1', 205, 'FR', 'Roanoke', 'VA', 'ODU', 6014),
+(9, 'Jonathan Duharta', 'WR', '6-3', 221, 'JR', 'Midlothian', 'VA', 'ODU', 6015),
+(10, 'Kane Miskela', 'DB', '6-2', 183, 'FR', 'Suffolk', 'VA', 'ODU', 6016),
+(10, 'David Washingtona', 'QB', '6-3', 210, 'SR', 'Raleigh', 'NC', 'ODU', 6017),
+(11, 'Brandon Addisona', 'DB', '5-10', 175, 'JR', 'Suffolk', 'VA', 'ODU', 6018),
+(11, 'Blake LaRussaa', 'QB', '5-10', 185, 'FR', 'Virginia Beach', 'VA', 'ODU', 6019),
+(12, 'Christian Byruma', 'S', '6-1', 182, 'SO', 'Virginia Beach', 'VA', 'ODU', 6020),
+(12, 'Brennan Lewisa', 'QB', '6-3', 187, 'FR', 'Beaufort', 'NC', 'ODU', 6021),
+(13, 'Terez Dickersona', 'LB', '6-4', 195, 'FR', 'Vinton', 'VA', 'ODU', 6022),
+(13, 'Eri''Reon Hayesa', 'WR', '6-2', 199, 'SO', 'Dillon', 'SC', 'ODU', 6023),
+(14, 'Joey Verhaegha', 'TE', '6-3', 226, 'JR', 'Boise', 'ID', 'ODU', 6024),
+(14, 'J.C. Williamsona', 'DB', '5-9', 175, 'FR', 'Portsmouth', 'VA', 'ODU', 6025),
+(15, 'Prince Ajegwua', 'S', '6-3', 201, 'FR', 'Baltimore', 'MD', 'ODU', 6026),
+(15, 'Isaiah Harpera', 'WR', '5-9', 168, 'SO', 'Chesapeake', 'VA', 'ODU', 6027),
+(16, 'Jamshyer McUmbera', 'S', '6-0', 176, 'SO', 'Bethesda', 'MD', 'ODU', 6028),
+(16, 'Kevin Sheckellsa', 'QB', '6-4', 230, 'FR', 'Annapolis', 'MD', 'ODU', 6029),
+(17, 'Andre Bernharda', 'DB', '6-2', 201, 'JR', 'Stafford', 'VA', 'ODU', 6030),
+(17, 'Kody Cunninghama', 'QB', '6-4', 209, 'FR', 'Virginia Beach', 'VA', 'ODU', 6031),
+(18, 'Jordan Glovera', 'DB', '5-11', 175, 'SO', 'Virginia Beach', 'VA', 'ODU', 6032),
+(18, 'Scott McCluneya', 'WR', '6-1', 160, 'FR', 'Gaffney', 'SC', 'ODU', 6033),
+(19, 'Shuler Bentleya', 'QB', '6-1', 201, 'SO', 'Duncan', 'SC', 'ODU', 6034),
+(19, 'Colson Jenkinsa', 'CB', '6-0', 180, 'FR', '--', '--', 'ODU', 6035),
+(20, 'Brad Davisa', 'PK', '6-6', 200, 'FR', 'Chesapeake', 'VA', 'ODU', 6036),
+(20, 'Rob Thompsona', 'CB', '6-1', 190, 'JR', 'Gloucester City', 'NJ', 'ODU', 6037),
+(21, 'Justin Noyea', 'S', '6-1', 210, 'SO', 'Rochester', 'NY', 'ODU', 6038),
+(22, 'Anthony Wilsona', 'LB', '6-1', 220, 'SR', 'Alexandria', 'VA', 'ODU', 6039),
+(23, 'Brandon Simmonsa', 'RB', '5-9', 188, 'JR', 'Virginia Beach', 'VA', 'ODU', 6040),
+(24, 'Josh Marrinera', 'RB', '5-9', 201, 'JR', 'Chesapeake', 'VA', 'ODU', 6041),
+(25, 'Chris Kirtleya', 'PK', '6-1', 198, 'SO', 'Fort Lauderdale', 'FL', 'ODU', 6042),
+(25, 'Brandon Sinclaira', 'RB', '5-10', 195, 'FR', 'Myrtle Beach', 'SC', 'ODU', 6043),
+(25, 'Denzel Williamsa', 'S', '6-2', 206, 'FR', 'Dinwiddie', 'VA', 'ODU', 6044),
+(26, 'Justin Coopera', 'RB', '5-11', 203, 'SO', 'Chester', 'VA', 'ODU', 6045),
+(26, 'Parrish Gordona', 'S', '6-0', 201, 'FR', 'Richmond', 'VA', 'ODU', 6046),
+(27, 'Aaron Younga', 'CB', '5-11', 188, 'SR', 'Washington', 'DC', 'ODU', 6047),
+(28, 'Justice Davilaa', 'S', '6-0', 187, 'JR', 'Erial', 'NJ', 'ODU', 6048),
+(28, 'Malik Fullera', 'RB', '5-9', 173, 'SO', 'Nokesville', 'VA', 'ODU', 6049),
+(29, 'Joe Joe Headena', 'CB', '5-10', 172, 'FR', 'Harrisburg', 'PA', 'ODU', 6050),
+(30, 'Nick Ferrari-Smitha', 'RB', '5-9', 182, 'FR', 'Nokesville', 'VA', 'ODU', 6051),
+(31, 'Sean Cartera', 'DB', '6-1', 196, 'SO', 'Stafford', 'VA', 'ODU', 6052),
+(32, 'Gemonta Jacksona', 'RB', '5-10', 191, 'FR', 'Petersburg', 'VA', 'ODU', 6053),
+(32, 'Jordan Lauzona', 'LB', '6-1', 225, 'FR', '--', '--', 'ODU', 6054),
+(33, 'Tyler Darra', 'LB', '6-2', 225, 'FR', 'District Heights', 'MD', 'ODU', 6055),
+(33, 'Ray Lawrya', 'RB', '5-10', 204, 'JR', 'Logan', 'NJ', 'ODU', 6056),
+(34, 'Lawrence Garnera', 'LB', '6-2', 218, 'FR', 'Columbus', 'NJ', 'ODU', 6057),
+(35, 'Jeremy Coxa', 'RB', '5-11', 208, 'SO', 'Hope Mills', 'NC', 'ODU', 6058),
+(36, 'Brent Priestera', 'LB', '6-2', 218, 'FR', 'Brooklyn', 'NY', 'ODU', 6059),
+(37, 'Marvin Brancha', 'LB', '6-2', 216, 'SO', 'Suffolk', 'VA', 'ODU', 6060),
+(38, 'Richard Thomasa', 'LB', '6-0', 229, 'SR', 'Meridian', 'MS', 'ODU', 6061),
+(39, 'Jordan Younga', 'LB', '6-3', 220, 'FR', 'Coatesville', 'PA', 'ODU', 6062),
+(40, 'Isaiah Worthya', 'LB', '6-1', 220, 'SO', 'Westville', 'NJ', 'ODU', 6063),
+(41, 'Demetrius Stitmona', 'LB', '6-0', 210, 'FR', 'Suffolk', 'VA', 'ODU', 6064),
+(42, 'Derek Wildera', 'LB', '6-1', 243, 'FR', 'Norfolk', 'VA', 'ODU', 6065),
+(43, 'Zach Lackmana', 'LB', '6-2', 219, 'FR', 'North Fort Myers', 'FL', 'ODU', 6066),
+(44, 'Marcus Joynera', 'TE', '6-2', 250, 'FR', 'Camden', 'NC', 'ODU', 6067),
+(45, 'Shadow Williamsa', 'LB', '6-0', 216, 'SR', 'Land O Lakes', 'FL', 'ODU', 6068),
+(46, 'Reed Bucea', 'LS', '6-2', 209, 'JR', 'Peoria', 'AZ', 'ODU', 6069),
+(47, 'TJ Ricksa', 'LB', '6-0', 238, 'SR', 'Hampton', 'VA', 'ODU', 6070),
+(48, 'Joe Tillmana', 'PK', '5-6', 166, 'FR', 'Mathews', 'VA', 'ODU', 6071),
+(49, 'Jacob Schwinda', 'LS', '6-0', 216, 'SO', 'Warrenton', 'VA', 'ODU', 6072),
+(50, 'Torrez Wentza', 'DL', '6-2', 278, 'SO', 'Warrenton', 'GA', 'ODU', 6073),
+(51, 'Dontae Weatherlya', 'DT', '6-1', 290, 'FR', 'Exmore', 'VA', 'ODU', 6074),
+(52, 'Juwan Rossa', 'DT', '6-2', 290, 'FR', 'Daytona Beach', 'FL', 'ODU', 6075),
+(53, 'Ryan Londreea', 'DT', '6-3', 260, 'SO', 'Charlottesville', 'VA', 'ODU', 6076),
+(54, 'Pat Toala', 'DT', '6-4', 311, 'SO', 'Hazlet', 'NJ', 'ODU', 6077),
+(55, 'Brandon Tysona', 'DT', '6-1', 337, 'SO', 'Midlothian', 'VA', 'ODU', 6078),
+(56, 'Anthony Reseka', 'LB', '6-0', 215, 'FR', 'Virginia Beach', 'VA', 'ODU', 6079),
+(57, 'Rashaad Cowarda', 'DT', '6-5', 310, 'SR', 'Brooklyn', 'NY', 'ODU', 6080),
+(58, 'Bunmi Rotimia', 'DE', '6-4', 277, 'JR', 'Alexandria', 'VA', 'ODU', 6081),
+(59, 'Eric Magwooda', 'OL', '6-4', 275, 'FR', '--', '--', 'ODU', 6082),
+(60, 'Mufu Taiwoa', 'DL', '6-5', 304, 'FR', 'Waldorf', 'MD', 'ODU', 6083),
+(61, 'Andrew Lawsona', 'OL', '6-3', 301, 'FR', 'Spring Grove', 'PA', 'ODU', 6084),
+(62, 'Hunter Sosebeea', 'OL', '6-7', 285, 'FR', 'Tunnel Hill', 'GA', 'ODU', 6085),
+(63, 'Nick Clarkea', 'OL', '6-4', 285, 'SO', 'Mechanicsville', 'VA', 'ODU', 6086),
+(64, 'Jean-Luc Childsa', 'G', '6-5', 320, 'FR', 'Woodbridge', 'VA', 'ODU', 6087),
+(65, 'A.J. Davisona', 'G', '6-6', 326, 'JR', 'Santa Rosa', 'CA', 'ODU', 6088),
+(66, 'Troy Butlera', 'OL', '6-3', 314, 'SR', 'Chesapeake', 'VA', 'ODU', 6089),
+(68, 'Jace Mallorya', 'OL', '6-4', 275, 'FR', 'Richmond', 'VA', 'ODU', 6090),
+(69, 'Ty-Kee McCullersa', 'OL', '6-2', 265, 'FR', 'Virginia Beach', 'VA', 'ODU', 6091),
+(70, 'Devin Hannana', 'OL', '6-4', 293, 'FR', 'Belle Vernon', 'PA', 'ODU', 6092),
+(71, 'Isaac Weavera', 'OL', '6-6', 271, 'FR', 'Marietta', 'GA', 'ODU', 6093),
+(72, 'T.J. Stormenta', 'OL', '6-6', 324, 'FR', 'Statesville', 'NC', 'ODU', 6094),
+(73, 'Chad Hendricksa', 'OL', '6-6', 294, 'SO', 'Blackstone', 'VA', 'ODU', 6095),
+(74, 'Tony Barnetta', 'OT', '6-4', 316, 'FR', 'Roseland', 'VA', 'ODU', 6096),
+(76, 'Tyler Comptona', 'OL', '6-4', 290, 'SR', 'Virginia Beach', 'VA', 'ODU', 6097),
+(77, 'Manuel Matiarenaa', 'OL', '6-4', 302, 'JR', 'Los Angeles', 'CA', 'ODU', 6098),
+(78, 'Darius Garciaa', 'OL', '6-3', 304, 'JR', 'Chesterfield', 'VA', 'ODU', 6099),
+(79, 'Cullen Caseya', 'OT', '6-4', 294, 'JR', 'Rochester', 'NY', 'ODU', 6100),
+(80, 'Darrell Browna', 'WR', '5-9', 165, 'FR', 'Hampton', 'VA', 'ODU', 6101),
+(82, 'Cortez Chase-Ervina', 'WR', '6-3', 219, 'FR', 'Germantown', 'MD', 'ODU', 6102),
+(83, 'Jake Herslowa', 'WR', '6-0', 170, 'FR', 'Virginia Beach', 'VA', 'ODU', 6103),
+(84, 'Kevin Todda', 'WR', '6-2', 200, 'FR', '--', '--', 'ODU', 6104),
+(85, 'Nijee Coxa', 'TE', '6-3', 234, 'FR', 'Virginia Beach', 'VA', 'ODU', 6105),
+(87, 'T.J. Boothea', 'TE', '6-2', 226, 'JR', 'Chesapeake', 'VA', 'ODU', 6106),
+(88, 'Adam Swanna', 'TE', '6-5', 237, 'SO', 'Owings', 'MD', 'ODU', 6107),
+(89, 'Tyreim Blakea', 'TE', '6-2', 230, 'FR', 'Onancock', 'VA', 'ODU', 6108),
+(90, 'Miles Foxa', 'DT', '6-1', 279, 'SO', 'Lawrenceville', 'GA', 'ODU', 6109),
+(91, 'Casey Bernarda', 'LB', '6-2', 234, 'SO', 'White Plains', 'MD', 'ODU', 6110),
+(92, 'Jude Brenyaa', 'DE', '6-3', 256, 'SR', 'Cranbury', 'NJ', 'ODU', 6111),
+(93, 'Tim Warda', 'DE', '6-6', 244, 'SO', 'High Point', 'NC', 'ODU', 6112),
+(94, 'Scott Wigginsa', 'DE', '6-3', 232, 'SR', 'Roselle', 'NJ', 'ODU', 6113),
+(95, 'Sam Whitea', 'DE', '6-3', 243, 'FR', 'Orlando', 'FL', 'ODU', 6114),
+(96, 'Bailey Catea', 'P', '6-4', 192, 'FR', 'Orange Park', 'FL', 'ODU', 6115),
+(97, 'Philippe-Louis Childsa', 'DE', '6-4', 204, 'FR', 'Woodbridge', 'VA', 'ODU', 6116),
+(98, 'Oshane Ximinesa', 'DE', '6-3', 239, 'SO', 'Ahoskie', 'NC', 'ODU', 6117),
+(99, 'Daniel Appouha', 'DE', '6-4', 246, 'SO', 'Germantown', 'MD', 'ODU', 6118);
+
+--
+-- Triggers `odu`
+--
+DELIMITER $$
+CREATE TRIGGER `player_odu` AFTER INSERT ON `odu`
+ FOR EACH ROW BEGIN
+	INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES ( NEW.No, NEW.Name, NEW.Pos, NEW.Ht, NEW.Wt, NEW.Class, NEW.Hometown , NEW.State , NEW.Team, NEW.UID );
+END
+$$
+DELIMITER ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `OL`
 --
 
 CREATE TABLE IF NOT EXISTS `OL` (
@@ -1538,7 +1847,7 @@ CREATE TABLE IF NOT EXISTS `OL` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `OL`
+-- Dumping data for table `OL`
 --
 
 INSERT INTO `OL` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -1602,7 +1911,7 @@ INSERT INTO `OL` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `OT`
+-- Table structure for table `OT`
 --
 
 CREATE TABLE IF NOT EXISTS `OT` (
@@ -1618,7 +1927,7 @@ CREATE TABLE IF NOT EXISTS `OT` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `OT`
+-- Dumping data for table `OT`
 --
 
 INSERT INTO `OT` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -1633,7 +1942,7 @@ INSERT INTO `OT` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `P`
+-- Table structure for table `P`
 --
 
 CREATE TABLE IF NOT EXISTS `P` (
@@ -1649,7 +1958,7 @@ CREATE TABLE IF NOT EXISTS `P` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `P`
+-- Dumping data for table `P`
 --
 
 INSERT INTO `P` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -1663,7 +1972,7 @@ INSERT INTO `P` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `PK`
+-- Table structure for table `PK`
 --
 
 CREATE TABLE IF NOT EXISTS `PK` (
@@ -1679,7 +1988,7 @@ CREATE TABLE IF NOT EXISTS `PK` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `PK`
+-- Dumping data for table `PK`
 --
 
 INSERT INTO `PK` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -1698,7 +2007,7 @@ INSERT INTO `PK` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `Players`
+-- Table structure for table `Players`
 --
 
 CREATE TABLE IF NOT EXISTS `Players` (
@@ -1715,7 +2024,7 @@ CREATE TABLE IF NOT EXISTS `Players` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `Players`
+-- Dumping data for table `Players`
 --
 
 INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
@@ -2002,6 +2311,7 @@ INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `St
 ('95', 'Juwan Moyea', 'LB', ' 06-03', 255, 'FR', 'Lilburn', 'GA', 'UVA', '1102'),
 ('98', 'Landan Worda', 'LB', ' 06-05', 245, 'FR', 'Vienna', 'VA', 'UVA', '1103'),
 ('99', 'Joe Spaziania', 'QB', ' 06-02', 210, 'SO', 'Hingham', 'MA', 'UVA', '1104'),
+('--', 'Naji Abdua', 'DE', '6-5', 235, 'FR', 'Jacksonville', 'FL', 'UVA', '1200'),
 ('1', 'Isaiah Forda', 'WR', ' 06-02', 190, 'JR', 'Jacksonville', 'FL', 'VT', '2001'),
 ('2', 'Tyree Rodgersa', 'DB', ' 06-01', 180, 'FR', 'Camden', 'NJ', 'VT', '2002'),
 ('3', 'Greg Stromana', 'DB', ' 06-01', 170, 'JR', 'Bristow', 'VA', 'VT', '2003'),
@@ -2123,7 +2433,7 @@ INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `St
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `QB`
+-- Table structure for table `QB`
 --
 
 CREATE TABLE IF NOT EXISTS `QB` (
@@ -2139,7 +2449,7 @@ CREATE TABLE IF NOT EXISTS `QB` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `QB`
+-- Dumping data for table `QB`
 --
 
 INSERT INTO `QB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -2164,7 +2474,7 @@ INSERT INTO `QB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `RB`
+-- Table structure for table `RB`
 --
 
 CREATE TABLE IF NOT EXISTS `RB` (
@@ -2180,7 +2490,7 @@ CREATE TABLE IF NOT EXISTS `RB` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `RB`
+-- Dumping data for table `RB`
 --
 
 INSERT INTO `RB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -2213,7 +2523,7 @@ INSERT INTO `RB` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `S`
+-- Table structure for table `S`
 --
 
 CREATE TABLE IF NOT EXISTS `S` (
@@ -2229,7 +2539,7 @@ CREATE TABLE IF NOT EXISTS `S` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `S`
+-- Dumping data for table `S`
 --
 
 INSERT INTO `S` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -2257,7 +2567,7 @@ INSERT INTO `S` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, 
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `table2`
+-- Table structure for table `table2`
 --
 
 CREATE TABLE IF NOT EXISTS `table2` (
@@ -2266,7 +2576,7 @@ CREATE TABLE IF NOT EXISTS `table2` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `table2`
+-- Dumping data for table `table2`
 --
 
 INSERT INTO `table2` (`Hometown`, `State`) VALUES
@@ -2349,7 +2659,7 @@ INSERT INTO `table2` (`Hometown`, `State`) VALUES
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `TE`
+-- Table structure for table `TE`
 --
 
 CREATE TABLE IF NOT EXISTS `TE` (
@@ -2365,7 +2675,7 @@ CREATE TABLE IF NOT EXISTS `TE` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `TE`
+-- Dumping data for table `TE`
 --
 
 INSERT INTO `TE` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
@@ -2390,7 +2700,7 @@ INSERT INTO `TE` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`,
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `teams`
+-- Table structure for table `teams`
 --
 
 CREATE TABLE IF NOT EXISTS `teams` (
@@ -2401,7 +2711,7 @@ CREATE TABLE IF NOT EXISTS `teams` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `teams`
+-- Dumping data for table `teams`
 --
 
 INSERT INTO `teams` (`ID`, `Type`, `Name`, `Region`) VALUES
@@ -2433,7 +2743,25 @@ INSERT INTO `teams` (`ID`, `Type`, `Name`, `Region`) VALUES
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `uva`
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `username` varchar(16) NOT NULL,
+  `password` varchar(16) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`username`, `password`) VALUES
+('cs4750s17yk7da', 'spring2017');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `uva`
 --
 
 CREATE TABLE IF NOT EXISTS `uva` (
@@ -2450,7 +2778,7 @@ CREATE TABLE IF NOT EXISTS `uva` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `uva`
+-- Dumping data for table `uva`
 --
 
 INSERT INTO `uva` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
@@ -2559,10 +2887,21 @@ INSERT INTO `uva` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`
 ('98', 'Landan Worda', 'LB', '6-5', 245, 'FR', 'Vienna', 'VA', 'UVA', '1103'),
 ('99', 'Joe Spaziania', 'QB', '6-2', 210, 'SO', 'Hingham', 'MA', 'UVA', '1104');
 
+--
+-- Triggers `uva`
+--
+DELIMITER $$
+CREATE TRIGGER `player_uva` AFTER INSERT ON `uva`
+ FOR EACH ROW BEGIN
+	INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES ( NEW.No, NEW.Name, NEW.Pos, NEW.Ht, NEW.Wt, NEW.Class, NEW.Hometown , NEW.State , NEW.Team, NEW.UID );
+END
+$$
+DELIMITER ;
+
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `vt`
+-- Table structure for table `vt`
 --
 
 CREATE TABLE IF NOT EXISTS `vt` (
@@ -2573,261 +2912,224 @@ CREATE TABLE IF NOT EXISTS `vt` (
   `Wt` int(11) DEFAULT NULL,
   `Class` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
   `Hometown` varchar(17) CHARACTER SET utf8 DEFAULT NULL,
-  `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- 테이블의 덤프 데이터 `vt`
---
-
-INSERT INTO `vt` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`) VALUES
-(1, 'Isaiah Forda', 'WR', '6-2', 190, 'JR', 'Jacksonville', 'FL'),
-(2, 'Tyree Rodgersa', 'DB', '6-1', 180, 'FR', 'Camden', 'NJ'),
-(3, 'Greg Stromana', 'DB', '6-1', 170, 'JR', 'Bristow', 'VA'),
-(4, 'Ken Ekanema', 'DE', '6-3', 253, 'SR', 'Centreville', 'VA'),
-(4, 'Jerod Evansa', 'QB', '6-4', 235, 'JR', 'Dallas', 'TX'),
-(5, 'Cam Phillipsa', 'WR', '6-1', 198, 'JR', 'Laurel', 'MD'),
-(6, 'Mook Reynoldsa', 'S', '6-1', 184, 'SO', 'Greensboro', 'NC'),
-(7, 'Bucky Hodgesa', 'TE', '6-7', 245, 'JR', 'Virginia Beach', 'VA'),
-(8, 'Phil Pattersona', 'WR', '6-2', 185, 'FR', 'Virginia Beach', 'VA'),
-(8, 'Nigel Williamsa', 'DT', '6-4', 295, 'SR', 'Richmond', 'VA'),
-(9, 'Khalil Ladlera', 'CB', '5-11', 178, 'FR', 'Stone Mountain', 'GA'),
-(9, 'Brenden Motleya', 'QB', '6-3', 225, 'SR', 'Christiansburg', 'VA'),
-(11, 'Jack Clicka', 'QB', '6-3', 216, 'FR', 'Glen Allen', 'VA'),
-(11, 'Houshun Gainesa', 'DE', '6-4', 231, 'FR', 'Rocky Mount', 'NC'),
-(12, 'Josh Jacksona', 'QB', '6-2', 207, 'FR', 'Ann Arbor', 'MI'),
-(12, 'Henri Murphya', 'WR', '5-11', 185, 'JR', 'White Hall', 'AR'),
-(13, 'Chris Durkina', 'TE', '6-4', 232, 'SO', 'Poland', 'OH'),
-(14, 'Tavante Becketta', 'LB', '6-0', 215, 'FR', 'Chesapeake', 'VA'),
-(15, 'Jaylen Bradshawa', 'WR', '6-1', 198, 'SO', 'Chesapeake', 'VA'),
-(16, 'Coleman Foxa', 'RB', '5-11', 192, 'FR', 'Salem', 'VA'),
-(17, 'Jahque Alleynea', 'S', '6-1', 175, 'SO', 'Virginia Beach', 'VA'),
-(18, 'Raymon Minora', 'LB', '6-2', 231, 'SO', 'Ashland', 'VA'),
-(18, 'Chase Mummaua', 'QB', '6-2', 174, 'FR', 'Mechanicsville', 'VA'),
-(19, 'Chuck Clarka', 'S', '6-1', 202, 'SR', 'Suffolk', 'VA'),
-(20, 'Deon Newsomea', 'S', '5-11', 187, 'JR', 'Hampton', 'VA'),
-(21, 'Reggie Floyda', 'DB', '6-0', 200, 'FR', 'Manassas', 'VA'),
-(22, 'Terrell Edmundsa', 'LB', '6-1', 201, 'SO', 'Danville', 'VA'),
-(23, 'Der''Woun Greenea', 'S', '5-11', 194, 'SR', 'Portsmouth', 'VA'),
-(24, 'Anthony Shegoga', 'LB', '6-3', 212, 'JR', 'Stafford', 'VA'),
-(26, 'Jovonn Quillena', 'DB', '6-2', 195, 'FR', 'Hampton', 'VA'),
-(27, 'Dominic Bensona', 'WR', '6-1', 176, 'FR', 'Woodbridge', 'VA'),
-(27, 'Shawn Paynea', 'CB', '6-3', 185, 'SO', 'Chesterfield', 'VA'),
-(28, 'Shai McKenziea', 'RB', '5-11', 215, 'SO', 'Washington', 'PA'),
-(28, 'Curtis Williamsa', 'CB', '5-9', 176, 'JR', 'Amelia', 'VA'),
-(29, 'DuWayne Johnsona', 'CB', '6-2', 180, 'FR', 'Washington', 'DC'),
-(30, 'Eron Cartera', 'LB', '6-2', 230, 'FR', 'Palatka', 'FL'),
-(30, 'Jordan Jeffersona', 'WR', '5-10', 168, 'FR', 'Goochland', 'VA'),
-(31, 'Brandon Facysona', 'CB', '6-2', 191, 'JR', 'Newnan', 'GA'),
-(32, 'Steven Peoplesa', 'FB', '5-9', 218, 'SO', 'Galax', 'VA'),
-(33, 'Deshawn McCleasea', 'RB', '5-9', 177, 'FR', 'Chesapeake', 'VA'),
-(34, 'Travon McMilliana', 'RB', '6-0', 200, 'SO', 'Woodbridge', 'VA'),
-(35, 'Erikk Banksa', 'CB', '5-10', 173, 'JR', 'Coeburn', 'VA'),
-(35, 'Michael Santamariaa', 'PK', '5-8', 168, 'SO', 'Athens', 'GA'),
-(36, 'Adonis Alexandera', 'CB', '6-3', 197, 'SO', 'Charlotte', 'NC'),
-(36, 'Alden Carpentera', 'LB', '6-1', 192, 'JR', 'Leesburg', 'VA'),
-(37, 'Johnathan Galantea', 'LB', '5-9', 210, 'SR', 'Blacksburg', 'VA'),
-(39, 'Sean Daniela', 'WR', '5-10', 175, 'FR', 'Chesapeake', 'VA'),
-(39, 'Tyrone Thorntona', 'DB', '5-10', 190, 'FR', 'Boston', 'MA'),
-(40, 'Emmanuel Belmara', 'LB', '6-2', 230, 'FR', 'Suwanee', 'GA'),
-(41, 'Kevin Henrya', 'WR', '6-0', 170, 'FR', 'Greensboro', 'NC'),
-(41, 'John Jenningsa', 'DB', '5-11', 165, 'SO', 'Clifton', 'VA'),
-(41, 'Trey Skeensa', 'FB', '6-0', 215, 'FR', 'Wytheville', 'VA'),
-(42, 'Elisha Boyda', 'CB', '6-0', 175, 'SO', 'Newport News', 'VA'),
-(42, 'Marshawn Williamsa', 'RB', '5-11', 239, 'SO', 'Hampton', 'VA'),
-(43, 'Seth Dooleya', 'DE', '6-6', 239, 'JR', 'Salem', 'VA'),
-(44, 'Tre Hubbarda', 'LB', '6-0', 230, 'FR', 'Virginia Beach', 'VA'),
-(45, 'Sam Rogersa', 'FB', '5-10', 227, 'SR', 'Mechanicsville', 'VA'),
-(46, 'Joey Slyea', 'PK', '6-1', 207, 'JR', 'Stafford', 'VA'),
-(47, 'Darius Fullwooda', 'DE', '6-4', 262, 'FR', 'College Park', 'MD'),
-(48, 'Daniel Griffitha', 'LB', '6-1', 225, 'FR', 'Suffolk', 'VA'),
-(48, 'D.J. Reida', 'RB', '6-1', 240, 'SO', 'Chester', 'VA'),
-(49, 'Tremaine Edmundsa', 'LB', '6-5', 236, 'SO', 'Danville', 'VA'),
-(50, 'Patrick Kearnsa', 'OL', '6-5', 280, 'FR', 'Adairsville', 'GA'),
-(51, 'Hundley McCurrya', 'LS', '5-11', 190, 'FR', 'Summerville', 'SC'),
-(52, 'Austin Cannona', 'OL', '6-3', 315, 'FR', 'Mechanicsville', 'VA'),
-(52, 'Clay Deana', 'DL', '6-2', 255, 'FR', 'Purcellville', 'VA'),
-(53, 'Wayne Muttera', 'P', '5-9', 160, 'SR', 'Grundy', 'VA'),
-(53, 'Trent Younga', 'LB', '5-10', 212, 'SO', 'Richmond', 'VA'),
-(54, 'Andrew Motuapuakaa', 'LB', '6-0', 235, 'JR', 'Virginia Beach', 'VA'),
-(55, 'Jarrod Hewitta', 'DL', '6-1', 290, 'FR', 'Venice', 'FL'),
-(56, 'Sean Huelskampa', 'LB', '6-1', 207, 'JR', 'Centreville', 'VA'),
-(56, 'T.J. Jacksona', 'OL', '6-3', 330, 'FR', 'Cumberland', 'VA'),
-(57, 'Wyatt Tellera', 'OL', '6-5', 304, 'JR', 'Bealeton', 'VA'),
-(58, 'Zack Tresera', 'LB', '6-4', 221, 'FR', 'Blacksburg', 'VA'),
-(60, 'Woody Barona', 'DT', '6-1', 275, 'SR', 'Nashville', 'TN'),
-(61, 'Kyle Chunga', 'OL', '6-4', 290, 'JR', 'Ponte Vedra Beach', 'FL'),
-(61, 'Joe Koshutaa', 'LB', '6-2', 240, 'FR', 'Vienna', 'VA'),
-(62, 'D''Andre Plantina', 'OL', '6-5', 290, 'FR', 'Norcross', 'GA'),
-(63, 'Daniel Baileya', 'OL', '6-4', 296, 'FR', 'Abingdon', 'VA'),
-(64, 'Eric Galloa', 'OL', '6-2', 297, 'JR', 'Richboro', 'PA'),
-(65, 'Matt Christa', 'OL', '6-4', 274, 'FR', 'Sterling', 'VA'),
-(66, 'Billy Mitchella', 'OL', '6-3', 284, 'SO', 'Westwood', 'NJ'),
-(67, 'Parker Osterloha', 'OL', '6-8', 336, 'JR', 'Williamsburg', 'VA'),
-(68, 'Connor Kisha', 'OL', '6-2', 280, 'FR', 'Oceanside', 'CA'),
-(69, 'Yosuah Nijmana', 'OL', '6-8', 298, 'SO', 'Maplewood', 'NJ'),
-(70, 'Kevin Kisha', 'OL', '6-2', 280, 'FR', 'Oceanside', 'CA'),
-(71, 'Jonathan McLaughlina', 'OL', '6-5', 300, 'SR', 'Mauldin', 'SC'),
-(72, 'Augie Contea', 'OL', '6-6', 303, 'SR', 'Richmond', 'VA'),
-(74, 'Braxton Pfaffa', 'OL', '6-5', 295, 'SO', 'Lynchburg', 'VA'),
-(75, 'Zachariah Hoyta', 'OL', '6-5', 286, 'FR', 'Salem', 'VA'),
-(76, 'Jarrett Hopplea', 'OL', '6-6', 280, 'FR', 'Suffolk', 'VA'),
-(77, 'Demetri Moorea', 'OL', '6-5', 305, 'JR', 'Fairborn', 'OH'),
-(79, 'Tyrell Smitha', 'OL', '6-3', 292, 'FR', 'North Brunswick', 'NJ'),
-(80, 'Casey Harmana', 'TE', '6-4', 240, 'FR', 'Swords Creek', 'VA'),
-(80, 'Colt Pettita', 'OL', '6-4', 298, 'SO', 'Deshler', 'OH'),
-(81, 'Samuel Denmarka', 'WR', '6-0', 182, 'FR', 'Hanahan', 'SC'),
-(82, 'Xavier Burkea', 'TE', '6-2', 270, 'FR', 'Lawrenceville', 'VA'),
-(83, 'Eric Kumaha', 'WR', '6-2', 203, 'FR', 'Woodbridge', 'VA'),
-(85, 'Chris Cunninghama', 'TE', '6-2', 242, 'FR', 'Jacksonville', 'FL'),
-(86, 'C.J. Carrolla', 'WR', '5-7', 165, 'SO', 'Olney', 'MD'),
-(87, 'Bodhie Longa', 'WR', '6-3', 200, 'FR', 'Richmond', 'VA'),
-(87, 'Colton Taylora', 'LS', '6-1', 212, 'JR', 'Salem', 'VA'),
-(88, 'Divine Deabloa', 'WR', '6-3', 210, 'FR', 'Winston-salem', 'NC'),
-(89, 'Wright Bynuma', 'LS', '6-4', 230, 'FR', 'Columbia', 'SC'),
-(89, 'Devin Wilsona', 'WR', '6-4', 190, 'JR', 'Mckees Rocks', 'PA'),
-(90, 'Mitchell Ludwiga', 'P', '5-11', 200, 'JR', 'Abingdon', 'VA'),
-(90, 'Dalton Roea', 'DT', '6-1', 235, 'JR', 'Williamsburg', 'VA'),
-(91, 'Steve Sobczaka', 'DT', '6-1', 300, 'SO', 'Milford', 'VA'),
-(92, 'Matt Reinharta', 'LB', '6-2', 225, 'FR', 'Shoemakersville', 'PA'),
-(92, 'Robert Warfela', 'PK', '5-10', 164, 'SR', '--', '--'),
-(93, 'Brian Johnsona', 'P', '6-1', 161, 'FR', 'Washington', 'DC'),
-(94, 'Trevon Hilla', 'DE', '6-5', 234, 'FR', 'Virginia Beach', 'VA'),
-(95, 'Chaska Moona', 'LS', '6-0', 249, 'FR', 'Wake Forest', 'NC'),
-(96, 'Jimmie Taylora', 'DE', '6-3', 225, 'FR', 'Jacksonville', 'NC'),
-(97, 'Tim Settlea', 'DT', '6-3', 344, 'FR', 'Manassas', 'VA'),
-(98, 'Ricky Walkera', 'DT', '6-2', 288, 'SO', 'Hampton', 'VA'),
-(99, 'Vinny Mihotaa', 'DL', '6-5', 270, 'SO', 'Fredericksburg', 'VA');
-
--- --------------------------------------------------------
-
---
--- 테이블 구조 `WR`
---
-
-CREATE TABLE IF NOT EXISTS `WR` (
-  `No` varchar(4) CHARACTER SET utf8 DEFAULT NULL,
-  `Name` varchar(21) CHARACTER SET utf8 DEFAULT NULL,
-  `Pos` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
-  `Ht` varchar(7) CHARACTER SET utf8 DEFAULT NULL,
-  `Wt` decimal(4,1) DEFAULT NULL,
-  `Class` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
-  `Hometown` varchar(21) CHARACTER SET utf8 DEFAULT NULL,
   `State` varchar(2) CHARACTER SET utf8 DEFAULT NULL,
-  `Team` varchar(3) CHARACTER SET utf8 DEFAULT NULL
+  `Team` varchar(2) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `UID` varchar(5) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 테이블의 덤프 데이터 `WR`
+-- Dumping data for table `vt`
 --
 
-INSERT INTO `WR` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`) VALUES
-('--', 'Ethan Blundina', 'WR', '42889.0', 190.0, 'FR', 'Charlottesville', 'VA', 'UVA'),
-('--', 'Dylan Lea', 'WR', '42862.0', 165.0, 'SO', 'Ashburn', 'VA', 'UVA'),
-('--', 'Rambert Tyreea', 'WR', '6-0', 175.0, 'SO', 'Newport News', 'VA', 'UVA'),
-('5.0', 'Jamil Kamaraa', 'WR', '42888.0', 205.0, 'SO', 'Virginia Beach', 'VA', 'UVA'),
-('7.0', 'Doni Dowlinga', 'WR', '42887.0', 215.0, 'JR', 'Richmond', 'VA', 'UVA'),
-('8.0', 'Keeon Johnsona', 'WR', '42889.0', 215.0, 'SR', 'Kannapolis', 'NC', 'UVA'),
-('11.0', 'David Eldridgea', 'WR', '42887.0', 180.0, 'SO', 'Bealeton', 'VA', 'UVA'),
-('18.0', 'Ben Hogga', 'WR', '6-0', 170.0, 'SO', 'Lynchburg', 'VA', 'UVA'),
-('19.0', 'Andre Levronea', 'WR', '42889.0', 225.0, 'JR', 'Laurel', 'MD', 'UVA'),
-('23.0', 'Warren Crafta', 'WR', '42888.0', 195.0, 'FR', 'Roanoke', 'VA', 'UVA'),
-('26.0', 'Anthony Callowaya', 'WR', '42863.0', 160.0, 'JR', 'Lynchburg', 'VA', 'UVA'),
-('33.0', 'Olamide Zaccheausa', 'WR', '42863.0', 190.0, 'SO', 'Philadelphia', 'PA', 'UVA'),
-('44.0', 'Tanner Cowleya', 'WR', '42890.0', 220.0, 'FR', 'Manasquan', 'NJ', 'UVA'),
-('80.0', 'Hasise Duboisa', 'WR', '42889.0', 210.0, 'FR', 'Irvington', 'NJ', 'UVA'),
-('81.0', 'Joe Reeda', 'WR', '42889.0', 210.0, 'FR', 'Charlotte Court House', 'VA', 'UVA'),
-('82.0', 'Braedon Uriea', 'WR', '42865.0', 175.0, 'SO', 'Purcellville', 'VA', 'UVA'),
-('85.0', 'Cole Blackmana', 'WR', '42887.0', 195.0, 'FR', 'Glen Allen', 'VA', 'UVA'),
-('86.0', 'Ross Gardnera', 'WR', '42889.0', 210.0, 'SO', 'Mechanicsville', 'VA', 'UVA'),
-('88.0', 'Ryan Santoroa', 'WR', '42888.0', 215.0, 'SR', 'Oak Hill', 'VA', 'UVA'),
-('1.0', 'Isaiah Forda', 'WR', '42888.0', 190.0, 'JR', 'Jacksonville', 'FL', 'VT'),
-('5.0', 'Cam Phillipsa', 'WR', '42887.0', 198.0, 'JR', 'Laurel', 'MD', 'VT'),
-('8.0', 'Phil Pattersona', 'WR', '42888.0', 185.0, 'FR', 'Virginia Beach', 'VA', 'VT'),
-('12.0', 'Henri Murphya', 'WR', '42866.0', 185.0, 'JR', 'White Hall', 'AR', 'VT'),
-('15.0', 'Jaylen Bradshawa', 'WR', '42887.0', 198.0, 'SO', 'Chesapeake', 'VA', 'VT'),
-('27.0', 'Dominic Bensona', 'WR', '42887.0', 176.0, 'FR', 'Woodbridge', 'VA', 'VT'),
-('30.0', 'Jordan Jeffersona', 'WR', '42865.0', 168.0, 'FR', 'Goochland', 'VA', 'VT'),
-('39.0', 'Sean Daniela', 'WR', '42865.0', 175.0, 'FR', 'Chesapeake', 'VA', 'VT'),
-('41.0', 'Kevin Henrya', 'WR', '6-0', 170.0, 'FR', 'Greensboro', 'NC', 'VT'),
-('81.0', 'Samuel Denmarka', 'WR', '6-0', 182.0, 'FR', 'Hanahan', 'SC', 'VT'),
-('83.0', 'Eric Kumaha', 'WR', '42888.0', 203.0, 'FR', 'Woodbridge', 'VA', 'VT'),
-('86.0', 'C.J. Carrolla', 'WR', '42862.0', 165.0, 'SO', 'Olney', 'MD', 'VT'),
-('87.0', 'Bodhie Longa', 'WR', '42889.0', 200.0, 'FR', 'Richmond', 'VA', 'VT'),
-('88.0', 'Divine Deabloa', 'WR', '42889.0', 210.0, 'FR', 'Winston-salem', 'NC', 'VT'),
-('89.0', 'Devin Wilsona', 'WR', '42890.0', 190.0, 'JR', 'Mckees Rocks', 'PA', 'VT'),
-('1.0', 'Zac Parkera', 'WR', '42864.0', 185.0, 'SR', 'Reston', 'VA', 'Lib'),
-('7.0', 'Damian Kinga', 'WR', '42866.0', 175.0, 'SO', '--', '--', 'Lib'),
-('8.0', 'Dante Shellsa', 'WR', '42887.0', 180.0, 'SR', 'Camden', 'DE', 'Lib'),
-('11.0', 'Antonio Gandy-Goldena', 'WR', '42890.0', 200.0, 'FR', 'Dallas', 'GA', 'Lib'),
-('11.0', 'Lionell McConnella', 'WR', '42865.0', 180.0, 'FR', 'Allen', 'TX', 'Lib'),
-('18.0', 'Josh Newmana', 'WR', '42865.0', 190.0, 'FR', 'Gainesville', 'VA', 'Lib'),
-('29.0', 'David Jeremaiha', 'WR', '0-0', 0.0, 'FR', '--', '--', 'Lib'),
-('80.0', 'Joshua Cruza', 'WR', '42887.0', 185.0, 'FR', 'Charlotte', 'NC', 'Lib'),
-('81.0', 'Marquis Fitzgeralda', 'WR', '42887.0', 190.0, 'JR', 'Farmville', 'VA', 'Lib'),
-('82.0', 'B.J. Farrowa', 'WR', '42888.0', 190.0, 'SO', 'Lynchburg', 'VA', 'Lib'),
-('83.0', 'Josh Tullya', 'WR', '42865.0', 175.0, 'FR', 'Vancouver', 'WA', 'Lib'),
-('85.0', 'Kyle Carringtona', 'WR', '42887.0', 190.0, 'FR', 'Toms River', 'NJ', 'Lib'),
-('87.0', 'Cephas Reddicka', 'WR', '42863.0', 175.0, 'SO', 'Woodbridge', 'VA', 'Lib'),
-('88.0', 'Isaac Browna', 'WR', '42889.0', 190.0, 'JR', 'Overton', 'NE', 'Lib'),
-('4.0', 'James Churcha', 'WR', '42887.0', 200.0, 'SR', 'Virginia Beach', 'VA', 'nor'),
-('5.0', 'Marcus Taylora', 'WR', '42863.0', 160.0, 'SO', 'Highland Springs', 'VA', 'nor'),
-('15.0', 'Joel Caleba', 'WR', '42888.0', 210.0, 'SR', 'Richmond', 'VA', 'nor'),
-('16.0', 'Kinan Humphreya', 'WR', '42864.0', 180.0, 'FR', 'Mcdonough', 'GA', 'nor'),
-('19.0', 'Johnathan Spencera', 'WR', '42866.0', 180.0, 'FR', 'Apex', 'NC', 'nor'),
-('21.0', 'George Waheea', 'WR', '42887.0', 180.0, 'FR', 'Norfolk', 'VA', 'nor'),
-('25.0', 'D.J. Cooka', 'WR', '42887.0', 195.0, 'FR', 'Richmond', 'VA', 'nor'),
-('80.0', 'Antonio Perrymana', 'WR', '42888.0', 180.0, 'JR', 'Jacksonville', 'FL', 'nor'),
-('83.0', 'Justin Smitha', 'WR', '42888.0', 165.0, 'FR', 'Richmond', 'VA', 'nor'),
-('84.0', 'Chuma Awannaa', 'WR', '42889.0', 205.0, 'FR', 'Chesapeake', 'VA', 'nor'),
-('85.0', 'Floyd Jonesa', 'WR', '42864.0', 170.0, 'SO', 'Hampton', 'VA', 'nor'),
-('86.0', 'TreVaughn Sneeda', 'WR', '42865.0', 185.0, 'FR', 'Portsmouth', 'VA', 'nor'),
-('87.0', 'Michael Curtisa', 'WR', '42887.0', 165.0, 'SO', 'Newport News', 'VA', 'nor'),
-('88.0', 'Marcque Ellingtona', 'WR', '42891.0', 190.0, 'FR', 'Neptune', 'NJ', 'nor');
+INSERT INTO `vt` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES
+(1, 'Isaiah Forda', 'WR', '6-2', 190, 'JR', 'Jacksonville', 'FL', 'VT', '2001'),
+(2, 'Tyree Rodgersa', 'DB', '6-1', 180, 'FR', 'Camden', 'NJ', 'VT', '2002'),
+(3, 'Greg Stromana', 'DB', '6-1', 170, 'JR', 'Bristow', 'VA', 'VT', '2003'),
+(4, 'Ken Ekanema', 'DE', '6-3', 253, 'SR', 'Centreville', 'VA', 'VT', '2004'),
+(4, 'Jerod Evansa', 'QB', '6-4', 235, 'JR', 'Dallas', 'TX', 'VT', '2005'),
+(5, 'Cam Phillipsa', 'WR', '6-1', 198, 'JR', 'Laurel', 'MD', 'VT', '2006'),
+(6, 'Mook Reynoldsa', 'S', '6-1', 184, 'SO', 'Greensboro', 'NC', 'VT', '2007'),
+(7, 'Bucky Hodgesa', 'TE', '6-7', 245, 'JR', 'Virginia Beach', 'VA', 'VT', '2008'),
+(8, 'Phil Pattersona', 'WR', '6-2', 185, 'FR', 'Virginia Beach', 'VA', 'VT', '2009'),
+(8, 'Nigel Williamsa', 'DT', '6-4', 295, 'SR', 'Richmond', 'VA', 'VT', '2010'),
+(9, 'Khalil Ladlera', 'CB', '5-11', 178, 'FR', 'Stone Mountain', 'GA', 'VT', '2011'),
+(9, 'Brenden Motleya', 'QB', '6-3', 225, 'SR', 'Christiansburg', 'VA', 'VT', '2012'),
+(11, 'Jack Clicka', 'QB', '6-3', 216, 'FR', 'Glen Allen', 'VA', 'VT', '2013'),
+(11, 'Houshun Gainesa', 'DE', '6-4', 231, 'FR', 'Rocky Mount', 'NC', 'VT', '2014'),
+(12, 'Josh Jacksona', 'QB', '6-2', 207, 'FR', 'Ann Arbor', 'MI', 'VT', '2015'),
+(12, 'Henri Murphya', 'WR', '5-11', 185, 'JR', 'White Hall', 'AR', 'VT', '2016'),
+(13, 'Chris Durkina', 'TE', '6-4', 232, 'SO', 'Poland', 'OH', 'VT', '2017'),
+(14, 'Tavante Becketta', 'LB', '6-0', 215, 'FR', 'Chesapeake', 'VA', 'VT', '2018'),
+(15, 'Jaylen Bradshawa', 'WR', '6-1', 198, 'SO', 'Chesapeake', 'VA', 'VT', '2019'),
+(16, 'Coleman Foxa', 'RB', '5-11', 192, 'FR', 'Salem', 'VA', 'VT', '2020'),
+(17, 'Jahque Alleynea', 'S', '6-1', 175, 'SO', 'Virginia Beach', 'VA', 'VT', '2021'),
+(18, 'Raymon Minora', 'LB', '6-2', 231, 'SO', 'Ashland', 'VA', 'VT', '2022'),
+(18, 'Chase Mummaua', 'QB', '6-2', 174, 'FR', 'Mechanicsville', 'VA', 'VT', '2023'),
+(19, 'Chuck Clarka', 'S', '6-1', 202, 'SR', 'Suffolk', 'VA', 'VT', '2024'),
+(20, 'Deon Newsomea', 'S', '5-11', 187, 'JR', 'Hampton', 'VA', 'VT', '2025'),
+(21, 'Reggie Floyda', 'DB', '6-0', 200, 'FR', 'Manassas', 'VA', 'VT', '2026'),
+(22, 'Terrell Edmundsa', 'LB', '6-1', 201, 'SO', 'Danville', 'VA', 'VT', '2027'),
+(23, 'Der''Woun Greenea', 'S', '5-11', 194, 'SR', 'Portsmouth', 'VA', 'VT', '2028'),
+(24, 'Anthony Shegoga', 'LB', '6-3', 212, 'JR', 'Stafford', 'VA', 'VT', '2029'),
+(26, 'Jovonn Quillena', 'DB', '6-2', 195, 'FR', 'Hampton', 'VA', 'VT', '2030'),
+(27, 'Dominic Bensona', 'WR', '6-1', 176, 'FR', 'Woodbridge', 'VA', 'VT', '2031'),
+(27, 'Shawn Paynea', 'CB', '6-3', 185, 'SO', 'Chesterfield', 'VA', 'VT', '2032'),
+(28, 'Shai McKenziea', 'RB', '5-11', 215, 'SO', 'Washington', 'PA', 'VT', '2033'),
+(28, 'Curtis Williamsa', 'CB', '5-9', 176, 'JR', 'Amelia', 'VA', 'VT', '2034'),
+(29, 'DuWayne Johnsona', 'CB', '6-2', 180, 'FR', 'Washington', 'DC', 'VT', '2035'),
+(30, 'Eron Cartera', 'LB', '6-2', 230, 'FR', 'Palatka', 'FL', 'VT', '2036'),
+(30, 'Jordan Jeffersona', 'WR', '5-10', 168, 'FR', 'Goochland', 'VA', 'VT', '2037'),
+(31, 'Brandon Facysona', 'CB', '6-2', 191, 'JR', 'Newnan', 'GA', 'VT', '2038'),
+(32, 'Steven Peoplesa', 'FB', '5-9', 218, 'SO', 'Galax', 'VA', 'VT', '2039'),
+(33, 'Deshawn McCleasea', 'RB', '5-9', 177, 'FR', 'Chesapeake', 'VA', 'VT', '2040'),
+(34, 'Travon McMilliana', 'RB', '6-0', 200, 'SO', 'Woodbridge', 'VA', 'VT', '2041'),
+(35, 'Erikk Banksa', 'CB', '5-10', 173, 'JR', 'Coeburn', 'VA', 'VT', '2042'),
+(35, 'Michael Santamariaa', 'PK', '5-8', 168, 'SO', 'Athens', 'GA', 'VT', '2043'),
+(36, 'Adonis Alexandera', 'CB', '6-3', 197, 'SO', 'Charlotte', 'NC', 'VT', '2044'),
+(36, 'Alden Carpentera', 'LB', '6-1', 192, 'JR', 'Leesburg', 'VA', 'VT', '2045'),
+(37, 'Johnathan Galantea', 'LB', '5-9', 210, 'SR', 'Blacksburg', 'VA', 'VT', '2046'),
+(39, 'Sean Daniela', 'WR', '5-10', 175, 'FR', 'Chesapeake', 'VA', 'VT', '2047'),
+(39, 'Tyrone Thorntona', 'DB', '5-10', 190, 'FR', 'Boston', 'MA', 'VT', '2048'),
+(40, 'Emmanuel Belmara', 'LB', '6-2', 230, 'FR', 'Suwanee', 'GA', 'VT', '2049'),
+(41, 'Kevin Henrya', 'WR', '6-0', 170, 'FR', 'Greensboro', 'NC', 'VT', '2050'),
+(41, 'John Jenningsa', 'DB', '5-11', 165, 'SO', 'Clifton', 'VA', 'VT', '2051'),
+(41, 'Trey Skeensa', 'FB', '6-0', 215, 'FR', 'Wytheville', 'VA', 'VT', '2052'),
+(42, 'Elisha Boyda', 'CB', '6-0', 175, 'SO', 'Newport News', 'VA', 'VT', '2053'),
+(42, 'Marshawn Williamsa', 'RB', '5-11', 239, 'SO', 'Hampton', 'VA', 'VT', '2054'),
+(43, 'Seth Dooleya', 'DE', '6-6', 239, 'JR', 'Salem', 'VA', 'VT', '2055'),
+(44, 'Tre Hubbarda', 'LB', '6-0', 230, 'FR', 'Virginia Beach', 'VA', 'VT', '2056'),
+(45, 'Sam Rogersa', 'FB', '5-10', 227, 'SR', 'Mechanicsville', 'VA', 'VT', '2057'),
+(46, 'Joey Slyea', 'PK', '6-1', 207, 'JR', 'Stafford', 'VA', 'VT', '2058'),
+(47, 'Darius Fullwooda', 'DE', '6-4', 262, 'FR', 'College Park', 'MD', 'VT', '2059'),
+(48, 'Daniel Griffitha', 'LB', '6-1', 225, 'FR', 'Suffolk', 'VA', 'VT', '2060'),
+(48, 'D.J. Reida', 'RB', '6-1', 240, 'SO', 'Chester', 'VA', 'VT', '2061'),
+(49, 'Tremaine Edmundsa', 'LB', '6-5', 236, 'SO', 'Danville', 'VA', 'VT', '2062'),
+(50, 'Patrick Kearnsa', 'OL', '6-5', 280, 'FR', 'Adairsville', 'GA', 'VT', '2063'),
+(51, 'Hundley McCurrya', 'LS', '5-11', 190, 'FR', 'Summerville', 'SC', 'VT', '2064'),
+(52, 'Austin Cannona', 'OL', '6-3', 315, 'FR', 'Mechanicsville', 'VA', 'VT', '2065'),
+(52, 'Clay Deana', 'DL', '6-2', 255, 'FR', 'Purcellville', 'VA', 'VT', '2066'),
+(53, 'Wayne Muttera', 'P', '5-9', 160, 'SR', 'Grundy', 'VA', 'VT', '2067'),
+(53, 'Trent Younga', 'LB', '5-10', 212, 'SO', 'Richmond', 'VA', 'VT', '2068'),
+(54, 'Andrew Motuapuakaa', 'LB', '6-0', 235, 'JR', 'Virginia Beach', 'VA', 'VT', '2069'),
+(55, 'Jarrod Hewitta', 'DL', '6-1', 290, 'FR', 'Venice', 'FL', 'VT', '2070'),
+(56, 'Sean Huelskampa', 'LB', '6-1', 207, 'JR', 'Centreville', 'VA', 'VT', '2071'),
+(56, 'T.J. Jacksona', 'OL', '6-3', 330, 'FR', 'Cumberland', 'VA', 'VT', '2072'),
+(57, 'Wyatt Tellera', 'OL', '6-5', 304, 'JR', 'Bealeton', 'VA', 'VT', '2073'),
+(58, 'Zack Tresera', 'LB', '6-4', 221, 'FR', 'Blacksburg', 'VA', 'VT', '2074'),
+(60, 'Woody Barona', 'DT', '6-1', 275, 'SR', 'Nashville', 'TN', 'VT', '2075'),
+(61, 'Kyle Chunga', 'OL', '6-4', 290, 'JR', 'Ponte Vedra Beach', 'FL', 'VT', '2076'),
+(61, 'Joe Koshutaa', 'LB', '6-2', 240, 'FR', 'Vienna', 'VA', 'VT', '2077'),
+(62, 'D''Andre Plantina', 'OL', '6-5', 290, 'FR', 'Norcross', 'GA', 'VT', '2078'),
+(63, 'Daniel Baileya', 'OL', '6-4', 296, 'FR', 'Abingdon', 'VA', 'VT', '2079'),
+(64, 'Eric Galloa', 'OL', '6-2', 297, 'JR', 'Richboro', 'PA', 'VT', '2080'),
+(65, 'Matt Christa', 'OL', '6-4', 274, 'FR', 'Sterling', 'VA', 'VT', '2081'),
+(66, 'Billy Mitchella', 'OL', '6-3', 284, 'SO', 'Westwood', 'NJ', 'VT', '2082'),
+(67, 'Parker Osterloha', 'OL', '6-8', 336, 'JR', 'Williamsburg', 'VA', 'VT', '2083'),
+(68, 'Connor Kisha', 'OL', '6-2', 280, 'FR', 'Oceanside', 'CA', 'VT', '2084'),
+(69, 'Yosuah Nijmana', 'OL', '6-8', 298, 'SO', 'Maplewood', 'NJ', 'VT', '2085'),
+(70, 'Kevin Kisha', 'OL', '6-2', 280, 'FR', 'Oceanside', 'CA', 'VT', '2086'),
+(71, 'Jonathan McLaughlina', 'OL', '6-5', 300, 'SR', 'Mauldin', 'SC', 'VT', '2087'),
+(72, 'Augie Contea', 'OL', '6-6', 303, 'SR', 'Richmond', 'VA', 'VT', '2088'),
+(74, 'Braxton Pfaffa', 'OL', '6-5', 295, 'SO', 'Lynchburg', 'VA', 'VT', '2089'),
+(75, 'Zachariah Hoyta', 'OL', '6-5', 286, 'FR', 'Salem', 'VA', 'VT', '2090'),
+(76, 'Jarrett Hopplea', 'OL', '6-6', 280, 'FR', 'Suffolk', 'VA', 'VT', '2091'),
+(77, 'Demetri Moorea', 'OL', '6-5', 305, 'JR', 'Fairborn', 'OH', 'VT', '2092'),
+(79, 'Tyrell Smitha', 'OL', '6-3', 292, 'FR', 'North Brunswick', 'NJ', 'VT', '2093'),
+(80, 'Casey Harmana', 'TE', '6-4', 240, 'FR', 'Swords Creek', 'VA', 'VT', '2094'),
+(80, 'Colt Pettita', 'OL', '6-4', 298, 'SO', 'Deshler', 'OH', 'VT', '2095'),
+(81, 'Samuel Denmarka', 'WR', '6-0', 182, 'FR', 'Hanahan', 'SC', 'VT', '2096'),
+(82, 'Xavier Burkea', 'TE', '6-2', 270, 'FR', 'Lawrenceville', 'VA', 'VT', '2097'),
+(83, 'Eric Kumaha', 'WR', '6-2', 203, 'FR', 'Woodbridge', 'VA', 'VT', '2098'),
+(85, 'Chris Cunninghama', 'TE', '6-2', 242, 'FR', 'Jacksonville', 'FL', 'VT', '2099'),
+(86, 'C.J. Carrolla', 'WR', '5-7', 165, 'SO', 'Olney', 'MD', 'VT', '2100'),
+(87, 'Bodhie Longa', 'WR', '6-3', 200, 'FR', 'Richmond', 'VA', 'VT', '2101'),
+(87, 'Colton Taylora', 'LS', '6-1', 212, 'JR', 'Salem', 'VA', 'VT', '2102'),
+(88, 'Divine Deabloa', 'WR', '6-3', 210, 'FR', 'Winston-salem', 'NC', 'VT', '2103'),
+(89, 'Wright Bynuma', 'LS', '6-4', 230, 'FR', 'Columbia', 'SC', 'VT', '2104'),
+(89, 'Devin Wilsona', 'WR', '6-4', 190, 'JR', 'Mckees Rocks', 'PA', 'VT', '2105'),
+(90, 'Mitchell Ludwiga', 'P', '5-11', 200, 'JR', 'Abingdon', 'VA', 'VT', '2106'),
+(90, 'Dalton Roea', 'DT', '6-1', 235, 'JR', 'Williamsburg', 'VA', 'VT', '2107'),
+(91, 'Steve Sobczaka', 'DT', '6-1', 300, 'SO', 'Milford', 'VA', 'VT', '2108'),
+(92, 'Matt Reinharta', 'LB', '6-2', 225, 'FR', 'Shoemakersville', 'PA', 'VT', '2109'),
+(92, 'Robert Warfela', 'PK', '5-10', 164, 'SR', '--', '--', 'VT', '2110'),
+(93, 'Brian Johnsona', 'P', '6-1', 161, 'FR', 'Washington', 'DC', 'VT', '2111'),
+(94, 'Trevon Hilla', 'DE', '6-5', 234, 'FR', 'Virginia Beach', 'VA', 'VT', '2112'),
+(95, 'Chaska Moona', 'LS', '6-0', 249, 'FR', 'Wake Forest', 'NC', 'VT', '2113'),
+(96, 'Jimmie Taylora', 'DE', '6-3', 225, 'FR', 'Jacksonville', 'NC', 'VT', '2114'),
+(97, 'Tim Settlea', 'DT', '6-3', 344, 'FR', 'Manassas', 'VA', 'VT', '2115'),
+(98, 'Ricky Walkera', 'DT', '6-2', 288, 'SO', 'Hampton', 'VA', 'VT', '2116'),
+(99, 'Vinny Mihotaa', 'DL', '6-5', 270, 'SO', 'Fredericksburg', 'VA', 'VT', '2117');
 
 --
--- 덤프된 테이블의 인덱스
+-- Triggers `vt`
+--
+DELIMITER $$
+CREATE TRIGGER `player_vt` AFTER INSERT ON `vt`
+ FOR EACH ROW BEGIN
+	INSERT INTO `Players` (`No`, `Name`, `Pos`, `Ht`, `Wt`, `Class`, `Hometown`, `State`, `Team`, `UID`) VALUES ( NEW.No, NEW.Name, NEW.Pos, NEW.Ht, NEW.Wt, NEW.Class, NEW.Hometown , NEW.State , NEW.Team, NEW.UID );
+END
+$$
+DELIMITER ;
+
+--
+-- Indexes for dumped tables
 --
 
 --
--- 테이블의 인덱스 `C`
+-- Indexes for table `C`
 --
 ALTER TABLE `C`
   ADD PRIMARY KEY (`No`,`Name`);
 
 --
--- 테이블의 인덱스 `Players`
+-- Indexes for table `lib`
+--
+ALTER TABLE `lib`
+  ADD PRIMARY KEY (`Team`,`UID`), ADD KEY `Team` (`Team`), ADD KEY `UID` (`UID`);
+
+--
+-- Indexes for table `nor`
+--
+ALTER TABLE `nor`
+  ADD PRIMARY KEY (`Team`,`UID`), ADD KEY `Team` (`Team`), ADD KEY `UID` (`UID`);
+
+--
+-- Indexes for table `Players`
 --
 ALTER TABLE `Players`
   ADD PRIMARY KEY (`Team`,`UID`);
 
 --
--- 테이블의 인덱스 `table2`
+-- Indexes for table `table2`
 --
 ALTER TABLE `table2`
   ADD PRIMARY KEY (`Hometown`);
 
 --
--- 테이블의 인덱스 `teams`
+-- Indexes for table `teams`
 --
 ALTER TABLE `teams`
   ADD PRIMARY KEY (`ID`);
 
 --
--- 테이블의 인덱스 `uva`
+-- Indexes for table `uva`
 --
 ALTER TABLE `uva`
   ADD PRIMARY KEY (`Team`,`UID`);
 
 --
--- 덤프된 테이블의 제약사항
+-- Indexes for table `vt`
+--
+ALTER TABLE `vt`
+  ADD PRIMARY KEY (`Team`,`UID`);
+
+--
+-- Constraints for dumped tables
 --
 
 --
--- 테이블의 제약사항 `uva`
+-- Constraints for table `lib`
+--
+ALTER TABLE `lib`
+ADD CONSTRAINT `FK_PLAYER_LIB` FOREIGN KEY (`Team`, `UID`) REFERENCES `Players` (`Team`, `UID`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `nor`
+--
+ALTER TABLE `nor`
+ADD CONSTRAINT `FK_PLAYER_NOR` FOREIGN KEY (`Team`, `UID`) REFERENCES `Players` (`Team`, `UID`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `uva`
 --
 ALTER TABLE `uva`
-ADD CONSTRAINT `FK_Player_UVA` FOREIGN KEY (`Team`, `UID`) REFERENCES `Players` (`Team`, `UID`);
+ADD CONSTRAINT `FK_PLAYER_UVA` FOREIGN KEY (`Team`, `UID`) REFERENCES `Players` (`Team`, `UID`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `vt`
+--
+ALTER TABLE `vt`
+ADD CONSTRAINT `FK_PLAYER_VT` FOREIGN KEY (`Team`, `UID`) REFERENCES `Players` (`Team`, `UID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
