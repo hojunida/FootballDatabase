@@ -1,25 +1,25 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Nick Granta,DB,42889.0,185.0,FR,Spotsylvania,VA,UVA
-34.0,Bryce Halla,DB,42889.0,200.0,FR,Harrisburg,PA,UVA
-37.0,Jordan Macka,DB,42890.0,205.0,FR,Lithonia,GA,UVA
-39.0,Chris Moorea,DB,42888.0,200.0,FR,Ashburn,VA,UVA
-2.0,Tyree Rodgersa,DB,42887.0,180.0,FR,Camden,NJ,VT
-3.0,Greg Stromana,DB,42887.0,170.0,JR,Bristow,VA,VT
-21.0,Reggie Floyda,DB,6-0,200.0,FR,Manassas,VA,VT
-26.0,Jovonn Quillena,DB,42888.0,195.0,FR,Hampton,VA,VT
-39.0,Tyrone Thorntona,DB,42865.0,190.0,FR,Boston,MA,VT
-41.0,John Jenningsa,DB,42866.0,165.0,SO,Clifton,VA,VT
-2.0,Donte' Hayneswortha,DB,42866.0,195.0,SR,Mechanicsville,VA,nor
-8.0,Brandon Walkera,DB,42888.0,205.0,SR,Chester,VA,nor
-9.0,Harry Freemana,DB,42887.0,170.0,JR,Norfolk,VA,nor
-10.0,Sandy Chapmana,DB,42865.0,180.0,SR,Raleigh,NC,nor
-18.0,Bobby Pricea,DB,42889.0,180.0,FR,Virginia Beach,VA,nor
-26.0,Leroy Parkera,DB,42887.0,195.0,SR,Miami,FL,nor
-27.0,Aaron Chandlera,DB,42864.0,175.0,SO,Norfolk,VA,nor
-28.0,Edwin Leea,DB,42887.0,185.0,FR,Brooklyn,NY,nor
-29.0,J.T. Waheea,DB,42866.0,170.0,FR,Norfolk,VA,nor
-35.0,Audrex Harrisa,DB,42887.0,190.0,JR,Chesapeake,VA,nor
-36.0,Ebenezer Agyemang-Kusia,DB,42866.0,185.0,SO,Triangle,VA,nor
-37.0,Hakiem Swanna,DB,42866.0,180.0,JR,Portsmouth,VA,nor
-38.0,Thomas Stingera,DB,42887.0,150.0,JR,Leesburg,VA,nor
-49.0,Malik Dixona,DB,42863.0,160.0,FR,Newport News,VA,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Nick Granta,DB, 06-03,185.0,FR,Spotsylvania,VA,UVA,1012.0
+34.0,Bryce Halla,DB, 06-03,200.0,FR,Harrisburg,PA,UVA,1058.0
+37.0,Jordan Macka,DB, 06-04,205.0,FR,Lithonia,GA,UVA,1060.0
+39.0,Chris Moorea,DB, 06-02,200.0,FR,Ashburn,VA,UVA,1062.0
+2.0,Tyree Rodgersa,DB, 06-01,180.0,FR,Camden,NJ,VT,2002.0
+3.0,Greg Stromana,DB, 06-01,170.0,JR,Bristow,VA,VT,2003.0
+21.0,Reggie Floyda,DB, 06-00,200.0,FR,Manassas,VA,VT,2026.0
+26.0,Jovonn Quillena,DB, 06-02,195.0,FR,Hampton,VA,VT,2030.0
+39.0,Tyrone Thorntona,DB, 05-10,190.0,FR,Boston,MA,VT,2048.0
+41.0,John Jenningsa,DB, 05-11,165.0,SO,Clifton,VA,VT,2051.0
+2.0,Donte' Hayneswortha,DB, 05-11,195.0,SR,Mechanicsville,VA,nor,4001.0
+8.0,Brandon Walkera,DB, 06-02,205.0,SR,Chester,VA,nor,4007.0
+9.0,Harry Freemana,DB, 06-01,170.0,JR,Norfolk,VA,nor,4008.0
+10.0,Sandy Chapmana,DB, 05-10,180.0,SR,Raleigh,NC,nor,4009.0
+18.0,Bobby Pricea,DB, 06-03,180.0,FR,Virginia Beach,VA,nor,4016.0
+26.0,Leroy Parkera,DB, 06-01,195.0,SR,Miami,FL,nor,4024.0
+27.0,Aaron Chandlera,DB, 05-09,175.0,SO,Norfolk,VA,nor,4025.0
+28.0,Edwin Leea,DB, 06-01,185.0,FR,Brooklyn,NY,nor,4026.0
+29.0,J.T. Waheea,DB, 05-11,170.0,FR,Norfolk,VA,nor,4027.0
+35.0,Audrex Harrisa,DB, 06-01,190.0,JR,Chesapeake,VA,nor,4033.0
+36.0,Ebenezer Agyemang-Kusia,DB, 05-11,185.0,SO,Triangle,VA,nor,4034.0
+37.0,Hakiem Swanna,DB, 05-11,180.0,JR,Portsmouth,VA,nor,4035.0
+38.0,Thomas Stingera,DB, 06-01,150.0,JR,Leesburg,VA,nor,4036.0
+49.0,Malik Dixona,DB, 05-08,160.0,FR,Newport News,VA,nor,4046.0

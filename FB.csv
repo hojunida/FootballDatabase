@@ -1,8 +1,8 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
-41.0,Connor Wingo-Reevesa,FB,42889.0,225.0,SR,Midlothian,VA,UVA
-32.0,Steven Peoplesa,FB,42864.0,218.0,SO,Galax,VA,VT
-41.0,Trey Skeensa,FB,6-0,215.0,FR,Wytheville,VA,VT
-45.0,Sam Rogersa,FB,42865.0,227.0,SR,Mechanicsville,VA,VT
-36.0,Thomas Kennedya,FB,42866.0,240.0,JR,Roanoke,VA,Lib
-34.0,Dimitri McKaya,FB,42866.0,235.0,SO,Chesapeake,VA,nor
-44.0,Conley Smitha,FB,42866.0,250.0,SR,Chesapeake,VA,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+41.0,Connor Wingo-Reevesa,FB, 06-03,225.0,SR,Midlothian,VA,UVA,1064.0
+32.0,Steven Peoplesa,FB, 05-09,218.0,SO,Galax,VA,VT,2039.0
+41.0,Trey Skeensa,FB, 06-00,215.0,FR,Wytheville,VA,VT,2052.0
+45.0,Sam Rogersa,FB, 05-10,227.0,SR,Mechanicsville,VA,VT,2057.0
+36.0,Thomas Kennedya,FB, 05-11,240.0,JR,Roanoke,VA,Lib,3045.0
+34.0,Dimitri McKaya,FB, 05-11,235.0,SO,Chesapeake,VA,nor,4032.0
+44.0,Conley Smitha,FB, 05-11,250.0,SR,Chesapeake,VA,nor,4041.0

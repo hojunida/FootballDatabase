@@ -58,7 +58,7 @@ for sh in shs:
 for x in d.keys():
 	outfile = x + ".csv"
 	f = open(outfile,"w+")
-	heading = "No,Name,Pos,Ht,Wt,Class,Hometown,State,Team\n"
+	heading = "No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID\n"
 	f.write(heading)
 	for a in d[x]:
 		temp = ""

@@ -1,12 +1,12 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Nash Griffina,PK,42890.0,215.0,FR,Indianapolis,IN,UVA
-84.0,Alex Furbanka,PK,6-0,220.0,SO,Fairfax,VA,UVA
-89.0,Sam Haywarda,PK,6-0,165.0,JR,Dallas,TX,UVA
-91.0,Dylan Simsa,PK,6-0,190.0,SR,Lynchburg,VA,UVA
-35.0,Michael Santamariaa,PK,42863.0,168.0,SO,Athens,GA,VT
-46.0,Joey Slyea,PK,42887.0,207.0,JR,Stafford,VA,VT
-92.0,Robert Warfela,PK,42865.0,164.0,SR,--,--,VT
-10.0,Alex Proberta,PK,42864.0,170.0,FR,Andover,MN,Lib
-11.0,Cole Gibsona,PK,42887.0,235.0,FR,Chesapeake,VA,Lib
-13.0,Cameron Maroufa,PK,42864.0,160.0,SR,Woodbridge,VA,nor
-39.0,Bo Lomaxa,PK,42866.0,220.0,SO,Hampton,VA,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Nash Griffina,PK, 06-04,215.0,FR,Indianapolis,IN,UVA,1013.0
+84.0,Alex Furbanka,PK, 06-00,220.0,SO,Fairfax,VA,UVA,1094.0
+89.0,Sam Haywarda,PK, 06-00,165.0,JR,Dallas,TX,UVA,1099.0
+91.0,Dylan Simsa,PK, 06-00,190.0,SR,Lynchburg,VA,UVA,1101.0
+35.0,Michael Santamariaa,PK, 05-08,168.0,SO,Athens,GA,VT,2043.0
+46.0,Joey Slyea,PK, 06-01,207.0,JR,Stafford,VA,VT,2058.0
+92.0,Robert Warfela,PK, 05-10,164.0,SR,--,--,VT,2110.0
+10.0,Alex Proberta,PK, 05-09,170.0,FR,Andover,MN,Lib,3014.0
+11.0,Cole Gibsona,PK, 06-01,235.0,FR,Chesapeake,VA,Lib,3016.0
+13.0,Cameron Maroufa,PK, 05-09,160.0,SR,Woodbridge,VA,nor,4012.0
+39.0,Bo Lomaxa,PK, 05-11,220.0,SO,Hampton,VA,nor,4037.0

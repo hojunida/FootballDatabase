@@ -1,22 +1,22 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Naji Abdullaha,DE,42891.0,235.0,FR,Jacksonville,FL,UVA
---,Christian Baumgardnera,DE,42892.0,235.0,FR,Longport,NJ,UVA
-9.0,Andrew Browna,DE,42890.0,290.0,JR,Chesapeake,VA,UVA
-20.0,Steven Wrighta,DE,42890.0,255.0,FR,Waycross,GA,UVA
-58.0,Eli Hanbacka,DE,42890.0,270.0,FR,Ashland,VA,UVA
-59.0,Mark Halla,DE,42888.0,260.0,SR,Virginia Beach,VA,UVA
-90.0,Jack Powersa,DE,42891.0,280.0,JR,Santa Cruz,CA,UVA
-4.0,Ken Ekanema,DE,42889.0,253.0,SR,Centreville,VA,VT
-11.0,Houshun Gainesa,DE,42890.0,231.0,FR,Rocky Mount,NC,VT
-43.0,Seth Dooleya,DE,42892.0,239.0,JR,Salem,VA,VT
-47.0,Darius Fullwooda,DE,42890.0,262.0,FR,College Park,MD,VT
-94.0,Trevon Hilla,DE,42891.0,234.0,FR,Virginia Beach,VA,VT
-96.0,Jimmie Taylora,DE,42889.0,225.0,FR,Jacksonville,NC,VT
-42.0,Erwin Dessourcesa,DE,42887.0,235.0,SR,Randolph,MA,Lib
-44.0,Dia'Vante Browna,DE,42888.0,245.0,JR,Greensboro,NC,Lib
-52.0,Michael Andersona,DE,42889.0,220.0,FR,Fort Lauderdale,FL,Lib
-54.0,Juwan Wellsa,DE,42888.0,255.0,SO,Dublin,GA,Lib
-55.0,Tolen Averya,DE,42890.0,270.0,SO,Galveston,TX,Lib
-91.0,Javon Fraziera,DE,42888.0,245.0,FR,Stafford,VA,Lib
-94.0,John Roughtona,DE,42889.0,225.0,JR,--,--,Lib
-95.0,Devin Fishera,DE,42887.0,235.0,FR,Radford,VA,Lib
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Naji Abdullaha,DE, 06-05,235.0,FR,Jacksonville,FL,UVA,1001.0
+--,Christian Baumgardnera,DE, 06-06,235.0,FR,Longport,NJ,UVA,1003.0
+9.0,Andrew Browna,DE, 06-04,290.0,JR,Chesapeake,VA,UVA,1035.0
+20.0,Steven Wrighta,DE, 06-04,255.0,FR,Waycross,GA,UVA,1045.0
+58.0,Eli Hanbacka,DE, 06-04,270.0,FR,Ashland,VA,UVA,1078.0
+59.0,Mark Halla,DE, 06-02,260.0,SR,Virginia Beach,VA,UVA,1079.0
+90.0,Jack Powersa,DE, 06-05,280.0,JR,Santa Cruz,CA,UVA,1100.0
+4.0,Ken Ekanema,DE, 06-03,253.0,SR,Centreville,VA,VT,2004.0
+11.0,Houshun Gainesa,DE, 06-04,231.0,FR,Rocky Mount,NC,VT,2014.0
+43.0,Seth Dooleya,DE, 06-06,239.0,JR,Salem,VA,VT,2055.0
+47.0,Darius Fullwooda,DE, 06-04,262.0,FR,College Park,MD,VT,2059.0
+94.0,Trevon Hilla,DE, 06-05,234.0,FR,Virginia Beach,VA,VT,2112.0
+96.0,Jimmie Taylora,DE, 06-03,225.0,FR,Jacksonville,NC,VT,2114.0
+42.0,Erwin Dessourcesa,DE, 06-01,235.0,SR,Randolph,MA,Lib,3049.0
+44.0,Dia'Vante Browna,DE, 06-02,245.0,JR,Greensboro,NC,Lib,3051.0
+52.0,Michael Andersona,DE, 06-03,220.0,FR,Fort Lauderdale,FL,Lib,3056.0
+54.0,Juwan Wellsa,DE, 06-02,255.0,SO,Dublin,GA,Lib,3058.0
+55.0,Tolen Averya,DE, 06-04,270.0,SO,Galveston,TX,Lib,3059.0
+91.0,Javon Fraziera,DE, 06-02,245.0,FR,Stafford,VA,Lib,3087.0
+94.0,John Roughtona,DE, 06-03,225.0,JR,--,--,Lib,3088.0
+95.0,Devin Fishera,DE, 06-01,235.0,FR,Radford,VA,Lib,3089.0

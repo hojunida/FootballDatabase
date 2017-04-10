@@ -1,7 +1,7 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
-30.0,Nicholas Contea,P,42889.0,225.0,SR,Roanoke,VA,UVA
-47.0,Lester Colemana,P,42891.0,225.0,SO,Martinsville,VA,UVA
-53.0,Wayne Muttera,P,42864.0,160.0,SR,Grundy,VA,VT
-90.0,Mitchell Ludwiga,P,42866.0,200.0,JR,Abingdon,VA,VT
-93.0,Brian Johnsona,P,42887.0,161.0,FR,Washington,DC,VT
-35.0,Trey Turnera,P,42866.0,210.0,JR,Rome,GA,Lib
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+30.0,Nicholas Contea,P, 06-03,225.0,SR,Roanoke,VA,UVA,1054.0
+47.0,Lester Colemana,P, 06-05,225.0,SO,Martinsville,VA,UVA,1070.0
+53.0,Wayne Muttera,P, 05-09,160.0,SR,Grundy,VA,VT,2067.0
+90.0,Mitchell Ludwiga,P, 05-11,200.0,JR,Abingdon,VA,VT,2106.0
+93.0,Brian Johnsona,P, 06-01,161.0,FR,Washington,DC,VT,2111.0
+35.0,Trey Turnera,P, 05-11,210.0,JR,Rome,GA,Lib,3044.0

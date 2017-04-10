@@ -1,5 +1,5 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Patrick Kidda,G,42890.0,290.0,SO,Woodbridge,VA,UVA
-62.0,Sean Karla,G,42892.0,300.0,SR,Manorville,NY,UVA
-70.0,Steven Mossa,G,42890.0,300.0,SO,Fredericksburg,VA,UVA
-71.0,Jack McDonalda,G,42891.0,290.0,JR,Quincy,MA,UVA
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Patrick Kidda,G, 06-04,290.0,SO,Woodbridge,VA,UVA,1016.0
+62.0,Sean Karla,G, 06-06,300.0,SR,Manorville,NY,UVA,1080.0
+70.0,Steven Mossa,G, 06-04,300.0,SO,Fredericksburg,VA,UVA,1083.0
+71.0,Jack McDonalda,G, 06-05,290.0,JR,Quincy,MA,UVA,1084.0

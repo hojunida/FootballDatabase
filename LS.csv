@@ -1,7 +1,7 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Tyler Shirleya,LS,42889.0,220.0,JR,Midlothian,VA,UVA
-51.0,Hundley McCurrya,LS,42866.0,190.0,FR,Summerville,SC,VT
-87.0,Colton Taylora,LS,42887.0,212.0,JR,Salem,VA,VT
-89.0,Wright Bynuma,LS,42890.0,230.0,FR,Columbia,SC,VT
-95.0,Chaska Moona,LS,6-0,249.0,FR,Wake Forest,NC,VT
-57.0,Hunter Winsteada,LS,6-0,240.0,JR,Raleigh,NC,Lib
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Tyler Shirleya,LS, 06-03,220.0,JR,Midlothian,VA,UVA,1023.0
+51.0,Hundley McCurrya,LS, 05-11,190.0,FR,Summerville,SC,VT,2064.0
+87.0,Colton Taylora,LS, 06-01,212.0,JR,Salem,VA,VT,2102.0
+89.0,Wright Bynuma,LS, 06-04,230.0,FR,Columbia,SC,VT,2104.0
+95.0,Chaska Moona,LS, 06-00,249.0,FR,Wake Forest,NC,VT,2113.0
+57.0,Hunter Winsteada,LS, 06-00,240.0,JR,Raleigh,NC,Lib,3061.0
