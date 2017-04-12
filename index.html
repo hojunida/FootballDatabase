@@ -22,15 +22,38 @@
 		
 		$( "#myList" ).change(function() {
 			var inputVal = $(this).val();
-			$.ajax({
-				type: "POST",
-				url: 'searchSchool.php', 
-				data: {searchSchool: inputVal},
-				success: function(data){
-					$('#schoolResult').html(data);	
-					//$('#schoolResult').html(inputVal);
-				}
-			});
+			if(inputVal != "none") {
+				$.ajax({
+					type: "POST",
+					url: 'searchSchool.php', 
+					data: {searchSchool: inputVal},
+					success: function(data){
+						$('#schoolResult').html(data);	
+						//$('#schoolResult').html(inputVal);
+					}
+				});
+			}
+			else{
+				$('#schoolResult').html("School Result");
+			}
+		});
+		
+		$( "#myList2" ).change(function() {
+			var inputVal = $(this).val();
+			if(inputVal != "none") {
+				$.ajax({
+					type: "POST",
+					url: 'matchSchool.php', 
+					data: {matchSchool: inputVal},
+					success: function(data){
+						$('#matchResult').html(data);	
+						//$('#schoolResult').html(inputVal);
+					}
+				});
+			}
+			else{
+				$('#matchResult').html("Match Result");
+			}
 		});
 		
 	});
@@ -78,6 +101,7 @@
 	
 	<form>
 	<select id="myList">
+		<option value="none">Select..</option>
 		<option value="uva">UVA</option>
 		<option value="vt">Virginia Tech</option>
 		<option value="nor">Norfolk</option>
@@ -88,6 +112,20 @@
 	</form>
 	
 	<div id ="schoolResult">School Result</div>
+	
+	<form>
+	<select id="myList2">
+		<option value="none">Select..</option>
+		<option value="UVA">UVA</option>
+		<option value="VT">Virginia Tech</option>
+		<option value="NOR">Norfolk</option>
+		<option value="LIB">Liberty</option>
+		<option value="ODU">Old Dominion</option>
+		<option value="HAMP">Hampton</option>
+	</select>
+	</form>
+	
+	<div id ="matchResult">Match Result</div>
 	
 	<div id="frm">
 		<form action="process.php" method="POST">

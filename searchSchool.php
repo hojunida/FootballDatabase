@@ -5,7 +5,6 @@
 	$stmt = $db->stmt_init();
 	
 	$searchString = $_POST['searchSchool'];
-	
 	if($stmt->prepare("select * from $searchString") or die(mysqli_error($db))) {
 		$stmt->execute();
 		$stmt->bind_result($No, $Name, $Pos, $Ht, $Wt, $Class, $Hometown, $State, $Team, $UID);
@@ -16,7 +15,7 @@
 		echo "</table>";
 	
 		$stmt->close();
-	}
+	}	
 	
 	$db->close();
 
