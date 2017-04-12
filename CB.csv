@@ -1,25 +1,25 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Chuck Davisa,CB,42865.0,170.0,FR,Fairfax,VA,UVA
---,Darious Latimorea,CB,6-0,170.0,SO,Lawrenceville,GA,UVA
-5.0,Tim Harrisa,CB,42888.0,205.0,SR,Richmond,VA,UVA
-14.0,Myles Robinsona,CB,42866.0,195.0,SO,Olney,MD,UVA
-31.0,Kareem Gibsona,CB,42866.0,170.0,FR,Johnstown,PA,UVA
-32.0,Kirk Garnera,CB,42866.0,180.0,JR,Baltimore,MD,UVA
-9.0,Khalil Ladlera,CB,42866.0,178.0,FR,Stone Mountain,GA,VT
-27.0,Shawn Paynea,CB,42889.0,185.0,SO,Chesterfield,VA,VT
-28.0,Curtis Williamsa,CB,42864.0,176.0,JR,Amelia,VA,VT
-29.0,DuWayne Johnsona,CB,42888.0,180.0,FR,Washington,DC,VT
-31.0,Brandon Facysona,CB,42888.0,191.0,JR,Newnan,GA,VT
-35.0,Erikk Banksa,CB,42865.0,173.0,JR,Coeburn,VA,VT
-36.0,Adonis Alexandera,CB,42889.0,197.0,SO,Charlotte,NC,VT
-42.0,Elisha Boyda,CB,6-0,175.0,SO,Newport News,VA,VT
-2.0,Jeremy Petersa,CB,42865.0,190.0,SO,Green Cove Springs,FL,Lib
-6.0,Tyrin Hollowaya,CB,6-0,195.0,JR,Humble,TX,Lib
-8.0,Jimmy Faulksa,CB,42887.0,175.0,FR,--,--,Lib
-14.0,Cam Jacksona,CB,42887.0,205.0,SO,Houston,TX,Lib
-15.0,T.J. Tillerya,CB,42865.0,195.0,SO,Charlottesville,VA,Lib
-21.0,Wesley Scotta,CB,42865.0,175.0,SR,Lorton,VA,Lib
-24.0,Malik Matthewsa,CB,42866.0,185.0,FR,Jacksonville,FL,Lib
-27.0,Cameron Jonesa,CB,42866.0,195.0,SO,New Orleans,LA,Lib
-32.0,Jermaine Copelanda,CB,42864.0,190.0,FR,Farmville,VA,Lib
-39.0,Chris Turnera,CB,42889.0,175.0,SO,Columbia,SC,Lib
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Chuck Davisa,CB, 05-10,170.0,FR,Fairfax,VA,UVA,1009.0
+--,Darious Latimorea,CB, 06-00,170.0,SO,Lawrenceville,GA,UVA,1017.0
+5.0,Tim Harrisa,CB, 06-02,205.0,SR,Richmond,VA,UVA,1030.0
+14.0,Myles Robinsona,CB, 05-11,195.0,SO,Olney,MD,UVA,1039.0
+31.0,Kareem Gibsona,CB, 05-11,170.0,FR,Johnstown,PA,UVA,1055.0
+32.0,Kirk Garnera,CB, 05-11,180.0,JR,Baltimore,MD,UVA,1056.0
+9.0,Khalil Ladlera,CB, 05-11,178.0,FR,Stone Mountain,GA,VT,2011.0
+27.0,Shawn Paynea,CB, 06-03,185.0,SO,Chesterfield,VA,VT,2032.0
+28.0,Curtis Williamsa,CB, 05-09,176.0,JR,Amelia,VA,VT,2034.0
+29.0,DuWayne Johnsona,CB, 06-02,180.0,FR,Washington,DC,VT,2035.0
+31.0,Brandon Facysona,CB, 06-02,191.0,JR,Newnan,GA,VT,2038.0
+35.0,Erikk Banksa,CB, 05-10,173.0,JR,Coeburn,VA,VT,2042.0
+36.0,Adonis Alexandera,CB, 06-03,197.0,SO,Charlotte,NC,VT,2044.0
+42.0,Elisha Boyda,CB, 06-00,175.0,SO,Newport News,VA,VT,2053.0
+2.0,Jeremy Petersa,CB, 05-10,190.0,SO,Green Cove Springs,FL,Lib,3003.0
+6.0,Tyrin Hollowaya,CB, 06-00,195.0,JR,Humble,TX,Lib,3008.0
+8.0,Jimmy Faulksa,CB, 06-01,175.0,FR,--,--,Lib,3011.0
+14.0,Cam Jacksona,CB, 06-01,205.0,SO,Houston,TX,Lib,3022.0
+15.0,T.J. Tillerya,CB, 05-10,195.0,SO,Charlottesville,VA,Lib,3023.0
+21.0,Wesley Scotta,CB, 05-10,175.0,SR,Lorton,VA,Lib,3030.0
+24.0,Malik Matthewsa,CB, 05-11,185.0,FR,Jacksonville,FL,Lib,3033.0
+27.0,Cameron Jonesa,CB, 05-11,195.0,SO,New Orleans,LA,Lib,3036.0
+32.0,Jermaine Copelanda,CB, 05-09,190.0,FR,Farmville,VA,Lib,3041.0
+39.0,Chris Turnera,CB, 06-03,175.0,SO,Columbia,SC,Lib,3047.0

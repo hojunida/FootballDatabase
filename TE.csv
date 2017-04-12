@@ -1,18 +1,18 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
-46.0,Evan Buttsa,TE,42890.0,245.0,SO,Newtown Square,PA,UVA
-83.0,Brendan Marshalla,TE,42891.0,235.0,JR,Gaithersburg,MD,UVA
-87.0,Richard Burneya,TE,42890.0,245.0,FR,Chesapeake,VA,UVA
-7.0,Bucky Hodgesa,TE,42893.0,245.0,JR,Virginia Beach,VA,VT
-13.0,Chris Durkina,TE,42890.0,232.0,SO,Poland,OH,VT
-80.0,Casey Harmana,TE,42890.0,240.0,FR,Swords Creek,VA,VT
-82.0,Xavier Burkea,TE,42888.0,270.0,FR,Lawrenceville,VA,VT
-85.0,Chris Cunninghama,TE,42888.0,242.0,FR,Jacksonville,FL,VT
-17.0,Kendall Couamina,TE,42888.0,255.0,JR,Miami Lakes,FL,Lib
-19.0,Will Johnsona,TE,42892.0,265.0,SR,Osseo,MN,Lib
-40.0,Zac Foutza,TE,42890.0,250.0,FR,Roanoke,VA,Lib
-89.0,Canon Smitha,TE,42890.0,255.0,SR,Hoover,AL,Lib
-99.0,Ralfs Rusinsa,TE,42891.0,295.0,FR,--,--,Lib
-45.0,Jeff Leea,TE,42889.0,240.0,FR,North Chesterfield,VA,nor
-81.0,Demetreus Ferebeea,TE,42890.0,235.0,JR,Roanoke,VA,nor
-82.0,Torian Hendersona,TE,42890.0,240.0,SR,Silver Spring,MD,nor
-89.0,Anthony Williamsa,TE,42889.0,210.0,FR,Norfolk,VA,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+46.0,Evan Buttsa,TE, 06-04,245.0,SO,Newtown Square,PA,UVA,1069.0
+83.0,Brendan Marshalla,TE, 06-05,235.0,JR,Gaithersburg,MD,UVA,1093.0
+87.0,Richard Burneya,TE, 06-04,245.0,FR,Chesapeake,VA,UVA,1097.0
+7.0,Bucky Hodgesa,TE, 06-07,245.0,JR,Virginia Beach,VA,VT,2008.0
+13.0,Chris Durkina,TE, 06-04,232.0,SO,Poland,OH,VT,2017.0
+80.0,Casey Harmana,TE, 06-04,240.0,FR,Swords Creek,VA,VT,2094.0
+82.0,Xavier Burkea,TE, 06-02,270.0,FR,Lawrenceville,VA,VT,2097.0
+85.0,Chris Cunninghama,TE, 06-02,242.0,FR,Jacksonville,FL,VT,2099.0
+17.0,Kendall Couamina,TE, 06-02,255.0,JR,Miami Lakes,FL,Lib,3025.0
+19.0,Will Johnsona,TE, 06-06,265.0,SR,Osseo,MN,Lib,3027.0
+40.0,Zac Foutza,TE, 06-04,250.0,FR,Roanoke,VA,Lib,3048.0
+89.0,Canon Smitha,TE, 06-04,255.0,SR,Hoover,AL,Lib,3085.0
+99.0,Ralfs Rusinsa,TE, 06-05,295.0,FR,--,--,Lib,3091.0
+45.0,Jeff Leea,TE, 06-03,240.0,FR,North Chesterfield,VA,nor,4042.0
+81.0,Demetreus Ferebeea,TE, 06-04,235.0,JR,Roanoke,VA,nor,4070.0
+82.0,Torian Hendersona,TE, 06-04,240.0,SR,Silver Spring,MD,nor,4071.0
+89.0,Anthony Williamsa,TE, 06-03,210.0,FR,Norfolk,VA,nor,4078.0

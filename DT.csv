@@ -1,13 +1,13 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
-1.0,Donte Wilkinsa,DT,42887.0,300.0,SR,Woodbridge,VA,UVA
-56.0,Andre Miles-Redmonda,DT,42890.0,275.0,SR,Richmond,VA,UVA
-57.0,James Trucillaa,DT,42887.0,270.0,FR,Erie,PA,UVA
-8.0,Nigel Williamsa,DT,42890.0,295.0,SR,Richmond,VA,VT
-60.0,Woody Barona,DT,42887.0,275.0,SR,Nashville,TN,VT
-90.0,Dalton Roea,DT,42887.0,235.0,JR,Williamsburg,VA,VT
-91.0,Steve Sobczaka,DT,42887.0,300.0,SO,Milford,VA,VT
-97.0,Tim Settlea,DT,42889.0,344.0,FR,Manassas,VA,VT
-98.0,Ricky Walkera,DT,42888.0,288.0,SO,Hampton,VA,VT
-1.0,DeCarlo Hamiltona,DT,42889.0,335.0,FR,Plantation,FL,Lib
-76.0,JaRon Greenea,DT,42888.0,310.0,SR,Beaumont,TX,Lib
-97.0,Aaron Wallera,DT,42889.0,365.0,SR,Long Beach,CA,Lib
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+1.0,Donte Wilkinsa,DT, 06-01,300.0,SR,Woodbridge,VA,UVA,1026.0
+56.0,Andre Miles-Redmonda,DT, 06-04,275.0,SR,Richmond,VA,UVA,1076.0
+57.0,James Trucillaa,DT, 06-01,270.0,FR,Erie,PA,UVA,1077.0
+8.0,Nigel Williamsa,DT, 06-04,295.0,SR,Richmond,VA,VT,2010.0
+60.0,Woody Barona,DT, 06-01,275.0,SR,Nashville,TN,VT,2075.0
+90.0,Dalton Roea,DT, 06-01,235.0,JR,Williamsburg,VA,VT,2107.0
+91.0,Steve Sobczaka,DT, 06-01,300.0,SO,Milford,VA,VT,2108.0
+97.0,Tim Settlea,DT, 06-03,344.0,FR,Manassas,VA,VT,2115.0
+98.0,Ricky Walkera,DT, 06-02,288.0,SO,Hampton,VA,VT,2116.0
+1.0,DeCarlo Hamiltona,DT, 06-03,335.0,FR,Plantation,FL,Lib,3001.0
+76.0,JaRon Greenea,DT, 06-02,310.0,SR,Beaumont,TX,Lib,3073.0
+97.0,Aaron Wallera,DT, 06-03,365.0,SR,Long Beach,CA,Lib,3090.0

@@ -1,18 +1,18 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Sonny Abramsona,QB,42888.0,210.0,FR,Chester,NJ,UVA
---,De'Vante Crossa,QB,42888.0,200.0,FR,Allentown,PA,UVA
-6.0,Kurt Benkerta,QB,42890.0,230.0,JR,Cape Coral,FL,UVA
-15.0,Matt Johnsa,QB,42891.0,215.0,SR,Chalfont,PA,UVA
-16.0,Connor Brewera,QB,42888.0,195.0,SR,Scottsdale,AZ,UVA
-99.0,Joe Spaziania,QB,42888.0,210.0,SO,Hingham,MA,UVA
-4.0,Jerod Evansa,QB,42890.0,235.0,JR,Dallas,TX,VT
-9.0,Brenden Motleya,QB,42889.0,225.0,SR,Christiansburg,VA,VT
-11.0,Jack Clicka,QB,42889.0,216.0,FR,Glen Allen,VA,VT
-12.0,Josh Jacksona,QB,42888.0,207.0,FR,Ann Arbor,MI,VT
-18.0,Chase Mummaua,QB,42888.0,174.0,FR,Mechanicsville,VA,VT
-3.0,Stephon Mashaa,QB,42887.0,205.0,JR,Marietta,GA,Lib
-12.0,Stephen Calverta,QB,42888.0,180.0,FR,Plantation,FL,Lib
-13.0,Rudiger Yearicka,QB,42889.0,195.0,FR,Matthews,NC,Lib
-16.0,Spencer Jonesa,QB,42889.0,185.0,FR,Nashville,TN,Lib
-6.0,Tyre Givers-Wilsona,QB,42889.0,200.0,FR,Chesapeake,VA,nor
-7.0,Greg Hankersona,QB,42887.0,190.0,SR,Lauderdale Lakes,FL,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Sonny Abramsona,QB, 06-02,210.0,FR,Chester,NJ,UVA,1002.0
+--,De'Vante Crossa,QB, 06-02,200.0,FR,Allentown,PA,UVA,1007.0
+6.0,Kurt Benkerta,QB, 06-04,230.0,JR,Cape Coral,FL,UVA,1032.0
+15.0,Matt Johnsa,QB, 06-05,215.0,SR,Chalfont,PA,UVA,1040.0
+16.0,Connor Brewera,QB, 06-02,195.0,SR,Scottsdale,AZ,UVA,1041.0
+99.0,Joe Spaziania,QB, 06-02,210.0,SO,Hingham,MA,UVA,1104.0
+4.0,Jerod Evansa,QB, 06-04,235.0,JR,Dallas,TX,VT,2005.0
+9.0,Brenden Motleya,QB, 06-03,225.0,SR,Christiansburg,VA,VT,2012.0
+11.0,Jack Clicka,QB, 06-03,216.0,FR,Glen Allen,VA,VT,2013.0
+12.0,Josh Jacksona,QB, 06-02,207.0,FR,Ann Arbor,MI,VT,2015.0
+18.0,Chase Mummaua,QB, 06-02,174.0,FR,Mechanicsville,VA,VT,2023.0
+3.0,Stephon Mashaa,QB, 06-01,205.0,JR,Marietta,GA,Lib,3005.0
+12.0,Stephen Calverta,QB, 06-02,180.0,FR,Plantation,FL,Lib,3018.0
+13.0,Rudiger Yearicka,QB, 06-03,195.0,FR,Matthews,NC,Lib,3021.0
+16.0,Spencer Jonesa,QB, 06-03,185.0,FR,Nashville,TN,Lib,3024.0
+6.0,Tyre Givers-Wilsona,QB, 06-03,200.0,FR,Chesapeake,VA,nor,4005.0
+7.0,Greg Hankersona,QB, 06-01,190.0,SR,Lauderdale Lakes,FL,nor,4006.0

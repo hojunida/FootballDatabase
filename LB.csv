@@ -1,56 +1,56 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
---,Dre Bryanta,LB,42889.0,220.0,FR,Charlottesville,VA,UVA
---,Dillon Davisa,LB,42888.0,210.0,FR,Bellaire,TX,UVA
---,Michael Guercia,LB,42888.0,220.0,SO,Franklin Lakes,NJ,UVA
---,Dominic Shepparda,LB,42888.0,220.0,FR,Miami,FL,UVA
-13.0,Chris Peacea,LB,42887.0,230.0,SO,Newport News,VA,UVA
-17.0,Malcolm Cooka,LB,42887.0,220.0,JR,Richmond,VA,UVA
-27.0,Cory Jonesa,LB,42891.0,220.0,SO,Washington,DC,UVA
-29.0,Eric Gallona,LB,42888.0,220.0,SO,Lakeland,FL,UVA
-36.0,Gladimir Paula,LB,42888.0,215.0,FR,Philadelphia,PA,UVA
-40.0,C.J. Stalkera,LB,42888.0,225.0,SO,West Chester,OH,UVA
-42.0,Jahvoni Simmonsa,LB,42887.0,225.0,FR,Virginia Beach,VA,UVA
-43.0,Sean Fitzgeralda,LB,42866.0,225.0,FR,Falls Church,VA,UVA
-45.0,Reed Kellama,LB,42887.0,225.0,FR,Richmond,VA,UVA
-51.0,Zach Bradshawa,LB,42889.0,230.0,SR,Damascus,MD,UVA
-52.0,Robert Snydera,LB,42890.0,220.0,FR,Lawrenceville,GA,UVA
-53.0,Micah Kisera,LB,42888.0,240.0,JR,Baltimore,MD,UVA
-54.0,Matt Terrella,LB,42890.0,225.0,FR,Lynchburg,VA,UVA
-95.0,Juwan Moyea,LB,42889.0,255.0,FR,Lilburn,GA,UVA
-98.0,Landan Worda,LB,42891.0,245.0,FR,Vienna,VA,UVA
-14.0,Tavante Becketta,LB,6-0,215.0,FR,Chesapeake,VA,VT
-18.0,Raymon Minora,LB,42888.0,231.0,SO,Ashland,VA,VT
-22.0,Terrell Edmundsa,LB,42887.0,201.0,SO,Danville,VA,VT
-24.0,Anthony Shegoga,LB,42889.0,212.0,JR,Stafford,VA,VT
-30.0,Eron Cartera,LB,42888.0,230.0,FR,Palatka,FL,VT
-36.0,Alden Carpentera,LB,42887.0,192.0,JR,Leesburg,VA,VT
-37.0,Johnathan Galantea,LB,42864.0,210.0,SR,Blacksburg,VA,VT
-40.0,Emmanuel Belmara,LB,42888.0,230.0,FR,Suwanee,GA,VT
-44.0,Tre Hubbarda,LB,6-0,230.0,FR,Virginia Beach,VA,VT
-48.0,Daniel Griffitha,LB,42887.0,225.0,FR,Suffolk,VA,VT
-49.0,Tremaine Edmundsa,LB,42891.0,236.0,SO,Danville,VA,VT
-53.0,Trent Younga,LB,42865.0,212.0,SO,Richmond,VA,VT
-54.0,Andrew Motuapuakaa,LB,6-0,235.0,JR,Virginia Beach,VA,VT
-56.0,Sean Huelskampa,LB,42887.0,207.0,JR,Centreville,VA,VT
-58.0,Zack Tresera,LB,42890.0,221.0,FR,Blacksburg,VA,VT
-61.0,Joe Koshutaa,LB,42888.0,240.0,FR,Vienna,VA,VT
-92.0,Matt Reinharta,LB,42888.0,225.0,FR,Shoemakersville,PA,VT
-4.0,Jaylyn McKinneya,LB,6-0,225.0,FR,Lake Wales,FL,Lib
-5.0,Lucas Ironsa,LB,6-0,215.0,SO,Fort Lauderdale,FL,Lib
-9.0,Nick Newmana,LB,42890.0,215.0,SR,Gainesville,VA,Lib
-13.0,Korell Evansa,LB,42887.0,215.0,FR,Hallandale,FL,Lib
-25.0,Aaron Glovera,LB,42866.0,210.0,FR,Norfolk,VA,Lib
-30.0,Dexter Robbinsa,LB,42866.0,225.0,SR,Sevierville,TN,Lib
-48.0,David Kinga,LB,42887.0,230.0,SO,Stuarts Draft,VA,Lib
-49.0,Jason Pittsa,LB,6-0,200.0,JR,Detroit,MI,Lib
-11.0,Anthony Smitha,LB,42887.0,230.0,JR,Norfolk,VA,nor
-31.0,Kyle Archiea,LB,42887.0,220.0,JR,Virginia Beach,VA,nor
-40.0,Nigel Chavisa,LB,42888.0,220.0,FR,Richmond,VA,nor
-46.0,Raynard Revelsa,LB,42887.0,235.0,SR,Richmond,VA,nor
-47.0,Damiyan Caldwella,LB,42887.0,195.0,JR,Norfolk,VA,nor
-51.0,Kyron Spellera,LB,42887.0,235.0,FR,Virginia Beach,VA,nor
-54.0,T.C. Livingstona,LB,42889.0,200.0,JR,Suffolk,VA,nor
-55.0,Antwan Whitea,LB,42887.0,200.0,JR,Chesapeake,VA,nor
-56.0,Cephas Hardena,LB,42887.0,215.0,FR,Goochland,VA,nor
-91.0,James Byersa,LB,42889.0,200.0,SO,Petersburg,VA,nor
-92.0,James Chapmana,LB,42887.0,225.0,FR,Portsmouth,VA,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+--,Dre Bryanta,LB, 06-03,220.0,FR,Charlottesville,VA,UVA,1006.0
+--,Dillon Davisa,LB, 06-02,210.0,FR,Bellaire,TX,UVA,1010.0
+--,Michael Guercia,LB, 06-02,220.0,SO,Franklin Lakes,NJ,UVA,1014.0
+--,Dominic Shepparda,LB, 06-02,220.0,FR,Miami,FL,UVA,1021.0
+13.0,Chris Peacea,LB, 06-01,230.0,SO,Newport News,VA,UVA,1038.0
+17.0,Malcolm Cooka,LB, 06-01,220.0,JR,Richmond,VA,UVA,1042.0
+27.0,Cory Jonesa,LB, 06-05,220.0,SO,Washington,DC,UVA,1051.0
+29.0,Eric Gallona,LB, 06-02,220.0,SO,Lakeland,FL,UVA,1053.0
+36.0,Gladimir Paula,LB, 06-02,215.0,FR,Philadelphia,PA,UVA,1059.0
+40.0,C.J. Stalkera,LB, 06-02,225.0,SO,West Chester,OH,UVA,1063.0
+42.0,Jahvoni Simmonsa,LB, 06-01,225.0,FR,Virginia Beach,VA,UVA,1065.0
+43.0,Sean Fitzgeralda,LB, 05-11,225.0,FR,Falls Church,VA,UVA,1066.0
+45.0,Reed Kellama,LB, 06-01,225.0,FR,Richmond,VA,UVA,1068.0
+51.0,Zach Bradshawa,LB, 06-03,230.0,SR,Damascus,MD,UVA,1072.0
+52.0,Robert Snydera,LB, 06-04,220.0,FR,Lawrenceville,GA,UVA,1073.0
+53.0,Micah Kisera,LB, 06-02,240.0,JR,Baltimore,MD,UVA,1074.0
+54.0,Matt Terrella,LB, 06-04,225.0,FR,Lynchburg,VA,UVA,1075.0
+95.0,Juwan Moyea,LB, 06-03,255.0,FR,Lilburn,GA,UVA,1102.0
+98.0,Landan Worda,LB, 06-05,245.0,FR,Vienna,VA,UVA,1103.0
+14.0,Tavante Becketta,LB, 06-00,215.0,FR,Chesapeake,VA,VT,2018.0
+18.0,Raymon Minora,LB, 06-02,231.0,SO,Ashland,VA,VT,2022.0
+22.0,Terrell Edmundsa,LB, 06-01,201.0,SO,Danville,VA,VT,2027.0
+24.0,Anthony Shegoga,LB, 06-03,212.0,JR,Stafford,VA,VT,2029.0
+30.0,Eron Cartera,LB, 06-02,230.0,FR,Palatka,FL,VT,2036.0
+36.0,Alden Carpentera,LB, 06-01,192.0,JR,Leesburg,VA,VT,2045.0
+37.0,Johnathan Galantea,LB, 05-09,210.0,SR,Blacksburg,VA,VT,2046.0
+40.0,Emmanuel Belmara,LB, 06-02,230.0,FR,Suwanee,GA,VT,2049.0
+44.0,Tre Hubbarda,LB, 06-00,230.0,FR,Virginia Beach,VA,VT,2056.0
+48.0,Daniel Griffitha,LB, 06-01,225.0,FR,Suffolk,VA,VT,2060.0
+49.0,Tremaine Edmundsa,LB, 06-05,236.0,SO,Danville,VA,VT,2062.0
+53.0,Trent Younga,LB, 05-10,212.0,SO,Richmond,VA,VT,2068.0
+54.0,Andrew Motuapuakaa,LB, 06-00,235.0,JR,Virginia Beach,VA,VT,2069.0
+56.0,Sean Huelskampa,LB, 06-01,207.0,JR,Centreville,VA,VT,2071.0
+58.0,Zack Tresera,LB, 06-04,221.0,FR,Blacksburg,VA,VT,2074.0
+61.0,Joe Koshutaa,LB, 06-02,240.0,FR,Vienna,VA,VT,2077.0
+92.0,Matt Reinharta,LB, 06-02,225.0,FR,Shoemakersville,PA,VT,2109.0
+4.0,Jaylyn McKinneya,LB, 06-00,225.0,FR,Lake Wales,FL,Lib,3006.0
+5.0,Lucas Ironsa,LB, 06-00,215.0,SO,Fort Lauderdale,FL,Lib,3007.0
+9.0,Nick Newmana,LB, 06-04,215.0,SR,Gainesville,VA,Lib,3013.0
+13.0,Korell Evansa,LB, 06-01,215.0,FR,Hallandale,FL,Lib,3020.0
+25.0,Aaron Glovera,LB, 05-11,210.0,FR,Norfolk,VA,Lib,3034.0
+30.0,Dexter Robbinsa,LB, 05-11,225.0,SR,Sevierville,TN,Lib,3039.0
+48.0,David Kinga,LB, 06-01,230.0,SO,Stuarts Draft,VA,Lib,3053.0
+49.0,Jason Pittsa,LB, 06-00,200.0,JR,Detroit,MI,Lib,3054.0
+11.0,Anthony Smitha,LB, 06-01,230.0,JR,Norfolk,VA,nor,4010.0
+31.0,Kyle Archiea,LB, 06-01,220.0,JR,Virginia Beach,VA,nor,4029.0
+40.0,Nigel Chavisa,LB, 06-02,220.0,FR,Richmond,VA,nor,4038.0
+46.0,Raynard Revelsa,LB, 06-01,235.0,SR,Richmond,VA,nor,4043.0
+47.0,Damiyan Caldwella,LB, 06-01,195.0,JR,Norfolk,VA,nor,4044.0
+51.0,Kyron Spellera,LB, 06-01,235.0,FR,Virginia Beach,VA,nor,4048.0
+54.0,T.C. Livingstona,LB, 06-03,200.0,JR,Suffolk,VA,nor,4050.0
+55.0,Antwan Whitea,LB, 06-01,200.0,JR,Chesapeake,VA,nor,4051.0
+56.0,Cephas Hardena,LB, 06-01,215.0,FR,Goochland,VA,nor,4052.0
+91.0,James Byersa,LB, 06-03,200.0,SO,Petersburg,VA,nor,4080.0
+92.0,James Chapmana,LB, 06-01,225.0,FR,Portsmouth,VA,nor,4081.0

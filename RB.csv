@@ -1,26 +1,26 @@
-No,Name,Pos,Ht,Wt,Class,Hometown,State,Team
-2.0,Albert Reida,RB,42864.0,215.0,SR,Washington,DC,UVA
-4.0,Taquan Mizzella,RB,42865.0,195.0,SR,Virginia Beach,VA,UVA
-10.0,Jordan Ellisa,RB,42866.0,220.0,SO,Suwanee,GA,UVA
-22.0,Daniel Hamma,RB,42865.0,200.0,JR,Wytheville,VA,UVA
-16.0,Coleman Foxa,RB,42866.0,192.0,FR,Salem,VA,VT
-28.0,Shai McKenziea,RB,42866.0,215.0,SO,Washington,PA,VT
-33.0,Deshawn McCleasea,RB,42864.0,177.0,FR,Chesapeake,VA,VT
-34.0,Travon McMilliana,RB,6-0,200.0,SO,Woodbridge,VA,VT
-42.0,Marshawn Williamsa,RB,42866.0,239.0,SO,Hampton,VA,VT
-48.0,D.J. Reida,RB,42887.0,240.0,SO,Chester,VA,VT
-21.0,Mitchell Lewisa,RB,6-0,220.0,FR,Auburn,AL,Lib
-22.0,Todd Macona,RB,42865.0,210.0,JR,--,--,Lib
-23.0,Frankie Hicksona,RB,42863.0,200.0,FR,Lynchburg,VA,Lib
-26.0,Joseph Dixona,RB,42864.0,190.0,SO,--,--,Lib
-33.0,Didier Monciona,RB,42863.0,205.0,JR,MANSFIELD,CT,Lib
-34.0,Carrington Mosleya,RB,42866.0,235.0,JR,Brookneal,VA,Lib
-3.0,Gerard Johnsona,RB,42864.0,205.0,SR,Richmond,VA,nor
-20.0,Malik Buttsa,RB,42864.0,180.0,FR,Virginia Beach,VA,nor
-22.0,Quintreil Chunga,RB,42887.0,220.0,SO,Midlothian,VA,nor
-23.0,Shakeem Copelanda,RB,42864.0,205.0,JR,Woodbridge,VA,nor
-30.0,Aaron Savagea,RB,42864.0,210.0,SO,Baltimore,MD,nor
-32.0,Larry Bishopa,RB,42866.0,230.0,JR,Roanoke,VA,nor
-33.0,Joseph Atkinsa,RB,42865.0,195.0,FR,Virginia Beach,VA,nor
-43.0,Roy Adamsa,RB,42864.0,195.0,SO,Richmond,VA,nor
-48.0,Tim Flooda,RB,42864.0,215.0,JR,Newport News,VA,nor
+No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID
+2.0,Albert Reida,RB, 05-09,215.0,SR,Washington,DC,UVA,1027.0
+4.0,Taquan Mizzella,RB, 05-10,195.0,SR,Virginia Beach,VA,UVA,1029.0
+10.0,Jordan Ellisa,RB, 05-11,220.0,SO,Suwanee,GA,UVA,1036.0
+22.0,Daniel Hamma,RB, 05-10,200.0,JR,Wytheville,VA,UVA,1047.0
+16.0,Coleman Foxa,RB, 05-11,192.0,FR,Salem,VA,VT,2020.0
+28.0,Shai McKenziea,RB, 05-11,215.0,SO,Washington,PA,VT,2033.0
+33.0,Deshawn McCleasea,RB, 05-09,177.0,FR,Chesapeake,VA,VT,2040.0
+34.0,Travon McMilliana,RB, 06-00,200.0,SO,Woodbridge,VA,VT,2041.0
+42.0,Marshawn Williamsa,RB, 05-11,239.0,SO,Hampton,VA,VT,2054.0
+48.0,D.J. Reida,RB, 06-01,240.0,SO,Chester,VA,VT,2061.0
+21.0,Mitchell Lewisa,RB, 06-00,220.0,FR,Auburn,AL,Lib,3029.0
+22.0,Todd Macona,RB, 05-10,210.0,JR,--,--,Lib,3031.0
+23.0,Frankie Hicksona,RB, 05-08,200.0,FR,Lynchburg,VA,Lib,3032.0
+26.0,Joseph Dixona,RB, 05-09,190.0,SO,--,--,Lib,3035.0
+33.0,Didier Monciona,RB, 05-08,205.0,JR,MANSFIELD,CT,Lib,3042.0
+34.0,Carrington Mosleya,RB, 05-11,235.0,JR,Brookneal,VA,Lib,3043.0
+3.0,Gerard Johnsona,RB, 05-09,205.0,SR,Richmond,VA,nor,4002.0
+20.0,Malik Buttsa,RB, 05-09,180.0,FR,Virginia Beach,VA,nor,4018.0
+22.0,Quintreil Chunga,RB, 06-01,220.0,SO,Midlothian,VA,nor,4020.0
+23.0,Shakeem Copelanda,RB, 05-09,205.0,JR,Woodbridge,VA,nor,4021.0
+30.0,Aaron Savagea,RB, 05-09,210.0,SO,Baltimore,MD,nor,4028.0
+32.0,Larry Bishopa,RB, 05-11,230.0,JR,Roanoke,VA,nor,4030.0
+33.0,Joseph Atkinsa,RB, 05-10,195.0,FR,Virginia Beach,VA,nor,4031.0
+43.0,Roy Adamsa,RB, 05-09,195.0,SO,Richmond,VA,nor,4040.0
+48.0,Tim Flooda,RB, 05-09,215.0,JR,Newport News,VA,nor,4045.0
