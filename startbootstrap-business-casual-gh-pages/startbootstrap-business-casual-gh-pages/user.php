@@ -1,7 +1,10 @@
+<?php
+	session_start();
+	if(isset($_SESSION['user'])) {
+?>
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+	<html lang="en">
+		<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +15,6 @@
 	<script src="js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
     <title>Database Project--Team Korean</title>
 
-	<script>
-	function myFunction(inputVal) {
-		$.ajax({
-			type: "POST",
-			url: 'matchSchool.php', 
-			data: {matchSchool: inputVal},
-			success: function(data){
-				$('#matchResult').html(data);	
-				//$('#schoolResult').html(inputVal);
-			}
-		});
-	}
-	</script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -42,7 +32,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-</head>
+	</head>
 
 <body>
 
@@ -94,19 +84,21 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Match of
-                        <strong>2016</strong>
+                    <h2 class="intro-text text-center">Welcome user
+                        <strong>
+						<?php
+							print_r($_SESSION['user'])
+						?>
+						</strong>
                     </h2>
                 </div>
                 <div class="col-md-8">
-                    <a href="#" class="btn btn-default btn-lg" onclick="myFunction('UVA')">University of Virginia</a>
-					<a href="#" class="btn btn-default btn-lg" onclick="myFunction('VT')">Virginia Tech</a>
-					<a href="#" class="btn btn-default btn-lg" onclick="myFunction('NOR')">Norfolk</a>
-					<a href="#" class="btn btn-default btn-lg" onclick="myFunction('LIB')">Liberty</a>
-					<a href="#" class="btn btn-default btn-lg" onclick="myFunction('ODU')">Old Dominion</a>
-					<a href="#" class="btn btn-default btn-lg" onclick="myFunction('HAMP')">Hampton</a>
-					<hr>
-					<div id ="matchResult">Match Result</div>
+                    <hr>
+                    <h2 class="intro-text text-center">Contact
+                        <strong>form</strong>
+                    </h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
 					<hr>
                 </div>
                 <div class="col-md-4">
@@ -120,6 +112,7 @@
                         <strong>3481 Melrose Place
                             <br>Beverly Hills, CA 90210</strong>
                     </p>
+					<p><a href="logout.php">Log Out</a></p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -183,5 +176,9 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
+<?php
+	} else {
+		header("Location: index.html");
+	}
+?>
