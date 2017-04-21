@@ -2,9 +2,9 @@
 
 class DbUtil{
 
-	public static $loginUser = "cs4750s17yk7da";
+	public static $loginUser = "cs4750s17yk7da1";
 
-	public static $loginPass = "spring2017";
+	public static $loginPass = "spring20171";
 
 	public static $host = "stardock.cs.virginia.edu"; // DB Host
 
