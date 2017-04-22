@@ -26,6 +26,30 @@
 			});
 		});
 	});	
+	
+	function getRow(n) {
+		var row = n.parentNode.parentNode;
+		var cols = row.getElementsByTagName("td");
+		//var i = 0;
+		//while (i < cols.length) {
+		//	alert(cols[i].textContent);
+		//	i++;
+		//}
+		var name = cols[1].textContent;
+		var team = cols[8].textContent;
+		var id = cols[9].textContent;
+		$.ajax({
+			url: 'insertPlayer.php',
+			data: { insertName: name,
+				insertTeam: team,
+				insertId: id
+			},
+			success: function(data){
+				$('#insertresult').html(data);	
+				
+			}
+		});
+	}
 	</script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -108,6 +132,7 @@
                     <center><p>Enter player's name</p>
 						<input class="xlarge" id="nameinput" type="search" size="30" placeholder="Player's Name Contains"/>
 						<div id="nameresult">Search Result</div>
+						<div id="insertresult">You have inserted:</div>
                     </center>
                 </div>
                 <div class="clearfix"></div>

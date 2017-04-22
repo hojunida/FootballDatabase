@@ -98,7 +98,23 @@
                         <strong>form</strong>
                     </h2>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+                    <p>
+						<?php
+								require "dbutil.php";
+								$db = DbUtil::loginConnection();
+								$stmt = $db->stmt_init();
+								$stmt->prepare("select * from fav_player");
+								$stmt->execute();
+								$stmt->bind_result($Name, $Team, $UID);
+								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
+								while($stmt->fetch()) {
+									echo "<tr><td>$Name</td><td>$Team</td><td>$UID</td></tr>";
+								}
+								echo "</table>";
+	
+								$stmt->close();
+						?>
+					</p>
 					<hr>
                 </div>
                 <div class="col-md-4">
