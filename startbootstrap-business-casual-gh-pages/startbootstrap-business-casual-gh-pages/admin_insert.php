@@ -1,11 +1,5 @@
 <?php
-    if(isset($_POST['action'])) {
-      if(htmlspecialchars($_POST['action']) == "1"){
-        $_POST = array();
-        header("Location: admin_insert.php");
-        die;
-        }
-    }
+	unset($_POST['action'])
 ?>
 <?php
 	session_start();
@@ -108,21 +102,29 @@
                     </h2>
                     <hr>
                     <p>
-						<?php
-								require "dbutil.php";
-								$db = DbUtil::loginConnection();
-								$stmt = $db->stmt_init();
-								$stmt->prepare("select Name,Team,UID from test_players");
-								$stmt->execute();
-								$stmt->bind_result($Name, $Team, $UID);
-								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
-								while($stmt->fetch()) {
-									echo "<tr><td>$Name</td><td>$Team</td><td>$UID</td></tr>";
-								}
-								echo "</table>";
-	
-								$stmt->close();
-						?>
+						<form id="s" method="post">
+                         	No: <input type="text" name="No"><br>
+  							Name: <input type="text" name="Name"><br>
+  							Pos: <input type="text" name="Pos"><br>
+   							Ht: <input type="text" name="Ht"><br>
+  							Wt: <input type="text" name="Wt"><br>
+  							Class: <input type="text" name="Class"><br>
+  							Hometown: <input type="text" name="Hometown"><br>
+  							State: <input type="text" name="State"><br>
+   							Team: <input type="text" name="Team"><br>
+							UID: <input type="text" name="UID"><br> 							
+                        <input type="submit" name="Submit" value="Send">
+                        </form>
+
+                        <?php
+                        	require "dbutil.php";
+							$db = DbUtil::loginConnection();
+							$stmt = $db->stmt_init();
+							$stmt->prepare("INSERT INTO test_players(No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID) VALUES (".$_POST['No'].",".$_POST['Name'].",".$_POST['Pos'].",".$_POST['Ht'].",".$_POST['Wt'].",".$_POST['Class'].",".$_POST['Hometown'].",".$_POST['State'].",".$_POST['Team'].",".$_POST['UID'].");");
+							$stmt->execute();
+							$stmt->close();
+							echo "a";
+                        ?>
 					</p>
 					<hr>
                 </div>
@@ -143,25 +145,7 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center"> EDIT DATABASE
-                    </h2>
-                      <form id="s" method="post">
-                           <select name="action">
-                           <option value="1">Insert</option>
-                            <option value="2">Update</option>
-                            <option value="3">Delete</option>
-                          </select> 
-                        <input type="submit" name="Submit" value="Send">
-                        </form>
-
-                        
-                </div>
-            </div>
-        </div>
+        
 
     </div>
     <!-- /.container -->
