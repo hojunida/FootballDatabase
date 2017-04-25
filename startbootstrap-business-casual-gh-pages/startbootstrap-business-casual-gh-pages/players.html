@@ -30,11 +30,6 @@
 	function getRow(n) {
 		var row = n.parentNode.parentNode;
 		var cols = row.getElementsByTagName("td");
-		//var i = 0;
-		//while (i < cols.length) {
-		//	alert(cols[i].textContent);
-		//	i++;
-		//}
 		var name = cols[1].textContent;
 		var team = cols[8].textContent;
 		var id = cols[9].textContent;
@@ -100,6 +95,9 @@
                     </li>
                     <li>
                         <a href="roster.html">School Roster</a>
+                    </li>
+					<li>
+                        <a href="positions.html">Positions</a>
                     </li>
                     <li>
                         <a href="match.html">Match Info</a>

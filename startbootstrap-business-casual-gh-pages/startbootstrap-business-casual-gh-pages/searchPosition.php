@@ -4,9 +4,8 @@
 	
 	$stmt = $db->stmt_init();
 	
-	if($stmt->prepare("select * from Players where Name like ?") or die(mysqli_error($db))) {
-		$searchString = '%' . $_GET['searchPlayer'] . '%';
-		$stmt->bind_param(s, $searchString);
+	$searchString = $_POST['searchPosition'];
+	if($stmt->prepare("select * from $searchString") or die(mysqli_error($db))) {
 		$stmt->execute();
 		$stmt->bind_result($No, $Name, $Pos, $Ht, $Wt, $Class, $Hometown, $State, $Team, $UID);
 		echo "<table border=1><th>No</th><th>Name</th><th>Ht</th><th>Wt</th><th>Class</th><th>Hometown</th><th>Pos</th><th>State</th><th>Team</th><th>UID</th><th>Check</th>\n";
@@ -16,7 +15,7 @@
 		echo "</table>";
 	
 		$stmt->close();
-	}
+	}	
 	
 	$db->close();
 
