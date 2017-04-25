@@ -1,16 +1,5 @@
 <?php
-    if(isset($_POST['action'])) {
-      if(htmlspecialchars($_POST['action']) == "1"){
-        $_POST = array();
-        header("Location: admin_insert.php");
-        die;
-        }
-    if(htmlspecialchars($_POST['action']) == "3"){
-        $_POST = array();
-        header("Location: admin_delete.php");
-        die;
-        }
-    }
+	unset($_POST['action'])
 ?>
 <?php
 	session_start();
@@ -113,21 +102,21 @@
                     </h2>
                     <hr>
                     <p>
-						<?php
-								require "dbutil.php";
-								$db = DbUtil::loginConnection();
-								$stmt = $db->stmt_init();
-								$stmt->prepare("select Name,Team,UID from test_players");
-								$stmt->execute();
-								$stmt->bind_result($Name, $Team, $UID);
-								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
-								while($stmt->fetch()) {
-									echo "<tr><td>$Name</td><td>$Team</td><td>$UID</td></tr>";
-								}
-								echo "</table>";
-	
-								$stmt->close();
-						?>
+						<form id="s" method="post">
+   							Team: <input type="text" name="Team"><br>
+							UID: <input type="text" name="UID"><br> 							
+                        <input type="submit" name="Submit" value="Send">
+                        </form>
+                        <a href="user.php">Back to My Page</a>
+
+                        <?php
+                        	require "dbutil.php";
+							$db = DbUtil::loginConnection();
+							$stmt = $db->stmt_init();
+							$stmt->prepare("DELETE FROM test_players WHERE Team = ".$_POST["Team"]." AND UID = ".$_POST["UID"]);
+							$stmt->execute();
+                        	$stmt->close();
+                        ?>
 					</p>
 					<hr>
                 </div>
@@ -148,25 +137,7 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center"> EDIT DATABASE
-                    </h2>
-                      <form id="s" method="post">
-                           <select name="action">
-                           <option value="1">Insert</option>
-                            <option value="2">Update</option>
-                            <option value="3">Delete</option>
-                          </select> 
-                        <input type="submit" name="Submit" value="Send">
-                        </form>
-
-                        
-                </div>
-            </div>
-        </div>
+        
 
     </div>
     <!-- /.container -->

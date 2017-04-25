@@ -1,6 +1,6 @@
 <?php
 class DbUtil{
-	public static $loginUser = "cs4750s17yk7daa"; 
+	public static $loginUser = "cs4750s17yk7da"; 
 	public static $loginPass = "spring2017";
 	public static $host = "stardock.cs.virginia.edu"; // DB Host
 	public static $schema = "cs4750s17yk7da"; // DB Schema

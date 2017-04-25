@@ -1,21 +1,3 @@
-<?php
-    if(isset($_POST['action'])) {
-      if(htmlspecialchars($_POST['action']) == "1"){
-        $_POST = array();
-        header("Location: admin_insert.php");
-        die;
-        }
-    if(htmlspecialchars($_POST['action']) == "3"){
-        $_POST = array();
-        header("Location: admin_delete.php");
-        die;
-        }
-    }
-?>
-<?php
-	session_start();
-	if(isset($_SESSION['user'])) {
-?>
 <!DOCTYPE html>
 	<html lang="en">
 		<head>
@@ -98,72 +80,26 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Welcome user
-                        <strong>
-						<?php
-							print_r($_SESSION['user'])
-						?>
-						</strong>
-                    </h2>
-                </div>
-                <div class="col-md-8">
-                    <hr>
-                    <h2 class="intro-text text-center">Contact
-                        <strong>form</strong>
+                    <h2 class="intro-text text-center">
+                        <strong>Register</strong>
                     </h2>
                     <hr>
-                    <p>
-						<?php
-								require "dbutil.php";
-								$db = DbUtil::loginConnection();
-								$stmt = $db->stmt_init();
-								$stmt->prepare("select Name,Team,UID from test_players");
-								$stmt->execute();
-								$stmt->bind_result($Name, $Team, $UID);
-								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
-								while($stmt->fetch()) {
-									echo "<tr><td>$Name</td><td>$Team</td><td>$UID</td></tr>";
-								}
-								echo "</table>";
-	
-								$stmt->close();
-						?>
-					</p>
-					<hr>
-                </div>
-                <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
-                    </p>
-                    <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
-                    </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
-                    </p>
-					<p><a href="logout.php">Log Out</a></p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center"> EDIT DATABASE
-                    </h2>
-                      <form id="s" method="post">
-                           <select name="action">
-                           <option value="1">Insert</option>
-                            <option value="2">Update</option>
-                            <option value="3">Delete</option>
-                          </select> 
+                    <div id="frm">
+                        <form id="s" method="post">
+                            Username: <input type="text" name="user"><br>
+                            Password: <input type="text" name="pass"><br>                             
                         <input type="submit" name="Submit" value="Send">
                         </form>
 
-                        
+                        <?php
+                            require "dbutil.php";
+                            $db = DbUtil::loginConnection();
+                            $stmt = $db->stmt_init();
+                            $stmt->prepare("INSERT INTO users(username,password) VALUES (".$_POST['user'].",".$_POST['pass'].");");
+                            $stmt->execute();
+                            $stmt->close();
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -189,8 +125,3 @@
 
 </body>
 </html>
-<?php
-	} else {
-		header("Location: index.html");
-	}
-?>
