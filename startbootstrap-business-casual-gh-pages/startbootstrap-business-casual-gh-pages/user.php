@@ -148,6 +148,8 @@
                             <br>Beverly Hills, CA 90210</strong>
                     </p>
 					<p><a href="logout.php">Log Out</a></p>
+
+                    <p><a href="export.php">Export to JSON</a></p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -159,15 +161,15 @@
                     <hr>
                     <h2 class="intro-text text-center"> EDIT DATABASE
                     </h2>
+                    <center>
                       <form id="s" method="post">
                            <select name="action">
                            <option value="1">Insert</option>
-                            <option value="2">Update</option>
                             <option value="3">Delete</option>
                           </select> 
                         <input type="submit" name="Submit" value="Send">
                         </form>
-
+                    </center>
                         
                 </div>
             </div>
