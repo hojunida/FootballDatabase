@@ -7,8 +7,9 @@
 		$nameString = $_GET['insertName'];
 		$teamString = $_GET['insertTeam'];
 		$idString = $_GET['insertId'];
-		if($stmt->prepare("insert into fav_player (Name, Team, UID) values (?, ?, ?)") or die(mysqli_error($db))) {
-		$stmt->bind_param('sss', $nameString, $teamString, $idString);	
+		$user = $_SESSION['user'];
+		if($stmt->prepare("insert into fav_player (Name, Team, UID, username) values (?, ?, ?, ?)") or die(mysqli_error($db))) {
+		$stmt->bind_param('ssss', $nameString, $teamString, $idString, $user);	
 		$stmt->execute();
 		$stmt->bind_result($No, $Name, $Ht, $Wt, $Class, $Hometown, $Pos, $State, $Team, $UID);
 		echo "You have inserted: ";

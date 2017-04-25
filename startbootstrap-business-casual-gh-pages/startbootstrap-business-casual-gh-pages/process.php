@@ -1,11 +1,15 @@
 <?php
 
 $host="stardock.cs.virginia.edu"; // Host name 
-$username="cs4750s17yk7da"; // Mysql username 
+$username="cs4750s17yk7dab"; // Mysql username 
 $password="spring2017"; // Mysql password 
 $db_name="cs4750s17yk7da"; // Database name 
 $tbl_name="users"; // Table name 
 
+	function phpAlert($msg, $add) {
+		echo '<script type="text/javascript">alert("' . $msg . '"); window.location.href = "' . $add . '";</script>';
+	}
+	
 // Connect to server and select databse.
 mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
 mysql_select_db("$db_name")or die("cannot select DB");
@@ -32,11 +36,11 @@ if($count==1){
 	//session_register("myusername");
 	//session_register("mypassword"); 
 	$_SESSION['login'] = true;
-	$_SESSION['user'] = $data['username'];
+	$_SESSION['user'] = $myusername;
 	header("Location: user.php");
 	//echo "Success";
 }
 else {
-echo "Wrong Username or Password";
+	phpAlert("Please try again", "index.php");
 }
 ?>

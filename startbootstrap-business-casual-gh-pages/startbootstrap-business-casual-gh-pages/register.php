@@ -85,20 +85,26 @@
                     </h2>
                     <hr>
                     <div id="frm">
-                        <form id="s" method="post">
-                            Username: <input type="text" name="user"><br>
-                            Password: <input type="text" name="pass"><br>                             
-                        <input type="submit" name="Submit" value="Send">
+                        <form action="insertUser.php" method="POST">
+                            <p>
+								<center>
+								<label>Username:</label>
+								<input type="text" id="user" name="user" />
+								</center>
+							</p>	
+							<p>
+								<center>
+								<label>Password:</label>
+								<input type="password" id="pass" name="pass" />
+								</center>
+							</p>
+							<p>
+								<center>
+								<input type="Submit" id="button" value="Login" />
+								</center>
+							</p>
                         </form>
 
-                        <?php
-                            require "dbutil.php";
-                            $db = DbUtil::loginConnection();
-                            $stmt = $db->stmt_init();
-                            $stmt->prepare("INSERT INTO users(username,password) VALUES (".$_POST['user'].",".$_POST['pass'].");");
-                            $stmt->execute();
-                            $stmt->close();
-                        ?>
                     </div>
                 </div>
             </div>

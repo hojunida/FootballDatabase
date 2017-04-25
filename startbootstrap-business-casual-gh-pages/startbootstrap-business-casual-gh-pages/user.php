@@ -120,7 +120,8 @@
 								require "dbutil.php";
 								$db = DbUtil::loginConnection();
 								$stmt = $db->stmt_init();
-								$stmt->prepare("select Name,Team,UID from test_players");
+								$user = $_SESSION['user'];
+								$stmt->prepare("select Name,Team,UID from fav_player where (username = '$user')");
 								$stmt->execute();
 								$stmt->bind_result($Name, $Team, $UID);
 								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
@@ -131,6 +132,7 @@
 	
 								$stmt->close();
 						?>
+						<a href="refresh.php">Refresh</a>
 					</p>
 					<hr>
                 </div>

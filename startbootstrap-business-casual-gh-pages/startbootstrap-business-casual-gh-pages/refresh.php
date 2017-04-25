@@ -4,7 +4,8 @@
 	$stmt = $db->stmt_init();
 	session_start();
 	if(isset($_SESSION['user'])) {
-		if($stmt->prepare("delete from fav_player") or die(mysqli_error($db))) {
+		$user = $_SESSION['user'];
+		if($stmt->prepare("DELETE FROM fav_player WHERE username='" . $_SESSION["user"] . "'") or die(mysqli_error($db))) {
 		$stmt->execute();
 		$stmt->close();
 		}			
