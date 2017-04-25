@@ -15,7 +15,7 @@
 	$newpassword = stripslashes($newpassword);
 	$newusername = mysqli_real_escape_string($db, $newusername);
 	$newpassword = mysqli_real_escape_string($db, $newpassword);
-	if($stmt->prepare("insert into users (username, password) values (?,?)") or die(mysqli_error($db))) {
+	if($stmt->prepare("insert into users (username, password, admin) values (?,?,0)") or die(mysqli_error($db))) {
 		$stmt->bind_param('ss', $newusername, $newpassword);	
 		if($stmt->execute()) {
 			phpAlert("Regsiter Successful", "index.html");

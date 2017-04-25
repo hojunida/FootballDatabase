@@ -109,7 +109,7 @@
 						</strong>
                     </h2>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <hr>
                     <h2 class="intro-text text-center">Contact
                         <strong>form</strong>
@@ -136,23 +136,13 @@
 					</p>
 					<hr>
                 </div>
-                <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
-                    </p>
-                    <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
-                    </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
-                    </p>
-					<p><a href="logout.php">Log Out</a></p>
-                </div>
                 <div class="clearfix"></div>
             </div>
         </div>
 
+		<?php
+			if($_SESSION['admin'] == true){
+		?>
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
@@ -172,7 +162,9 @@
                 </div>
             </div>
         </div>
-
+		<?php
+			}
+		?>
     </div>
     <!-- /.container -->
 
