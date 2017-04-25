@@ -20,7 +20,25 @@
 			data: {searchSchool: inputVal},
 			success: function(data){
 				$('#schoolResult').html(data);	
-						//$('#schoolResult').html(inputVal);
+			}
+		});
+	}
+	
+	function getRow(n) {
+		var row = n.parentNode.parentNode;
+		var cols = row.getElementsByTagName("td");
+		var name = cols[1].textContent;
+		var team = cols[8].textContent;
+		var id = cols[9].textContent;
+		$.ajax({
+			url: 'insertPlayer.php',
+			data: { insertName: name,
+				insertTeam: team,
+				insertId: id
+			},
+			success: function(data){
+				$('#insertresult').html(data);	
+				
 			}
 		});
 	}
@@ -75,6 +93,9 @@
                     <li>
                         <a href="roster.html">School Roster</a>
                     </li>
+					<li>
+                        <a href="positions.html">Positions</a>
+                    </li>
                     <li>
                         <a href="match.html">Match Info</a>
                     </li>
@@ -114,6 +135,7 @@
 					<a href="#" class="btn btn-default btn-lg" onclick="myFunction('hamp')">Hampton</a>
                     <hr>
 					<div id ="schoolResult">School Result</div>
+					<div id="insertresult">You have inserted:</div>
 					<hr>
                 </div>
             </div>
