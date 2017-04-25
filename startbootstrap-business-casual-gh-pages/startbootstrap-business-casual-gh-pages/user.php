@@ -22,6 +22,7 @@
     <meta name="author" content="">
 	<script src="js/jquery-1.6.2.min.js" type="text/javascript"></script> 
 	<script src="js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+
     <title>Database Project--Team Korean</title>
 
     <!-- Bootstrap Core CSS -->
@@ -112,7 +113,7 @@
 								require "dbutil.php";
 								$db = DbUtil::loginConnection();
 								$stmt = $db->stmt_init();
-								$stmt->prepare("select Name,Team,UID from test_players");
+								$stmt->prepare("select Name,Team,UID from fav_player");
 								$stmt->execute();
 								$stmt->bind_result($Name, $Team, $UID);
 								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
@@ -123,6 +124,9 @@
 	
 								$stmt->close();
 						?>
+						<form action="refresh.php" method="get">
+							<input type="submit" value="Refresh">
+						</form>
 					</p>
 					<hr>
                 </div>
@@ -148,6 +152,7 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center"> EDIT DATABASE
+					<hr>
                     </h2>
                       <form id="s" method="post">
                            <select name="action">
