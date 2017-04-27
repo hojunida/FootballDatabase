@@ -26,7 +26,7 @@
 			});
 		});
 	});	
-	   
+
 	function getRow(n) {
 		var row = n.parentNode.parentNode;
 		var cols = row.getElementsByTagName("td");
@@ -40,11 +40,12 @@
 				insertId: id
 			},
 			success: function(data){
-				$('#insertresult').html(data);	
+				phpAlert(html(data));	
 				
 			}
 		});
 	}
+	
 	</script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -123,10 +124,10 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
                 </div>
-                <div class="col-md-6" align="center">
+                <div class="col-md-8" align="center">
                     <center><p>Enter player's name</p>
 						<input class="xlarge" id="nameinput" type="search" size="30" placeholder="Player's Name Contains"/>
 						<div id="nameresult">Search Result</div>

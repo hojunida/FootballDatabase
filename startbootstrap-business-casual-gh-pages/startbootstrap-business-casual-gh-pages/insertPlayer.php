@@ -2,6 +2,12 @@
 	require "dbutil.php";
 	$db = DbUtil::loginConnection();
 	$stmt = $db->stmt_init();
+	
+	session_start();
+	function phpAlert($msg, $add) {
+		echo '<script type="text/javascript">alert("' . $msg . '"); window.location.href = "' . $add . '";</script>';
+	}
+	
 	session_start();
 	if(isset($_SESSION['user'])) {
 		$nameString = $_GET['insertName'];
@@ -12,14 +18,15 @@
 		$stmt->bind_param('ssss', $nameString, $teamString, $idString, $user);	
 		$stmt->execute();
 		$stmt->bind_result($No, $Name, $Ht, $Wt, $Class, $Hometown, $Pos, $State, $Team, $UID);
-		echo "You have inserted: ";
-		echo "$nameString";
+		phpAlert("You have inserted: $nameString", "user.php");
 		$stmt->close();
 		}	
 		$db->close();
 	}
 	else{
-		echo "You have inserted: Nothing";
+		phpAlert("You have inserted: nothing", "index.html");
+		$stmt->close();
+		$db->close();
 	}
 
 ?>
