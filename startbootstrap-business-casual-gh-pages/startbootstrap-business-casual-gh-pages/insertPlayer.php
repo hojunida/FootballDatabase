@@ -5,8 +5,8 @@
 	
 	session_start();
 	function phpAlert($msg, $add) {
-		echo '<script type="text/javascript">alert("' . $msg . '"); window.location.href = "' . $add . '";</script>';
-	}
+	echo '<script type="text/javascript">alert("' . $msg . '"); window.location.href = "' . $add . '";</script>';
+}
 	
 	session_start();
 	if(isset($_SESSION['user'])) {
@@ -18,15 +18,17 @@
 		$stmt->bind_param('ssss', $nameString, $teamString, $idString, $user);	
 		$stmt->execute();
 		$stmt->bind_result($No, $Name, $Ht, $Wt, $Class, $Hometown, $Pos, $State, $Team, $UID);
-		phpAlert("You have inserted: $nameString", "user.php");
+		
 		$stmt->close();
 		}	
 		$db->close();
+		phpAlert("You have inserted: $nameString", "user.php");
 	}
 	else{
-		phpAlert("You have inserted: nothing", "index.html");
+		
 		$stmt->close();
 		$db->close();
+		phpAlert("You have inserted: nothing", "index.html");
 	}
 
 ?>

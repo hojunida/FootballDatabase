@@ -13,6 +13,7 @@
 
     <title>Database Project--Team Korean</title>
 	<script>
+
 	$(document).ready(function() {
 		$( "#nameinput" ).change(function() {
 		
@@ -26,7 +27,7 @@
 			});
 		});
 	});	
-
+	   
 	function getRow(n) {
 		var row = n.parentNode.parentNode;
 		var cols = row.getElementsByTagName("td");
@@ -40,12 +41,11 @@
 				insertId: id
 			},
 			success: function(data){
-				phpAlert(html(data));	
+				$('#insertresult').html(data);	
 				
 			}
 		});
 	}
-	
 	</script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
