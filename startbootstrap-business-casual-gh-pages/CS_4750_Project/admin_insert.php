@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+                <a class="navbar-brand" href="index.html">Football Database</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -120,26 +120,12 @@
                         	require "dbutil.php";
 							$db = DbUtil::loginConnection();
 							$stmt = $db->stmt_init();
-							$stmt->prepare("INSERT INTO test_players(No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID) VALUES (".$_POST['No'].",".$_POST['Name'].",".$_POST['Pos'].",".$_POST['Ht'].",".$_POST['Wt'].",".$_POST['Class'].",".$_POST['Hometown'].",".$_POST['State'].",".$_POST['Team'].",".$_POST['UID'].");");
+							$stmt->prepare("INSERT INTO Players(No,Name,Pos,Ht,Wt,Class,Hometown,State,Team,UID) VALUES (".$_POST['No'].",".$_POST['Name'].",".$_POST['Pos'].",".$_POST['Ht'].",".$_POST['Wt'].",".$_POST['Class'].",".$_POST['Hometown'].",".$_POST['State'].",".$_POST['Team'].",".$_POST['UID'].");");
 							$stmt->execute();
 							$stmt->close();
-							echo "a";
                         ?>
 					</p>
 					<hr>
-                </div>
-                <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
-                    </p>
-                    <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
-                    </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
-                    </p>
-					<p><a href="logout.php">Log Out</a></p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -154,7 +140,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Korean BullShit 2017</p>
+                    <p>Copyright &copy; Korean Stuff 2017</p>
                 </div>
             </div>
         </div>

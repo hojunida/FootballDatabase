@@ -65,7 +65,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+                <a class="navbar-brand" href="index.html">Football Database</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -99,7 +99,7 @@
 
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
+                <div class="col-lg-12 text-center"">
                     <hr>
                     <h2 class="intro-text text-center">Welcome user
                         <strong>
@@ -109,13 +109,8 @@
 						</strong>
                     </h2>
                 </div>
-                <div class="col-md-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Contact
-                        <strong>form</strong>
-                    </h2>
-                    <hr>
-                    <p>
+                <div class="col-md-12 text-center"">
+                    <p align="center">
 						<?php
 								require "dbutil.php";
 								$db = DbUtil::loginConnection();
@@ -124,7 +119,7 @@
 								$stmt->prepare("select Name,Team,UID from fav_player where (username = '$user')");
 								$stmt->execute();
 								$stmt->bind_result($Name, $Team, $UID);
-								echo "<table border=1><th>Name</th><th>Team</th><th>UID</th>\n";
+								echo "<table border=1 align=center><th>Name</th><th>Team</th><th>UID</th>\n";
 								while($stmt->fetch()) {
 									echo "<tr><td>$Name</td><td>$Team</td><td>$UID</td></tr>";
 								}
@@ -132,11 +127,12 @@
 	
 								$stmt->close();
 						?>
+						</p>
 						<a href="refresh.php">Refresh</a>
+						<hr>
                         <p><a href="logout.php">Log Out</a></p>
-
+						<hr>
                     <p><a href="export.php">Export to JSON</a></p>
-					</p>
 					<hr>
                 </div>
                 <div class="clearfix"></div>
@@ -166,6 +162,8 @@
             </div>
         </div>
 		<?php
+			} else {
+				echo "Admin only";
 			}
 		?>
     </div>
@@ -175,7 +173,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Korean BullShit 2017</p>
+                    <p>Copyright &copy; Korean Stuff 2017</p>
                 </div>
             </div>
         </div>

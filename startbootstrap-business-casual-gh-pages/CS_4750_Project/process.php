@@ -47,41 +47,20 @@ else if ($numRecords == 1){
 	session_start();
 	$_SESSION['login'] = true;
 	$_SESSION['user'] = $myusername;
-	if($data['admin'] == 1) {
+	
+	if($admin == 1) {
 		$_SESSION['admin'] = true;
+		phpAlert("Login Success! --admin", "user.php");
 	}
-	phpAlert("Login Success!", "user.php");
+	else {
+		$_SESSION['admin'] = false;
+		phpAlert("Login Success!", "user.php");
+	}
 	$db->close();
 }
 else {
 	$db->close();
 	phpAlert("Error", "index.html");
 }
-// Mysql_num_row is counting table row
-//$count=mysql_num_rows($result);
-//$data=mysql_fetch_array($result);
-// If result matched $myusername and $mypassword, table row must be 1 row
-/* if($count==1){
-	session_start();
-	// Register $myusername, $mypassword and redirect to file "login_success.php"
-	//session_register("myusername");
-	//session_register("mypassword"); 
-	$_SESSION['login'] = true;
-	$_SESSION['user'] = $myusername;
-	if($data['admin'] == 1) {
-		$_SESSION['admin'] = true;
-	}
-	else{
-		$_SESSION['admin'] = false;
-	}
-	phpAlert("Login Success!", "user.php");
-	//echo "Success";
-	$stmt->close();
-	$db->close();
-}
-else {
-	phpAlert("Please try again", "index.html");
-		$stmt->close();
-	$db->close();
-} */
+
 ?>
